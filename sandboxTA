@@ -1,0 +1,153 @@
+the i-name
+executive i-name
+super i-name
+sale i-name
+up i-info
+to i-info
+80% ISDISKON i-info
+off i-info
+last i-info
+2 ISNUMBER ISDATE i-date
+days i-date
+! ISPUNCTUATION O
+the i-place
+executive i-place
+boutiques i-place
+@istanaplaza ISMENTION O
+@infobdgdiskon ISMENTION O
+@infobdgevent ISMENTION O
+http://t.co/tqyzrrjo26 ISURL i-info
+
+
+#nonbar ISHASHTAG i-name
+#bpl ISHASHTAG i-name
+#gw28 ISHASHTAG i-name
+| O
+qpr i-name
+v i-name
+tottenham i-name
+| O
+@jackstarbdg ISMENTION i-place
+sabtu, 7maret2015 ISDATE i-date
+og O
+: ISPUNCTUATION O
+21.00 i-date
+wib i-date
+| O
+htm i-info
+: ISPUNCTUATION i-info
+15k ISHARGA i-info
+http://t.co/rbzmsysaa7 ISURL i-info
+@infobdg ISMENTION O
+@infobdgevent ISMENTION O
+
+
+ikuti O
+career i-name
+seminar i-name
+& ISPUNCTUATION i-name
+walk i-name
+in i-name
+interview i-name
+kursiii O
+terbatassssss O
+guyssss O
+???? O
+@infobdgevent ISMENTION O
+@infoupi ISMENTION O
+http://t.co/narsgiml ISURL i-info
+
+
+@infobdgevent ISMENTION O
+terima O
+kos O
+pria/wanita O
+jln i-place
+binong i-place
+jati i-place
+148. i-place
+daerah i-place
+gatsu i-place
+, ISPUNCTUATION i-place
+tsm i-place
+, ISPUNCTUATION O
+listrik O
+air O
+lancar O
+. ISPUNCTUATION O
+hub O
+089686416665 ISNUMBER ISPHONENUMBER i-info
+http://t.co/tsf2pfy2wq ISURL i-info
+
+
+jual O
+piano O
+. ISPUNCTUATION O
+made O
+in O
+japan O
+. ISPUNCTUATION O
+kondisi O
+90% ISDISKON O
+dgn O
+harga O
+40% ISDISKON O
+. ISPUNCTUATION O
+jl i-place
+buahbatu i-place
+73 ISNUMBER i-place
+a i-place
+bandung i-place
+. ISPUNCTUATION O
+info i-info
+: ISPUNCTUATION i-info
++6285795000307 ISPHONENUMBER i-info
+- ISPUNCTUATION i-info
+224ec2b1 ISPINBB i-info
+@infobdgevent ISMENTION O 
+
+
+tonight i-date
+!!! O
+fashion i-name
+show i-name
+dj i-name
+aay i-name
+( ISPUNCTUATION i-name
+dragonfly i-name
+- ISPUNCTUATION i-name
+skye i-name
+) ISPUNCTUATION i-name
+@bdg_partytime ISMENTION O
+@infobdgevent ISMENTION O
+@infobandung ISMENTION O
+come O
+join O
+us O
+! ISPUNCTUATION O
+http://t.co/pyruf8xkj7 ISURL i-info
+
+
+tonight i-date
+!!! O
+" ISPUNCTUATION i-name
+liquid i-name
+calling i-name 
+" ISPUNCTUATION i-name
+.. O
+saturday,7march'15 ISDATE i-date
+w/ i-info
+dj's i-info
+derry i-info
+- ISPUNCTUATION i-info
+imdan i-info
+- ISPUNCTUATION i-info
+hau i-info
+2 .. O
+for i-info
+rsv i-info
+( 022)-2033405 i-info
+/ ISPUNCTUATION i-info
+08567448543 ISNUMBER ISPHONENUMBER i-info
+@infobdgevent ISMENTION O
+

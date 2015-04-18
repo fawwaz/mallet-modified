@@ -1033,10 +1033,10 @@ public class CRF extends Transducer implements Serializable
 		else
 		{
 			for (int i = 0; i < orders.length; i++) {
-        if (orders[i] <= order)
+				if (orders[i] <= order)
 					throw new IllegalArgumentException("Orders must be non-negative and in ascending order");
-        order = orders[i];
-      }
+				order = orders[i];
+			}
 			if (order < 0) order = 0;
 		}
 		if (order > 0)
@@ -1050,6 +1050,8 @@ public class CRF extends Transducer implements Serializable
 			while (historyIndexes[0] < numLabels)
 			{
 				logger.info("Preparing " + concatLabels(history));
+				// FAWWAZ 
+				// jika dibuat orde tingkat tinggi silahkan baca disini 
 				if (allowedHistory(history, forbidden, allowed))
 				{
 					String stateName = concatLabels(history);

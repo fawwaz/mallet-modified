@@ -300,6 +300,7 @@ public class SimpleTagger
       String forbidden, String allowed,
       boolean connected, int iterations, double var, CRF crf)
   {
+    logger.info("Masuk ke training loh sekarang");
     Pattern forbiddenPat = Pattern.compile(forbidden);
     Pattern allowedPat = Pattern.compile(allowed);
     if (crf == null) {
@@ -313,8 +314,11 @@ public class SimpleTagger
       crf.getState(startName).setInitialWeight(0.0);
     }
     logger.info("Training on " + training.size() + " instances");
-    if (testing != null)
+    System.out.println("Training on " + training.size() + " instances");
+    if (testing != null){
       logger.info("Testing on " + testing.size() + " instances");
+      System.out.println("Testing on " + testing.size() + " instances");
+    }
     
   	assert(numThreads.value > 0);
     if (numThreads.value > 1) {
@@ -495,7 +499,17 @@ public class SimpleTagger
     int numEvaluations = 0;
     int iterationsBetweenEvals = 16;
     int restArgs = commandOptions.processOptions(args);
-    System.out.println("Rest args adalah : "+restArgs + " Args length adalah " + args.length+ "args[4] adalah " + args[restArgs]);
+
+    System.out.println("==================");
+    System.out.println("Daftar Argument");
+    for (int i=0; i<args.length; i++) {
+      System.out.println("["+i+"] "+args[i]);
+    }
+    System.out.println("[restArgs]"+restArgs + " val :"+args[restArgs]);
+    System.out.println("PARAMETER-PARAMETER yg digunakan adalah ");
+    System.out.println("trainoption \t:"+trainOption.value);
+    System.out.println("testoption \t:"+testOption.value);
+    System.out.println("==================");
     if (restArgs == args.length)
     {
       commandOptions.printUsage(true);
@@ -616,7 +630,7 @@ public class SimpleTagger
       }
     }
     
-    
+    System.out.println("Targe processing adalah : "+p.isTargetProcessing());
     
     if (p.isTargetProcessing())
     {
@@ -682,7 +696,7 @@ public class SimpleTagger
                 FeatureVector fv = (FeatureVector)input.get(j);
                 buf.append(fv.toString(true));                
               }
-              System.out.println(buf.toString());
+              System.out.println(">"+buf.toString());
             }
             System.out.println();
           }

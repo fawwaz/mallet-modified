@@ -1,1 +1,1 @@
-java -cp "E:\TA\mallet-2.0.7\class;E:\TA\mallet-2.0.7\lib\mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file E:\TA\mallet-2.0.7\modelTA --include-input true TEST_TA
+java -cp "E:\TA\mallet-2.0.7\class;E:\TA\mallet-2.0.7\lib\mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file E:\TA\mallet-2.0.7\modelTA --include-input true --viterbi-output true TEST_SandBoxTA 
