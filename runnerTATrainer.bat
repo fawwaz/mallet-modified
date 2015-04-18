@@ -1,0 +1,1 @@
+java -cp "E:\TA\mallet-2.0.7\class;E:\TA\mallet-2.0.7\lib\mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file E:\TA\mallet-2.0.7\modelTA --train true --training-proportion 0.60 --test lab --threads 8 tugasakhir > laporantugasakhir
