@@ -393,7 +393,8 @@ public class SimpleTagger
       }
     }
     
-    
+    System.out.println("~=~ PRINT INFORMASI CRF ~=~");
+    crf.print();
 
     return crf;
   }
@@ -690,8 +691,10 @@ public class SimpleTagger
             for (int j = 0; j < input.size(); j++)
             {
                StringBuffer buf = new StringBuffer();
-              for (int a = 0; a < k; a++)
+              for (int a = 0; a < k; a++){
                  buf.append(outputs[a].get(j).toString()).append(" ");
+                 //System.out.println(outputs[a].get(j).toString());
+              }
               if (includeInput) {
                 FeatureVector fv = (FeatureVector)input.get(j);
                 buf.append(fv.toString(true));                

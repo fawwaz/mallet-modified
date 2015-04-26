@@ -1,0 +1,1 @@
+select child.* from anotasi_tweet as child,(select sequence_num from anotasi_tweet where twitter_tweet_id in (select twitter_tweet_id from filtered_tweet ) and token regexp "^(di|at|@)$") as parent where child.sequence_num between parent.sequence_num and parent.sequence_num+4
