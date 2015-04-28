@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"line",
+				"linegroup"
+			],
+			[
+				"system",
+				"System"
+			],
+			[
 				"h",
 				"h1	Tag"
 			],
@@ -506,144 +514,72 @@
 			[
 				"bs3-button",
 				"bs3-button:default	bs3-button-default"
-			],
-			[
-				"bs3-navbar",
-				"bs3-navbar:static-top	bs3-navbar-static-top"
-			],
-			[
-				"bs-navbar",
-				"bs3-navbar:basic	bs3-navbar-basic"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/xampp/htdocs/kibar/database/migrations/2015_04_24_074020_create_table_events.php",
+			"file": "/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
 			"settings":
 			{
-				"buffer_size": 591,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/kibar/app/Event.php",
-			"settings":
-			{
-				"buffer_size": 177,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/kibar/app/Http/routes.php",
-			"settings":
-			{
-				"buffer_size": 831,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/kibar/app/Http/Controllers/EventsController.php",
-			"settings":
-			{
-				"buffer_size": 491,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/S2/korpusnlp.csv",
-			"settings":
-			{
-				"buffer_size": 54942,
+				"buffer_size": 4107,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "java -Xmx300M -cp \"weka.jar;mysql-connector-java-5.1.25.jar;libsvm\" weka.gui.GUIChooser",
-			"file": "/E/S2/runner weka.bat",
-			"file_size": 87,
-			"file_write_time": 130744134492743667,
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/dictionary",
 			"settings":
 			{
-				"buffer_size": 87,
-				"line_ending": "Windows",
-				"name": "java -Xmx300M -cp \"weka.jar;mysql-connector-java-5"
-			}
-		},
-		{
-			"contents": "java -Xmx300m -cp \"weka.jar;mysql-connector-java-5.1.25.jar;libsvm.jar\" weka.gui.GUIChooser",
-			"file": "/C/Program Files/Weka-3-6/runner weka.bat",
-			"file_size": 91,
-			"file_write_time": 130744138879995773,
-			"settings":
-			{
-				"buffer_size": 91,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/OPENSHIFT/front-end-kibar/.bowerrc",
+			"file": "/E/HTK/HTK-samples-3.3/samples/HTKTutorial/prompts2wlist",
 			"settings":
 			{
-				"buffer_size": 33,
-				"line_ending": "Windows",
-				"name": "{"
-			}
-		},
-		{
-			"file": "/E/OPENSHIFT/front-end-kibar/bower.json",
-			"settings":
-			{
-				"buffer_size": 515,
+				"buffer_size": 849,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/E/OPENSHIFT/kibar-frontend/index.html",
+			"file": "src/cc/mallet/fst/SimpleTagger.java",
 			"settings":
 			{
-				"buffer_size": 5537,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/kibar/config/app.php",
-			"settings":
-			{
-				"buffer_size": 7256,
+				"buffer_size": 29366,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/xampp/htdocs/kibar/resources/views/events/show.blade.php",
+			"file": "src/cc/mallet/pipe/iterator/LineGroupIterator.java",
 			"settings":
 			{
-				"buffer_size": 206,
+				"buffer_size": 3064,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "runnerTATrainer.bat",
+			"settings":
+			{
+				"buffer_size": 245,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/xampp/htdocs/kibar/resources/views/events/create.blade.php",
+			"file": "laporantugasakhir",
 			"settings":
 			{
-				"buffer_size": 513,
+				"buffer_size": 15571,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/OPENSHIFT/satubahasa.github.io/index.html",
+			"file": "/E/eclipse3/MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java",
 			"settings":
 			{
-				"buffer_size": 605,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/OPENSHIFT/satubahasa.github.io/_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 448,
+				"buffer_size": 3959,
 				"line_ending": "Windows"
 			}
 		}
@@ -900,34 +836,67 @@
 	},
 	"file_history":
 	[
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/wordlist",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/parsed",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/grammar",
+		"/E/eclipse3/mycron/src/cronjava/MyCron.java",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-offcanvas.html",
+		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
+		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
+		"/E/OPENSHIFT/ruangsimpul/client/index.html",
+		"/E/eclipse3/MyTokenizer/src/MyFilter.java",
+		"/E/eclipse3/MyTokenizer/src/MyTokenizer.java",
+		"/E/TA/mallet-2.0.7/sandboxTA",
+		"/E/TA/mallet-2.0.7/raw_tweet_final.sql",
+		"/E/TA/mallet-2.0.7/laporantugasakhir",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Instance.java",
+		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
+		"/E/TA/mallet-2.0.7/runnerTATest.bat",
+		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-home.html",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
+		"/E/OPENSHIFT/ruangsimpul/client/css/tumblr-card.css",
+		"/E/eclipse3/MyTokenizer/database lokal 26-04-15.sql",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java",
+		"/E/eclipse3/MyTokenizer/raw_tweet_final.sql",
+		"/E/OPENSHIFT/satubahasa.github.io/_layouts/default.html",
+		"/E/OPENSHIFT/satubahasa.github.io/index.html",
+		"/C/xampp/htdocs/kibar/resources/views/events/create.blade.php",
+		"/C/xampp/htdocs/kibar/resources/views/events/show.blade.php",
+		"/C/xampp/htdocs/kibar/config/app.php",
+		"/E/OPENSHIFT/kibar-frontend/index.html",
+		"/E/OPENSHIFT/front-end-kibar/bower.json",
+		"/E/OPENSHIFT/front-end-kibar/.bowerrc",
+		"/C/Program Files/Weka-3-6/runner weka.bat",
+		"/E/S2/runner weka.bat",
 		"/E/S2/korpusnlp.csv",
+		"/C/xampp/htdocs/kibar/app/Http/Controllers/EventsController.php",
+		"/C/xampp/htdocs/kibar/app/Http/routes.php",
+		"/C/xampp/htdocs/kibar/app/Event.php",
+		"/C/xampp/htdocs/kibar/database/migrations/2015_04_24_074020_create_table_events.php",
 		"/E/S2/korpusnlp backup",
 		"/C/xampp/htdocs/octobercms/config/app.php",
 		"/C/xampp/htdocs/kibar/resources/views/events/index.blade.php",
 		"/C/xampp/htdocs/kibar/resources/views/app.blade.php",
-		"/C/xampp/htdocs/kibar/app/Event.php",
 		"/C/xampp/htdocs/kibar/app/Http/Controllers/WelcomeController.php",
 		"/C/xampp/htdocs/kibar/resources/views/mywelcome.php",
 		"/C/xampp/htdocs/kibar/resources/views/home.blade.php",
 		"/C/xampp/htdocs/kibar/resources/views/nerds/index.blade.php",
-		"/C/xampp/htdocs/kibar/config/app.php",
 		"/C/xampp/htdocs/kibar/resources/views/mywelcome.blade.php",
 		"/C/xampp/htdocs/kibar/app/Http/Controllers/NerdController.php",
 		"/C/xampp/htdocs/kibar/database/migrations/2015_04_23_172351_create_nerds_table.php",
 		"/C/xampp/htdocs/kibar/database/migrations/2015_04_23_172118_create_nerds_table.php",
 		"/C/xampp/htdocs/kibar/config/database.php",
 		"/C/xampp/htdocs/kibar/app/Models/nerd.php",
-		"/C/xampp/htdocs/kibar/database/migrations/2015_04_24_074020_create_table_events.php",
 		"/C/xampp/htdocs/kibar/database/migrations/2015_04_24_070703_create_table_events.php",
-		"/C/xampp/htdocs/kibar/app/Http/routes.php",
 		"/C/xampp/htdocs/kibar/app/User.php",
 		"/C/xampp/htdocs/kibar/resources/views/templates/default.blade.php",
 		"/C/xampp/htdocs/kibar/resources/lang/en/pagination.php",
 		"/C/xampp/htdocs/kibar/app/Http/Controllers/Auth/AuthController.php",
 		"/C/xampp/htdocs/kibar/app/Http/Controllers/HomeController.php",
 		"/C/xampp/htdocs/kibar/resources/views/myhome.blade.php",
-		"/E/TA/mallet-2.0.7/runnerTATest.bat",
-		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/MyDB.java",
 		"/C/xampp/htdocs/latihanlaravel/config/database.php",
 		"/E/OPENSHIFT/latihanlaravel2/scripts/controllers/TimeEntry.js",
@@ -936,7 +905,6 @@
 		"/E/OPENSHIFT/latihanlaravel2/scripts/app.js",
 		"/C/xampp/htdocs/latihanlaravel/app/Http/routes.php",
 		"/E/TA/mallet-2.0.7/TEST_TA",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
 		"/E/eclipse3/MyTokenizer/src/MyAnotatorDB.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRF.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java",
@@ -950,13 +918,10 @@
 		"/E/TA/mallet-2.0.7/src/cc/MyDB.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
-		"/E/TA/mallet-2.0.7/laporantugasakhir",
-		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/Transducer.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/Tester.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java",
 		"/E/eclipse3/MyTokenizer/127_13_39_2.csv",
-		"/E/TA/mallet-2.0.7/sandboxTA",
 		"/C/xampp/htdocs/flight/api/index.php",
 		"/C/xampp/htdocs/slim/api/index.php",
 		"/C/Users/Asus/AppData/Roaming/Sublime Text 2/Packages/User/Sublime Bookmarks.sublime-settings",
@@ -996,38 +961,9 @@
 		"/E/TA/mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/util/Lexer.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Instance.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/CharSequenceArray2TokenSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/TokenSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Token.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/Filename2CharSequence.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/SimpleTaggerSentence2StringTokenization.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TeePipe.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/LangIDPrefixingPipe.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeaturePipeline.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FC.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/InBracket.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/optimize/GradientBracketLineOptimizer.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenTransformingPipe.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/OutputCallback.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/DefaultOutputCallback.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenTextCharSuffix.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenText.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/TokenSequenceLowercase.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/SerialPipes.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/CharSequenceLowercase.java",
-		"/C/xampp/htdocs/octobercms/config/cms.php",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/TransducerEvaluator.java",
-		"/E/eclipse3/MyTokenizer/output_hasil_tokenisasi",
-		"/E/eclipse3/MyTokenizer/assertion/tweet-1.csv",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/grmm/examples/SimpleCrfExample.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/share/mccallum/ner/TUI.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/topics/TopicModelDiagnostics.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/extract/BIOTokenizationFilter.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/optimize/Optimizable.java"
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Token.java"
 	],
 	"find":
 	{
@@ -1038,6 +974,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"E:\\TA\\mallet-2.0.7\\src\\cc\\mallet\\",
 			"E:\\TA\\mallet-2.0.7\\src\\cc\\mallet\\fst\\",
 			"E:\\TA\\mallet-2.0.7",
 			"E:\\eclipse3\\mallet-2.0.7",
@@ -1084,6 +1021,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"`raw_tweet`",
+			"raw_tweet",
+			"setsource",
+			"source",
+			"carrier",
+			"source",
+			"pipe",
+			"testoption",
+			"test",
+			"train",
+			"source",
 			"'\\n\\n",
 			";",
 			"(?<=;)(\\w+)",
@@ -1200,18 +1148,7 @@
 			"addthrupipe",
 			"pipe",
 			"source",
-			"simplepipe",
-			"simplepipeinstan",
-			"simplepipe",
-			"simplepipeinstance",
-			"crf ",
-			"crftrainer",
-			"train",
-			"markdeletions",
-			"expected word,",
-			"expected",
-			"022",
-			":"
+			"simplepipe"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1219,6 +1156,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"`raw_tweet_final`",
+			"'raw_tweet_final`",
 			"'\\n",
 			"\\n$1\\n",
 			"\\n$1\\b",
@@ -1292,27 +1231,28 @@
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/xampp/htdocs/kibar/database/migrations/2015_04_24_074020_create_table_events.php",
+					"file": "/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
 					"settings":
 					{
-						"buffer_size": 591,
+						"buffer_size": 4107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								374,
-								374
+								225,
+								225
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1323,182 +1263,22 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/xampp/htdocs/kibar/app/Event.php",
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/dictionary",
 					"settings":
 					{
-						"buffer_size": 177,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/xampp/htdocs/kibar/app/Http/routes.php",
-					"settings":
-					{
-						"buffer_size": 831,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								687,
-								687
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/xampp/htdocs/kibar/app/Http/Controllers/EventsController.php",
-					"settings":
-					{
-						"buffer_size": 491,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								485,
-								485
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/S2/korpusnlp.csv",
-					"settings":
-					{
-						"buffer_size": 54942,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4673,
-								4673
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/E/S2/runner weka.bat",
-					"settings":
-					{
-						"buffer_size": 87,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"auto_name": "java -Xmx300M -cp \"weka.jar;mysql-connector-java-5",
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Program Files/Weka-3-6/runner weka.bat",
-					"settings":
-					{
-						"buffer_size": 91,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
+								0,
 								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/E/OPENSHIFT/front-end-kibar/.bowerrc",
-					"settings":
-					{
-						"buffer_size": 33,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								33,
-								33
-							]
-						],
-						"settings":
-						{
-							"auto_name": "{",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1508,148 +1288,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/E/OPENSHIFT/front-end-kibar/bower.json",
+					"buffer": 2,
+					"file": "/E/HTK/HTK-samples-3.3/samples/HTKTutorial/prompts2wlist",
 					"settings":
 					{
-						"buffer_size": 515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								511,
-								511
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/E/OPENSHIFT/kibar-frontend/index.html",
-					"settings":
-					{
-						"buffer_size": 5537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								580,
-								580
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/C/xampp/htdocs/kibar/config/app.php",
-					"settings":
-					{
-						"buffer_size": 7256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7208,
-								7208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1442.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/xampp/htdocs/kibar/resources/views/events/show.blade.php",
-					"settings":
-					{
-						"buffer_size": 206,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/C/xampp/htdocs/kibar/resources/views/events/create.blade.php",
-					"settings":
-					{
-						"buffer_size": 513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								467,
-								467
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/E/OPENSHIFT/satubahasa.github.io/index.html",
-					"settings":
-					{
-						"buffer_size": 605,
+						"buffer_size": 849,
 						"regions":
 						{
 						},
@@ -1662,7 +1305,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Perl/Perl.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1671,11 +1314,120 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "/E/OPENSHIFT/satubahasa.github.io/_layouts/default.html",
+					"buffer": 3,
+					"file": "src/cc/mallet/fst/SimpleTagger.java",
 					"settings":
 					{
-						"buffer_size": 448,
+						"buffer_size": 29366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4686,
+								4680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1616.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/cc/mallet/pipe/iterator/LineGroupIterator.java",
+					"settings":
+					{
+						"buffer_size": 3064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2633,
+								2633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "runnerTATrainer.bat",
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 483.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "laporantugasakhir",
+					"settings":
+					{
+						"buffer_size": 15571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 416.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/eclipse3/MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java",
+					"settings":
+					{
+						"buffer_size": 3959,
 						"regions":
 						{
 						},
@@ -1688,12 +1440,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 416.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1750,6 +1501,66 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"basicnerfeaturefactor",
+				"MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"sequencelearner",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java"
+			],
+			[
+				"simpletagger",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"linegroupiterat",
+				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
+			],
+			[
+				"laporan",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"lapora",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporant",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"runnetatrai",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"index.html",
+				"/E/OPENSHIFT/ruangsimpul/client/index.html"
+			],
+			[
+				"filter",
+				"MyTokenizer/src/MyFilter.java"
+			],
+			[
+				"mytokenizer",
+				"MyTokenizer/src/MyTokenizer.java"
+			],
+			[
+				"featurevectorsequence",
+				"mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java"
+			],
+			[
+				"sandbox",
+				"mallet-2.0.7/sandboxTA"
+			],
+			[
+				"laporantugas",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"instance",
+				"mallet-2.0.7/src/cc/mallet/types/Instance.java"
+			],
 			[
 				"eventscon",
 				"kibar/app/Http/Controllers/EventsController.php"
@@ -1819,10 +1630,6 @@
 				"kibar/app/Http/Controllers/NerdController.php"
 			],
 			[
-				"simpletagger",
-				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
-			],
-			[
 				"runnerta",
 				"mallet-2.0.7/runnerTATrainer.bat"
 			],
@@ -1871,16 +1678,8 @@
 				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByLabelLikelihood.java"
 			],
 			[
-				"laporan",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
 				"runnertrainer",
 				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"laporantugas",
-				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
 				"matrixops",
@@ -2099,10 +1898,6 @@
 				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
 			],
 			[
-				"instance",
-				"mallet-2.0.7/src/cc/mallet/types/Instance.java"
-			],
-			[
 				"charsequencearray2",
 				"mallet-2.0.7/src/cc/mallet/pipe/CharSequenceArray2TokenSequence.java"
 			],
@@ -2187,10 +1982,6 @@
 				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearnerOptions.java"
 			],
 			[
-				"sequencelearner",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java"
-			],
-			[
 				"defaultop",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/DefaultOutputCallback.java"
 			],
@@ -2221,46 +2012,6 @@
 			[
 				"tokentex",
 				"mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenText.java"
-			],
-			[
-				"tokentext",
-				"mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenTextCharSuffix.java"
-			],
-			[
-				"tokensequencelowercase",
-				"mallet-2.0.7/src/cc/mallet/pipe/TokenSequenceLowercase.java"
-			],
-			[
-				"langidprefix",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/LangIDPrefixingPipe.java"
-			],
-			[
-				"composite",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java"
-			],
-			[
-				"serialpipe",
-				"mallet-2.0.7/src/cc/mallet/pipe/SerialPipes.java"
-			],
-			[
-				"featurecompoi",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java"
-			],
-			[
-				"tokentextsuf",
-				"mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenTextCharSuffix.java"
-			],
-			[
-				"simpletaggersentence",
-				"mallet-2.0.7/src/cc/mallet/pipe/SimpleTaggerSentence2StringTokenization.java"
-			],
-			[
-				"labelaphabet",
-				"mallet-2.0.7/src/cc/mallet/types/LabelAlphabet.java"
-			],
-			[
-				"charsequencto",
-				"mallet-2.0.7/src/cc/mallet/pipe/CharSequenceArray2TokenSequence.java"
 			]
 		],
 		"width": 0.0

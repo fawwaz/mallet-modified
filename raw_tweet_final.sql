@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `raw_tweet`
+-- Table structure for table `raw_tweet_final`
 --
 
-CREATE TABLE IF NOT EXISTS `raw_tweet` (
+CREATE TABLE IF NOT EXISTS `raw_tweet_final` (
   `id_raw_tweet` int(11) NOT NULL AUTO_INCREMENT,
   `twitter_account_id` bigint(20) NOT NULL,
   `twitter_account_name` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -39,10 +39,10 @@ CREATE TABLE IF NOT EXISTS `raw_tweet` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=2176 ;
 
 --
--- Dumping data for table `raw_tweet`
+-- Dumping data for table 'raw_tweet_final`
 --
 
-INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
+INSERT INTO `raw_tweet_final` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
 (1, 576815857, 'Hazza Kostan', 574100443862691841, '@InfoBdgEvent KOST 500/bln komplek.margahayuraya jl.yupiter 7 e2/52 (blkng metro indah mall) 085720387705 http://t.co/BCKsaBGQ8g', '2015-03-07 13:25:26', 2),
 (2, 48244682, 'Istana Plaza', 574085996586778624, 'THE EXECUTIVE SUPER SALE up to 80% off Last 2 Days!THE EXECUTIVE boutiques @istanaplaza @InfoBdgDiskon @InfoBdgEvent http://t.co/tQyZRRjO26', '2015-03-07 13:21:56', 1),
 (3, 362599724, 'IndoSpurs Bandung', 574069149829214208, '#NonBar #BPL #GW28 | QPR v Tottenham | @jackstarbdg Sabtu, 7maret2015 OG: 21.00 WIB | HTM:15k http://t.co/rBZmsysaa7 @infobdg @InfoBdgEvent', '2015-03-07 13:21:57', 1),
@@ -283,7 +283,7 @@ INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_
 (238, 259586043, '@infobdg Event', 577471930430816256, '#seminarBIGPRO w/  @ridwankamil @tuhunugraha & Palti Sitorus?Daftar? klik http://t.co/XgvNrJF8ex - @bigproID http://t.co/6n0W6807Iq', '2015-04-20 10:00:14', 1),
 (239, 259586043, '@infobdg Event', 577474544895668224, 'Tiket #PGSRUN2015 skrg masih presale! Tiket box » Bober Tropica & Riau, Waroeng Distrik & Wiki Koffie @De_affenue http://t.co/NJXbtQaGVs', '2015-04-20 10:00:14', 1),
 (240, 740823972, 'HMM USB YPKP', 577602054010458112, 'Proudly Present Seminar Kewirausahaan HMM USB YPKP Cepat Terakhir Pendaftaran  @HimaIKOPINS1 @infobdg @InfoBdgEvent http://t.co/Yhh16uuRii', '2015-04-20 10:00:14', 1);
-INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
+INSERT INTO `raw_tweet_final` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
 (241, 259586043, '@infobdg Event', 577615382946656256, 'Yuk gabung! #seminarBIGPRO w/ @ridwankamil @tuhunugraha! Pos Banda 28/3, http://t.co/XgvNrJF8ex - @bigproID http://t.co/6n0W6807Iq', '2015-04-23 12:39:19', 1),
 (242, 1922172972, 'Osmile Laser Dental', 577638699795505152, 'Selamat pagi sahabat O-smile, selalu jaga kesehatan & kebersihan gigimu^^ @JogjaUpdate @damnitsbali @InfoBdgEvent @infoSMG @BekasiUrbanCity', '2015-03-28 05:14:56', 2),
 (243, 259586043, '@infobdg Event', 577655628337967104, 'Pengen bisnis maju & tau cara dapet modal besar dr investor? Jawabannya di ? http://t.co/VhfKCJ93lt - @bigproID http://t.co/ep761BdTbl', '2015-04-20 10:00:14', 1),
@@ -522,7 +522,7 @@ INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_
 (480, 259586043, '@infobdg Event', 581370123929460737, 'BESOK! Mau Sehat Sambil Eksis? Ikutan #PGSRUN2015 aja! Start Stadion Siliwangi @De_affenue http://t.co/uEVz7YfTY3', '2015-04-20 10:07:24', 1),
 (481, 259586043, '@infobdg Event', 581367639064371200, 'LAST DAY! Registrasi #seminarBIGPRO Digital Marketing w/ @ridwankamil @tuhunugraha & Palti Sitorus?Info @bigproID http://t.co/6n0W6807Iq', '2015-04-20 10:07:24', 1),
 (482, 259586043, '@infobdg Event', 581365352942215168, 'TOMORROW is the day! Ultimate talkshow w/ famous entrepreneurs at #CPCorner2015! Buy tix: http://t.co/JWVec7szvr http://t.co/FKkjGzIXEO', '2015-04-20 10:07:24', 1);
-INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
+INSERT INTO `raw_tweet_final` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
 (483, 259586043, '@infobdg Event', 581375189084213249, 'Yuk ke Taman Film BDG dalam rangka Hari Film Nasional bersama @BDGfilmcouncil #1000wajahbandung #harifilmnasional http://t.co/iiYtqC6bsj', '2015-04-20 10:07:24', 1),
 (484, 259586043, '@infobdg Event', 581372614926536704, 'Blm dtg ke Lauching New Rush BDG? Yuk ke #LauchingNewRush TRD Sportivo di Auto 2000 Cibiru, 28/3 @my_toyotabdg http://t.co/tVguJxF7eq', '2015-04-20 10:07:24', 1),
 (485, 259586043, '@infobdg Event', 581377684246249472, 'BESOK ajak temen2 km ke #PSopenwideshow w/ @PureSaturdayBdg n'' friends di CLCC PVJ ya!?Tiket @omuniuum @anggicau http://t.co/pbeBQzdDsf', '2015-04-20 10:07:24', 1),
@@ -762,7 +762,7 @@ INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_
 (719, 259586043, '@infobdg Event', 586144350117199873, 'Tiket #DigitalMediaMeetUp ada di kantor @infobdg & @InfobdgKitchen atau on the spot jg bisa. Beli! @partneriklan http://t.co/QXfcygK96t', '2015-04-23 13:07:36', 1),
 (720, 259586043, '@infobdg Event', 586169388144918528, 'Still don''t know where to spent your time this weekend? Visit #Envisage2015! 11-12 April at P1 TSM @envisage2015 http://t.co/HAYKWrHoBW', '2015-04-23 13:07:36', 1),
 (721, 65920334, 'Gia Panji Puetera', 586255510627868672, 'Support local movement! @DanceSignal @BdgParty_Club @ozradiobandung @KANALTIGAPULUH @ProvokeMagazine @InfoBdgEvent http://t.co/vpiGhJ0Qpw', '2015-04-09 19:53:00', 0);
-INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
+INSERT INTO `raw_tweet_final` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
 (722, 3040677157, 'Vertical Organizer', 586286137091686402, 'H-2 @bdgevent @AIS_BDG @BandungReview @99ersRadio_Bdg @infobdgFJB @LowonganBandung @InfoBdgEvent @infobdg @Thor3dm http://t.co/KNqQr12hKz', '2015-04-24 15:04:23', 1),
 (723, 259586043, '@infobdg Event', 586315225181327361, 'Seminar cerdas nih! #DigitalMediaMeetUp w/ founder @partneriklan & @infobdg Media Network di Bober Cafe 17/4 http://t.co/QXfcygK96t', '2015-04-23 13:07:36', 1),
 (724, 3123149486, 'IndiHome Bandung', 586323019561172992, '@InfoBdgEvent @infobdg Yuk ke seminar seru ini,pembicaranya TOP2,Mw tw seputar dunia digital? follow @IndiHomeBdg http://t.co/Rj3Z8Qy9lg', '2015-04-10 00:21:15', 0),
@@ -1003,7 +1003,7 @@ INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_
 (1867, 233396960, 'B2C Bandung', 589046194988396546, 'Ada event nih lur @EventSepeda @InfoBdgEvent @bdgevent CP 081916344996 (kadek) http://t.co/zM6J4aNZIb', '2015-04-24 15:19:02', 1),
 (1868, 259586043, '@infobdg Event', 589049557159411712, 'Ayo ikuti aneka lomba di @KekeBusana Colour Festival 19 April & nonton #KonserCJRbyKeke 25 April di Hotel Serela http://t.co/hDNanjbLbZ', '2015-04-23 13:11:20', 1),
 (1869, 259586043, '@infobdg Event', 589051373678940160, 'THE FIRST GAMES OF HUMAN VS ZOMBIE! See you at Blitz Megaplex 2nd Floor,PVJ. Online ticket : http://t.co/i82H8H9ATu', '2015-04-23 13:11:20', 1);
-INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
+INSERT INTO `raw_tweet_final` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
 (1870, 2784504055, 'MIRROR RECORD', 589055746584764416, 'Hiii @InfoBdgEvent Coming soon !!! RWKZ IN REVEL Thursday, 23 April 2015 Get free "RWKZ" t-shirt http://t.co/XlRmxCZS3l', '2015-04-24 15:19:02', 1),
 (1871, 259586043, '@infobdg Event', 589073708280586240, 'Join with Us! #HijabFunWalk w/ Atalia Kamil & Laudya Chyntia Bella 19 April at jln Aceh | Info : 087722177977 http://t.co/xEfltonKa0', '2015-04-23 13:11:20', 1),
 (1872, 259586043, '@infobdg Event', 589077105591234560, 'Now on stage @raisa6690 at @atmospherecafe semua histeris semua ikut nyanyi bareng, Serruu!! #eventBDG http://t.co/6TBu2xBAqr', '2015-04-23 13:11:20', 1),
@@ -1247,7 +1247,7 @@ INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_
 (2110, 2161142336, 'ShowbizIndonesia.com', 591624566612434944, '#Event #Talkshow #Seminar #SehatMentalindonesia in Bandung cc @infobdgevent @CFDinfo @IDMentalityCare @BEMPsikoUI http://t.co/IrnbfKH1PF', '2015-04-24 16:11:00', 2),
 (2111, 180946966, 'HelloTangerang', 591634077939183616, 'Festival Budaya Sunda 2015 olh @gerpeda  #SMAN8Bdg @InfoBdgEvent @BandungHeritage  http://t.co/mjEfKUErAQ #FBS2015 http://t.co/2dzLle58NK', '2015-04-24 16:05:30', 0),
 (2112, 2804089753, 'UKMBAND TEL-U', 591646866690822145, 'Hello! Ini dia official rundown dari #GalaAbhinaya !\n*note:\nNo weapons, No drugs, No alcohol. @InfoBdgEvent http://t.co/mBtFRVkG5p', '2015-04-24 16:56:19', 0);
-INSERT INTO `raw_tweet` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
+INSERT INTO `raw_tweet_final` (`id_raw_tweet`, `twitter_account_id`, `twitter_account_name`, `twitter_tweet_id`, `tweet`, `date`, `label`) VALUES
 (2113, 259586043, '@infobdg Event', 591742286163255297, 'Jeprat-jepret dpt iPhone? Ayo upload hasil foto #KAA2015 km ke http://t.co/9dJZc9Qi4w | @Ucontest #WonderfulKAA http://t.co/1kiLYjF8fo', '2015-04-26 14:57:05', 1),
 (2114, 259586043, '@infobdg Event', 591746171464450049, 'Today! #WeddingWorld2015 Traditional Wedding Exhibition hanya di Aston Primera Pasteur. Ajak pasanganmu yuk!FREE http://t.co/hXlI1Qhcu4', '2015-04-26 14:57:05', 1),
 (2115, 259586043, '@infobdg Event', 591768984975970306, 'Jgn ketinggalan mulai dr instameet, talkshow & workshop, sampe pameran fotonya ya! #AAPF2015 - AsianAfricanMuseum http://t.co/IBhDEg92bu', '2015-04-26 14:57:05', 1),

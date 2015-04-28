@@ -14,12 +14,13 @@ import java.io.FileReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Reader;
-
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
+import cc.mallet.share.fawwaz.MyDBIterator;
+import cc.mallet.share.fawwaz.MyPipe2FeatureVectorSequence;
 import cc.mallet.types.Alphabet;
 import cc.mallet.types.AugmentableFeatureVector;
 import cc.mallet.types.FeatureVector;
@@ -29,10 +30,8 @@ import cc.mallet.types.InstanceList;
 import cc.mallet.types.LabelAlphabet;
 import cc.mallet.types.LabelSequence;
 import cc.mallet.types.Sequence;
-
 import cc.mallet.pipe.Pipe;
 import cc.mallet.pipe.iterator.LineGroupIterator;
-
 import cc.mallet.util.CommandOption;
 import cc.mallet.util.MalletLogger;
 
@@ -159,6 +158,8 @@ public class SimpleTagger
         	new FeatureVector(features, featureIndicesArr);
       }
       carrier.setData(new FeatureVectorSequence(fvs));
+      //carrier.setSource("1");
+      System.out.println(carrier.getSource()==null ? "Source is null" : "source is "+carrier.getSource().toString());
       if (isTargetProcessing())
         carrier.setTarget(target);
       else
@@ -540,6 +541,8 @@ public class SimpleTagger
       p = crf.getInputPipe();
     }
     else {
+    	//System.out.println("Modified pipe is now routed to my pipe which is doing nothing");
+    	//p = new MyPipe2FeatureVectorSequence();
       p = new SimpleTaggerSentence2FeatureVectorSequence();
       p.getTargetAlphabet().lookupIndex(defaultOption.value);
     }
@@ -549,9 +552,15 @@ public class SimpleTagger
     {
       p.setTargetProcessing(true);
       trainingData = new InstanceList(p);
+      System.out.println("Add thru pipe is alsor routed to my iterator");
+      // routed to fawwaz
+      /*
       trainingData.addThruPipe(
           new LineGroupIterator(trainingFile,
             Pattern.compile("^\\s*$"), true));
+      */
+      trainingData.addThruPipe(new MyDBIterator());
+      
       logger.info
         ("Number of features in training data: "+p.getDataAlphabet().size());
       if (testOption.value != null)
