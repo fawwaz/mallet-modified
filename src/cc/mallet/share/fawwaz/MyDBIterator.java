@@ -19,6 +19,8 @@ public class MyDBIterator implements Iterator<Instance>{
 	private PreparedStatement preparedstatement = null;
 	private ResultSet resultset = null;
 	ArrayList<anotasi_tweet_final> anotated_list;
+	static Integer lastid;
+	ArrayList<String> sesuai_format;
 	
 	public MyDBIterator(){
 		// default constructor
@@ -28,23 +30,50 @@ public class MyDBIterator implements Iterator<Instance>{
 	public MyDBIterator(String username, String password,String url) {
 		startConnection(url, username, password);
 		anotated_list = new ArrayList<>();
+		sesuai_format = new ArrayList<>();
 		getData();
 		CloseConnection();
 		System.out.println("Anotasi silahkan dilanjutkan");
-		printData();
-		System.exit(2);
+		lastid=0;
+		setNextTweetGroup();
+		//printSeusaiFormat();
+		System.out.println(lastid);
+		//System.exit(2);
+	}
+	
+	private void setNextTweetGroup(){
+		StringBuffer sb = new StringBuffer();
+		anotasi_tweet_final line,nextline;
+		for (int i = lastid; i < anotated_list.size()-1; i++) {
+			//System.out.println("current i :"+i);
+			line 		= anotated_list.get(i);
+			nextline	= anotated_list.get(i+1);
+			if(!line.twitter_tweet_id.equals(nextline.twitter_tweet_id)){
+				lastid = i;
+				break;
+			}else{
+		
+				sb.append(line.token+"\t default \t defaultlabel");
+				sb.append("\n");
+			}
+		}
+		
+		sesuai_format.add(sb.toString());
 	}
 	
 	@Override
-	public boolean hasNext() {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean hasNext() { 
+		return lastid < anotated_list.size();
 	}
 
 	@Override
 	public Instance next() {
-		// TODO Auto-generated method stub
-		return null;
+		assert(this.hasNext());
+		System.out.println(sesuai_format.get(sesuai_format.size()-1));
+		Instance carrier = new Instance(sesuai_format.get(sesuai_format.size()-1), null, "defaultname", "defaultsource");
+		//System.exit(2);
+		setNextTweetGroup();
+		return carrier;
 	}
 
 	@Override
@@ -117,7 +146,14 @@ public class MyDBIterator implements Iterator<Instance>{
 		System.out.println("Data yang diload");
 		for (int i = 0; i < anotated_list.size(); i++) {
 			anotasi_tweet_final a = anotated_list.get(i);
-			System.out.println("Token : "+ a.token+" \n\tTwitter_tweet_id"+a.twitter_tweet_id+ " \n\tLabel : "+ a.label);
+			System.out.println("Token : "+ a.token+" \n\tTwitter_tweet_id : "+a.twitter_tweet_id+ " \n\tLabel : "+ a.label);
+		}
+	}
+	private void printSeusaiFormat(){
+		for (int i = 0; i < sesuai_format.size(); i++) {
+			System.out.println("Sequence ke -" + i);
+			System.out.println(sesuai_format.get(i));
+			System.out.println("===###===###===###===");
 		}
 	}
 }

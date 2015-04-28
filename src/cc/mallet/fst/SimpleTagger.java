@@ -560,7 +560,8 @@ public class SimpleTagger
             Pattern.compile("^\\s*$"), true));
       */
       trainingData.addThruPipe(new MyDBIterator());
-      
+      System.out.println("Sekarang di terminate dulu di bawah ini kode 2");
+      System.exit(2);
       logger.info
         ("Number of features in training data: "+p.getDataAlphabet().size());
       if (testOption.value != null)
