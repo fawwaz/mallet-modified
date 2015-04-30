@@ -739,7 +739,9 @@ public class SimpleTagger
                 FeatureVector fv = (FeatureVector)input.get(j);
                 buf.append(fv.toString(true));                
               }
-              System.out.println(">"+buf.toString()+ " Name (Start): "+testData.get(i).getName());
+              Integer base = Integer.valueOf((String) testData.get(i).getName());
+              Integer curr_sequence_id = base + j;
+              System.out.println(">"+buf.toString()+ " Name (Start): "+curr_sequence_id);
             }
             System.out.println();
           }

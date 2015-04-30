@@ -102,7 +102,7 @@ public class MyDBIterator implements Iterator<Instance>{
 		//System.out.println("lastid : "+lastid);
 		setNextTweetGroup();
 		//System.out.println("Current tweet group is : \n"+currentTweetGroup);
-		String name = currentStart+"-"+currentEnd; 
+		String name = String.valueOf(currentStart);//+"-"+currentEnd; 
 		Instance carrier = new Instance(currentTweetGroup, null, name, "defaultsource");
 		//System.exit(2);
 		
