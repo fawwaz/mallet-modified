@@ -60,30 +60,21 @@ public class LineGroupIterator implements Iterator<Instance>
 			} catch (IOException e) {
 				throw new RuntimeException (e);
 			}
-			System.out.println ("LineGroupIterator: got line: "+line);
-			if(line!= null){
-				System.out.println (" YES / NO " + lineBoundaryRegex.matcher (line).matches());
-			}
+			//System.out.println ("LineGroupIterator: got line: "+line);
+			
 			if (line == null) {
 				break;
 			} else if (lineBoundaryRegex.matcher (line).matches()) {
-				System.out.println("LENGTH :"+sb.length());
-				System.out.println("BEFORE");
-				System.out.println("1. next next boundary :"+this.nextNextBoundary);
-				System.out.println("2. next boundary :"+this.nextBoundary);
+				
 				if (sb.length() > 0) {
 					this.nextBoundary = this.nextNextBoundary;
 					this.nextNextBoundary = line;
-					System.out.println("AFTER 1 Loh");
-					System.out.println("1. next next boundary :"+this.nextNextBoundary);
-					System.out.println("2. next boundary :"+this.nextBoundary);
+					
 					break;
 				} else { // The first line of the file.
 					if (!skipBoundary) sb.append(line + '\n');
 					this.nextNextBoundary = line;
-					System.out.println("AFTER 2");
-					System.out.println("1. next next boundary :"+this.nextNextBoundary);
-					System.out.println("2. next boundary :"+this.nextBoundary);
+					
 				}
 
 			} else {
@@ -101,10 +92,10 @@ public class LineGroupIterator implements Iterator<Instance>
 	public Instance next ()
 	{
 		assert (nextLineGroup != null);
-		System.out.println("Line group is : " +nextLineGroup);
+		
 		Instance carrier = new Instance (nextLineGroup, null, "linegroup"+groupIndex++,
 																		 putBoundaryInSource ? nextBoundary : null);
-		System.out.println("Source :"+carrier.getSource());
+		
 		setNextLineGroup ();
 		return carrier;
 	}

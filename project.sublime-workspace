@@ -520,66 +520,93 @@
 	"buffers":
 	[
 		{
-			"file": "/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/codetrain.scp",
 			"settings":
 			{
-				"buffer_size": 4107,
+				"buffer_size": 22680,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/dictionary",
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/trainmfc.scp",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 11339,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/HTK/HTK-samples-3.3/samples/HTKTutorial/prompts2wlist",
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm4/hmmdefs",
 			"settings":
 			{
-				"buffer_size": 849,
+				"buffer_size": 75864,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/cc/mallet/fst/SimpleTagger.java",
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/fixfulllist.pl",
 			"settings":
 			{
-				"buffer_size": 29366,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/cc/mallet/pipe/iterator/LineGroupIterator.java",
-			"settings":
-			{
-				"buffer_size": 3064,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "runnerTATrainer.bat",
-			"settings":
-			{
-				"buffer_size": 245,
+				"buffer_size": 1419,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "laporantugasakhir",
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/mkclscript.pl",
 			"settings":
 			{
-				"buffer_size": 15571,
+				"buffer_size": 1343,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/eclipse3/MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java",
+			"contents": "=======================\nStep entah berapa, anggep aja 1 - Bikin model triphone dari monophone\n=======================\n1.1\nKopas file mktri.led entah darimana, isinya yg penting kayak gini\nWB sp\nWB sil\nTC\n\n1.2\n>>HLEd -A -D -T 1 -n triphones1 -l * -i wintri.mlf mktri.led aligned.mlf =>> ngasilin file triphones1 ama wintri.mlf\n\n1.3\nKopas skrip maketrihed (kalo mo bikin manual gak tau gimana caranya)\n\n1.4\n>>perl -w maketrihed monophones1 triphones1 =>> ngasilin mktri.hed\n\n1.5\nBikin folder hmm13 (hmm10 kalo pas reestimate monophone, cuma dilakuin 2 kali kayak di tutorialnya)\n\n>>HHEd -A -D -T 1 -H hmm10/macros -H hmm10/hmmdefs -M hmm13 mktri.hed monophones1\n\n1.6\nReestimasi lagi\nBikin folder hmm14 ama hmm15\n\n(note: ada nilai parameter yg rada beda dari reestimasi sebelom2nya, modelnya juga pake wintri.mlf en triphones1)\n\n>>HERest -A -D -T 1 -C configtrain2 -I wintri.mlf -t 250.0 150.0 3000.0 -S trainmfc.scp -H hmm13/macros -H hmm13/hmmdefs -M hmm14 triphones1\n(note! ada stat disini, penting untuk berikutnya)\n>>HERest -A -D -T 1 -C configtrain2 -I wintri.mlf -t 250.0 150.0 3000.0 -s stats -S trainmfc.scp -H hmm14/macros -H hmm14/hmmdefs -M hmm15 triphones1\n\n\n=================\nStep 2 Tes model triphone\n=================\n>>HVite -H hmm15/macros -H hmm15/hmmdefs -S testmfc.scp -l * -i Closeexp2.mlf -w wordnet -p 0.0 -s 5.0 dict triphones1\n\n>>HResults -I testmlf triphones1 Closeexp2.mlf\n\n\n\n\n=============================\nStep 3 Bikin model tied-state\n=============================\n3.1\nlalalalaa, bikin fulllist segala macem, gak ngerti\nCOba skip aja deh\n\n>>HDMan -A -D -T 1 -b sp -n fulllist -g global.ded -l flog dict-tri lexicon\n\n\n3.2\nKopas file tree.hed yg dikasih kak devin\nTaro ini di bagian bawah isi file tree.hed tadi\nTR 1\n\n\n\nCO \"tiedlist\"\n \n\nST \"trees\"\n\n\n3.3\n>>HHEd -A -D -T 1 -H hmm15/macros -H hmm15/hmmdefs -M hmm16 tree.hed triphones1 =>> ngasilin file trees ama model tiedlist-nya\n\n3.4 Reestimasi lagi (5 kali, ato ampe konvergen sebetulnya)\n>>HERest -A -D -T 1 -C configtrain2 -I wintri.mlf -s stats -t 250.0 150.0 3000.0 -S trainmfc.scp -H hmm16/macros -H hmm16/hmmdefs -M hmm17 tiedlist\n....dan seterusnya ampe hmm21\n\n====================\nstep 4 tes model tied-state\n===================\n\nIdem tes2 sebelomnya\n",
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/triphone-ke-atas/triphone ke atas/log-lanjutan.txt",
+			"file_size": 2316,
+			"file_write_time": 130748065020277637,
 			"settings":
 			{
-				"buffer_size": 3959,
+				"buffer_size": 2237,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/tree.hed",
+			"settings":
+			{
+				"buffer_size": 1271,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/log.txt",
+			"settings":
+			{
+				"buffer_size": 11791,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/maketrihed",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/wintri.mlf",
+			"settings":
+			{
+				"buffer_size": 18280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/lexicon",
+			"settings":
+			{
+				"buffer_size": 370,
 				"line_ending": "Windows"
 			}
 		}
@@ -587,7 +614,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 35.0,
 		"selected_items":
 		[
 			[
@@ -836,6 +863,61 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/lexicon",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/tree.hed",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/global.ded",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/triphone-ke-atas/triphone ke atas/mktri.led",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/HVite_log",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm4/hmmdefs",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm0/macros",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm0/proto",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/trainprompts",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/phones0.mlf",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/phones1.mlf",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/monophones1",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/wlist",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/lexicon.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/resource/transkrip106-140",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/resource/transkrip71-105",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/resource/transkrip36-70",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/devin/nama alifa.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/codetest.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/trainmfc.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/codetrain.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/testprompts",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/README-preparation.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/alifa/nama alifa.txt",
+		"/E/TA/mallet-2.0.7/laporantugasakhir",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java",
+		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
+		"/E/TA/mallet-2.0.7/pom.xml",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/README-preparation.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/fawwaz/nama fawwaz.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/log.txt",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/testmfc.scp",
+		"/C/Users/Asus/AppData/Roaming/Sublime Text 2/Packages/Insert Nums/Default (Windows).sublime-keymap",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetest.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetrain.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/testmfc.scp",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/trainmfc.scp",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FC.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/InBracket.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeaturePipeline.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BinaryFeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BinaryFeaturePipe.java",
+		"/E/HTK/HTK-samples-3.3/samples/HTKTutorial/prompts2wlist",
+		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/dictionary",
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
+		"/E/eclipse3/MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/wordlist",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/parsed",
@@ -849,14 +931,10 @@
 		"/E/eclipse3/MyTokenizer/src/MyTokenizer.java",
 		"/E/TA/mallet-2.0.7/sandboxTA",
 		"/E/TA/mallet-2.0.7/raw_tweet_final.sql",
-		"/E/TA/mallet-2.0.7/laporantugasakhir",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Instance.java",
-		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
 		"/E/TA/mallet-2.0.7/runnerTATest.bat",
 		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
 		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-home.html",
-		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
 		"/E/OPENSHIFT/ruangsimpul/client/css/tumblr-card.css",
 		"/E/eclipse3/MyTokenizer/database lokal 26-04-15.sql",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java",
@@ -907,63 +985,12 @@
 		"/E/TA/mallet-2.0.7/TEST_TA",
 		"/E/eclipse3/MyTokenizer/src/MyAnotatorDB.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRF.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java",
 		"/C/xampp/htdocs/laravel/app/routes.php",
 		"/E/OPENSHIFT/latihanlaravel2/css/style.css",
 		"/E/OPENSHIFT/latihanlaravel2/data/time.json",
 		"/C/xampp/htdocs/latihanlaravel/database/migrations/2015_04_22_161701_create_table_nerds_table.php",
 		"/C/xampp/htdocs/latihanlaravel/database/migrations/2015_04_22_161431_create_table_nerds_table.php",
-		"/E/TA/mallet-2.0.7/src/cc/MyDB.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/Transducer.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/Tester.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java",
-		"/E/eclipse3/MyTokenizer/127_13_39_2.csv",
-		"/C/xampp/htdocs/flight/api/index.php",
-		"/C/xampp/htdocs/slim/api/index.php",
-		"/C/Users/Asus/AppData/Roaming/Sublime Text 2/Packages/User/Sublime Bookmarks.sublime-settings",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFOptimizableByBatchLabelLikelihood.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByLabelLikelihood.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/SparseVector.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/MatrixOps.java",
-		"/C/Users/Asus/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVector.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/InstanceList.java",
-		"/E/TA/mallet-2.0.7/TEST_sandboxTA",
-		"/E/TA/mallet-2.0.7/.gitignore",
-		"/E/TA/mallet-2.0.7/runnerTestTA.bat",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/MaxLatticeDefault.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/LabelAlphabet.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java",
-		"/E/eclipse3/MyTokenizer/tweet-1.csv",
-		"/E/eclipse3/MyTokenizer/tweet-2.csv",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearnerOptions.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Sequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/MaxLatticeFactory.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/Target2LabelSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Label.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/Target2Label.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/Pipe.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/SequenceEvaluator.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/tools/NamedEntityTaggerUtils.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFWriter.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/LabelSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Alphabet.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/ArrayDataAndTargetIterator.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/TokenSequence2FeatureSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/util/Lexer.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/CharSequenceArray2TokenSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/TokenSequence.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Token.java"
+		"/E/TA/mallet-2.0.7/src/cc/MyDB.java"
 	],
 	"find":
 	{
@@ -1021,6 +1048,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"e",
+			"p",
+			"i",
+			"u",
+			"a",
+			"tree.hed",
+			"wintri",
+			"E:\\kuliah\\NLP\\tugas\\asr\\tuts\\suara",
+			"source is ",
+			"Anotasi silahkan di",
+			"pipe",
+			"crf.getinputpipe",
 			"`raw_tweet`",
 			"raw_tweet",
 			"setsource",
@@ -1136,26 +1175,15 @@
 			".pipe",
 			"lookupindex",
 			"buildspecific",
-			"endpipe",
-			"getPipe",
-			"featurefactory",
-			"compositefeaturefactory",
-			"getPipe",
-			"getpipe",
-			"setFeatureFactory",
-			"setfeaturefactory",
-			"_feature",
-			"addthrupipe",
-			"pipe",
-			"source",
-			"simplepipe"
+			"endpipe"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"C:\\Users\\Asus\\Dropbox\\Pemrosesan Suara S2\\templateFawwaz Baru",
 			"`raw_tweet_final`",
 			"'raw_tweet_final`",
 			"'\\n",
@@ -1236,24 +1264,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/E/OPENSHIFT/ruangsimpul/client/partials/partial-details.html",
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/codetrain.scp",
 					"settings":
 					{
-						"buffer_size": 4107,
+						"buffer_size": 22680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								81,
+								161
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1263,10 +1290,36 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/dictionary",
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/trainmfc.scp",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 11339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11339,
+								11339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/hmm4/hmmdefs",
+					"settings":
+					{
+						"buffer_size": 75864,
 						"regions":
 						{
 						},
@@ -1288,19 +1341,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/E/HTK/HTK-samples-3.3/samples/HTKTutorial/prompts2wlist",
+					"buffer": 3,
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/fixfulllist.pl",
 					"settings":
 					{
-						"buffer_size": 849,
+						"buffer_size": 1419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1419,
+								1419
 							]
 						],
 						"settings":
@@ -1314,120 +1367,173 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/cc/mallet/fst/SimpleTagger.java",
-					"settings":
-					{
-						"buffer_size": 29366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4686,
-								4680
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1616.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "src/cc/mallet/pipe/iterator/LineGroupIterator.java",
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/mkclscript.pl",
 					"settings":
 					{
-						"buffer_size": 3064,
+						"buffer_size": 1343,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2633,
-								2633
+								1343,
+								1343
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Perl/Perl.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 624.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "runnerTATrainer.bat",
-					"settings":
-					{
-						"buffer_size": 245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								245,
-								245
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 483.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "laporantugasakhir",
+					"buffer": 5,
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/triphone-ke-atas/triphone ke atas/log-lanjutan.txt",
 					"settings":
 					{
-						"buffer_size": 15571,
+						"buffer_size": 2237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								1431,
+								1431
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 416.0,
+						"translation.y": 520.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/tree.hed",
+					"settings":
+					{
+						"buffer_size": 1271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1198,
+								1201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "/E/eclipse3/MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java",
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/log.txt",
 					"settings":
 					{
-						"buffer_size": 3959,
+						"buffer_size": 11791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7757,
+								7757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4550.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/maketrihed",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Perl/Perl.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/wintri.mlf",
+					"settings":
+					{
+						"buffer_size": 18280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/lexicon",
+					"settings":
+					{
+						"buffer_size": 370,
 						"regions":
 						{
 						},
@@ -1440,11 +1546,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 416.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1469,11 +1574,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1502,28 +1614,76 @@
 		"selected_items":
 		[
 			[
-				"basicnerfeaturefactor",
-				"MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java"
-			],
-			[
-				"sequencelearner",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java"
-			],
-			[
-				"simpletagger",
-				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
-			],
-			[
-				"linegroupiterat",
-				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
-			],
-			[
 				"laporan",
 				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
 				"lapora",
 				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"linegroupiterator",
+				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
+			],
+			[
+				"simpletagger",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"laporantu",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"linegroupiterat",
+				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
+			],
+			[
+				"laporantugas",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"runnertatra",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"stringtokenization",
+				"mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java"
+			],
+			[
+				"tokenizerpipe",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
+			],
+			[
+				"basicnerfeature",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"featurefactory",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
+			],
+			[
+				"featurefactor",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
+			],
+			[
+				"trainer",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java"
+			],
+			[
+				"crfsequencelear",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
+			],
+			[
+				"laporantugasakhir",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"basicnerfeaturefactor",
+				"MyTokenizer/src/mallet/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"sequencelearner",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java"
 			],
 			[
 				"laporant",
@@ -1552,10 +1712,6 @@
 			[
 				"sandbox",
 				"mallet-2.0.7/sandboxTA"
-			],
-			[
-				"laporantugas",
-				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
 				"instance",
@@ -1638,16 +1794,8 @@
 				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
 			],
 			[
-				"crfsequencelear",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
-			],
-			[
 				"namedentity",
 				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
-			],
-			[
-				"trainer",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java"
 			],
 			[
 				"crftrainerbylabe",
@@ -1714,10 +1862,6 @@
 				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
-				"linegroupiterator",
-				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
-			],
-			[
 				"sequencelearneroption",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java"
 			],
@@ -1760,10 +1904,6 @@
 			[
 				"crfwriter",
 				"mallet-2.0.7/src/cc/mallet/fst/CRFWriter.java"
-			],
-			[
-				"tokenizerpipe",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
 			],
 			[
 				"tokenizerpip",
@@ -1918,10 +2058,6 @@
 				"mallet-2.0.7/src/cc/mallet/pipe/iterator/ArrayDataAndTargetIterator.java"
 			],
 			[
-				"featurefactory",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
-			],
-			[
 				"charsequence2tokensequence",
 				"mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java"
 			],
@@ -1966,10 +2102,6 @@
 				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
 			],
 			[
-				"basicnerfeature",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
-			],
-			[
 				"tokentransform",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenTransformingPipe.java"
 			],
@@ -1992,26 +2124,6 @@
 			[
 				"outputcallbac",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/OutputCallback.java"
-			],
-			[
-				"sequencelera",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearner.java"
-			],
-			[
-				"namedentit",
-				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
-			],
-			[
-				"namedent",
-				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
-			],
-			[
-				"sequencelearneroptions",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java"
-			],
-			[
-				"tokentex",
-				"mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenText.java"
 			]
 		],
 		"width": 0.0

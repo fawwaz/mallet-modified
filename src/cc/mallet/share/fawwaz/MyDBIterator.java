@@ -19,8 +19,11 @@ public class MyDBIterator implements Iterator<Instance>{
 	private PreparedStatement preparedstatement = null;
 	private ResultSet resultset = null;
 	ArrayList<anotasi_tweet_final> anotated_list;
-	static Integer lastid;
+	public Integer lastid;
 	ArrayList<String> sesuai_format;
+	String currentTweetGroup;
+	Integer currentStart,currentEnd,nextStart;
+	
 	
 	public MyDBIterator(){
 		// default constructor
@@ -33,46 +36,76 @@ public class MyDBIterator implements Iterator<Instance>{
 		sesuai_format = new ArrayList<>();
 		getData();
 		CloseConnection();
-		System.out.println("Anotasi silahkan dilanjutkan");
+	
+		
+		System.out.println("Anotasi silahkan dilanjutkan dengan ukuran anotated_list"+anotated_list.size());
 		lastid=0;
-		setNextTweetGroup();
+		nextStart = 1;
+		//setNextTweetGroup();
 		//printSeusaiFormat();
-		System.out.println(lastid);
 		//System.exit(2);
 	}
 	
 	private void setNextTweetGroup(){
 		StringBuffer sb = new StringBuffer();
 		anotasi_tweet_final line,nextline;
-		for (int i = lastid; i < anotated_list.size()-1; i++) {
-			//System.out.println("current i :"+i);
-			line 		= anotated_list.get(i);
+		Integer i = lastid;
+		if(i==anotated_list.size()){
+			return;
+		}
+		currentStart = nextStart;
+		System.out.println("I :" + i);
+		while(true){
+			//System.out.println("iterasi : "+i);
+			line		= anotated_list.get(i);
+			if(i.equals(anotated_list.size()-1)){
+				lastid = i+1;
+				currentEnd = anotated_list.size();
+				sb.append(line.token + " "+ line.label+"\n");
+				currentTweetGroup = sb.toString();
+				System.out.println("keluar dari loop karena sudah sampai akhir database dengan lastid :"+lastid);
+				return;
+			}
 			nextline	= anotated_list.get(i+1);
+			
+//			System.out.println("LINE IS "+line.token);
+//			System.out.println("NEXTLINE IS"+nextline.token);
+//			System.out.println("LASTID : " + lastid);
+//			System.out.println("I :"+i);
+//			System.out.println("=====");
 			if(!line.twitter_tweet_id.equals(nextline.twitter_tweet_id)){
-				lastid = i;
-				break;
+				currentEnd = i+1;
+				lastid = i+1;
+				nextStart = lastid+1;
+				sb.append(line.token + " "+ line.label);
+				sb.append("\n");
+				//System.out.println("~~ LASTId :" + lastid);
+				currentTweetGroup = sb.toString();
+				return;
 			}else{
-		
-				sb.append(line.token+"\t default \t defaultlabel");
+				sb.append(line.token + " "+ line.label);
 				sb.append("\n");
 			}
+			i++;
 		}
 		
-		sesuai_format.add(sb.toString());
 	}
 	
 	@Override
 	public boolean hasNext() { 
-		return lastid < anotated_list.size();
+		return lastid<=(anotated_list.size()-1);
 	}
 
 	@Override
 	public Instance next() {
 		assert(this.hasNext());
-		System.out.println(sesuai_format.get(sesuai_format.size()-1));
-		Instance carrier = new Instance(sesuai_format.get(sesuai_format.size()-1), null, "defaultname", "defaultsource");
-		//System.exit(2);
+		//System.out.println("lastid : "+lastid);
 		setNextTweetGroup();
+		//System.out.println("Current tweet group is : \n"+currentTweetGroup);
+		String name = currentStart+"-"+currentEnd; 
+		Instance carrier = new Instance(currentTweetGroup, null, name, "defaultsource");
+		//System.exit(2);
+		
 		return carrier;
 	}
 
@@ -108,7 +141,7 @@ public class MyDBIterator implements Iterator<Instance>{
 	
 	private void getData(){
 		try{
-			preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
+			preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final limit 100");
 			resultset = preparedstatement.executeQuery();
 			
 			while(resultset.next()){

@@ -31,6 +31,7 @@ import cc.mallet.types.LabelAlphabet;
 import cc.mallet.types.LabelSequence;
 import cc.mallet.types.Sequence;
 import cc.mallet.pipe.Pipe;
+import cc.mallet.pipe.PrintInputAndTarget;
 import cc.mallet.pipe.iterator.LineGroupIterator;
 import cc.mallet.util.CommandOption;
 import cc.mallet.util.MalletLogger;
@@ -130,6 +131,11 @@ public class SimpleTagger
         labels = (LabelAlphabet)getTargetAlphabet();
         target = new LabelSequence (labels, tokens.length);
       }
+      
+      // Ini modifikasi fawwaz
+      System.out.println("Modified by fawwaz");
+      String[] indices = ((String) carrier.getName()).split("-");
+      
       for (int l = 0; l < tokens.length; l++) {
         int nFeatures;
         if (isTargetProcessing())
@@ -141,6 +147,8 @@ public class SimpleTagger
         }
         else nFeatures = tokens[l].length;
         ArrayList<Integer> featureIndices = new ArrayList<Integer>();
+
+        //Add all feature
         for (int f = 0; f < nFeatures; f++) {
         	int featureIndex = features.lookupIndex(tokens[l][f]);
         	// gdruck
@@ -150,21 +158,29 @@ public class SimpleTagger
         		featureIndices.add(featureIndex);
         	}
         }
+
+        // Convert from array list to array[]
         int[] featureIndicesArr = new int[featureIndices.size()];
         for (int index = 0; index < featureIndices.size(); index++) {
         	featureIndicesArr[index] = featureIndices.get(index);
         }
+
+
        	fvs[l] = featureInductionOption.value ? new AugmentableFeatureVector(features, featureIndicesArr, null, featureIndicesArr.length) : 
         	new FeatureVector(features, featureIndicesArr);
       }
       carrier.setData(new FeatureVectorSequence(fvs));
       //carrier.setSource("1");
-      System.out.println(carrier.getSource()==null ? "Source is null" : "source is "+carrier.getSource().toString());
+      System.out.println("=== INFORMASI INSTANCE ===");
+      System.out.println(carrier.getSource()==null ? "Source is null" : "Source\t\t:"+carrier.getSource().toString());
+      System.out.println(carrier.getName()==null ? "Name is null" : "Name\t\t:"+carrier.getName().toString());
       if (isTargetProcessing())
         carrier.setTarget(target);
       else
         carrier.setTarget(new LabelSequence(getTargetAlphabet()));
-      return carrier;
+      PrintInputAndTarget pipe = new PrintInputAndTarget();
+      
+      return pipe.pipe(carrier);
     }
   }
 
@@ -558,10 +574,11 @@ public class SimpleTagger
       trainingData.addThruPipe(
           new LineGroupIterator(trainingFile,
             Pattern.compile("^\\s*$"), true));
-      */
+      /**/
+      
       trainingData.addThruPipe(new MyDBIterator());
       System.out.println("Sekarang di terminate dulu di bawah ini kode 2");
-      System.exit(2);
+      //System.exit(2);
       logger.info
         ("Number of features in training data: "+p.getDataAlphabet().size());
       if (testOption.value != null)
@@ -709,7 +726,7 @@ public class SimpleTagger
                 FeatureVector fv = (FeatureVector)input.get(j);
                 buf.append(fv.toString(true));                
               }
-              System.out.println(">"+buf.toString());
+              System.out.println(">"+buf.toString()+ " Source : "+testData.get(i).getSource());
             }
             System.out.println();
           }
