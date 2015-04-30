@@ -1,1 +1,1 @@
-java -cp "E:\TA\mallet-2.0.7\class;E:\TA\mallet-2.0.7\lib\mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file E:\TA\mallet-2.0.7\modelTA --n-best 1 --include-input true TEST_SandBoxTA 
+java -cp "E:\TA\mallet-2.0.7\class;E:\TA\mallet-2.0.7\lib\mallet-deps.jar;E:\TA\mallet-2.0.7\lib\mysql-connector-java-5.1.25.jar" cc.mallet.fst.SimpleTagger --model-file E:\TA\mallet-2.0.7\modelTA --n-best 1 --include-input true TEST_SandBoxTA 

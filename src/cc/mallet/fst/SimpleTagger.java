@@ -586,11 +586,16 @@ public class SimpleTagger
         if (testFile != null)
         {
           testData = new InstanceList(p);
+          System.out.println("Changed the iterator route : This is called when train and test option is NOT null and testfile is NOT null");
+          /*
           testData.addThruPipe(
               new LineGroupIterator(testFile,
                 Pattern.compile("^\\s*$"), true));
+          /**/
+          testData.addThruPipe(new MyDBIterator());
         } else
         {
+        	System.out.println("Changed the iterator route : This is called when train and test option is NOT null >>BUT<< the testfile is null");
           Random r = new Random (randomSeedOption.value);
           InstanceList[] trainingLists =
             trainingData.split(
@@ -602,18 +607,26 @@ public class SimpleTagger
       }
     } else if (testOption.value != null)
     {
+    	System.out.println("Changed The iterator route : This is called when test option is >>NOT<< null");
       p.setTargetProcessing(true);
       testData = new InstanceList(p);
+      /*
       testData.addThruPipe(
           new LineGroupIterator(testFile,
             Pattern.compile("^\\s*$"), true));
+      /**/
+      testData.addThruPipe(new MyDBIterator());
     } else
     {
+    	System.out.println("Changed The iterator route : This is called when test option is null");
       p.setTargetProcessing(false);
       testData = new InstanceList(p);
+      /*
       testData.addThruPipe(
           new LineGroupIterator(testFile,
             Pattern.compile("^\\s*$"), true));
+      /**/
+      testData.addThruPipe(new MyDBIterator());
     }
     logger.info ("Number of predicates: "+p.getDataAlphabet().size());
     
@@ -726,7 +739,7 @@ public class SimpleTagger
                 FeatureVector fv = (FeatureVector)input.get(j);
                 buf.append(fv.toString(true));                
               }
-              System.out.println(">"+buf.toString()+ " Source : "+testData.get(i).getSource());
+              System.out.println(">"+buf.toString()+ " Name (Start): "+testData.get(i).getName());
             }
             System.out.println();
           }

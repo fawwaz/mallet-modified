@@ -27,34 +27,34 @@ DB_USERNAME 	: root
 DB_PASSWORD 	: 
 URL 		:jdbc:mysql://localhost/mytomcatapp
 [INFO] Successful inserted
-Anotasi silahkan dilanjutkan dengan ukuran anotated_list100
+Anotasi silahkan dilanjutkan dengan ukuran anotated_list2121
 I :0
 Modified by fawwaz
 === INFORMASI INSTANCE ===
 Source		:defaultsource
 Name		:1-19
 name: 1-19
-target: 0: null (1)
-1: null (1)
-2: null (1)
-3: null (1)
-4: null (1)
-5: null (1)
-6: null (1)
-7: null (1)
-8: null (1)
-9: null (1)
-10: null (1)
-11: null (1)
-12: null (1)
-13: null (1)
-14: null (1)
-15: null (1)
-16: null (1)
-17: null (1)
-18: null (1)
+target: 0: i-name (1)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: i-info (2)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-time (3)
+9: i-time (3)
+10: i-time (3)
+11: other (4)
+12: i-place (5)
+13: i-place (5)
+14: i-place (5)
+15: i-place (5)
+16: other (4)
+17: other (4)
+18: i-info (2)
 
-input: cc.mallet.types.FeatureVectorSequence@7fbc46bd
+input: cc.mallet.types.FeatureVectorSequence@6b10bc5c
 0: the 
 1: executive 
 2: super 
@@ -81,33 +81,33 @@ Modified by fawwaz
 Source		:defaultsource
 Name		:20-44
 name: 20-44
-target: 0: null (1)
-1: null (1)
-2: null (1)
-3: null (1)
-4: null (1)
-5: null (1)
-6: null (1)
-7: null (1)
-8: null (1)
-9: null (1)
-10: null (1)
-11: null (1)
-12: null (1)
-13: null (1)
-14: null (1)
-15: null (1)
-16: null (1)
-17: null (1)
-18: null (1)
-19: null (1)
-20: null (1)
-21: null (1)
-22: null (1)
-23: null (1)
-24: null (1)
+target: 0: i-name (1)
+1: i-name (1)
+2: i-name (1)
+3: other (4)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: other (4)
+8: i-place (5)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: i-time (3)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: other (4)
+19: i-info (2)
+20: i-info (2)
+21: i-info (2)
+22: i-info (2)
+23: other (4)
+24: other (4)
 
-input: cc.mallet.types.FeatureVectorSequence@21c863cf
+input: cc.mallet.types.FeatureVectorSequence@17be72ee
 0: #nonbar 
 1: #bpl 
 2: #gw28 
@@ -138,397 +138,6125 @@ I :44
 Modified by fawwaz
 === INFORMASI INSTANCE ===
 Source		:defaultsource
-Name		:45-68
-name: 45-68
-target: 0: null (1)
-1: null (1)
-2: null (1)
-3: null (1)
-4: null (1)
-5: null (1)
-6: null (1)
-7: null (1)
-8: null (1)
-9: null (1)
-10: null (1)
-11: null (1)
-12: null (1)
-13: null (1)
-14: null (1)
-15: null (1)
-16: null (1)
-17: null (1)
-18: null (1)
-19: null (1)
-20: null (1)
-21: null (1)
-22: null (1)
-23: null (1)
-
-input: cc.mallet.types.FeatureVectorSequence@6b10bc5c
-0: @moccaofficial 
-1: @maliqmusic 
-2: @sheilaon7 
-3: @de19wa 
-4: live 
-5: in 
-6: #pasific2 
-7: | 
-8: march 
-9: 21st 
-10: | 
-11: sabuga 
-12: bdg 
-13: | 
-14: tix 
-15: 175k 
-16: | 
-17: cp 
-18: : 
-19: 085781812363 
-20: | 
-21: cc 
-22: : 
-23: @infobdgevent 
-
-I :68
-Modified by fawwaz
-=== INFORMASI INSTANCE ===
-Source		:defaultsource
-Name		:69-81
-name: 69-81
-target: 0: null (1)
-1: null (1)
-2: null (1)
-3: null (1)
-4: null (1)
-5: null (1)
-6: null (1)
-7: null (1)
-8: null (1)
-9: null (1)
-10: null (1)
-11: null (1)
-12: null (1)
-
-input: cc.mallet.types.FeatureVectorSequence@17be72ee
-0: @hellenterprise 
-1: reunion 
-2: in 
-3: hell 
-4: sudah 
-5: siap 
-6: ? 
-7: @irsnetwork 
-8: @bgmk_official 
-9: @forum_indie_bdg 
-10: @infobdgevent 
-11: @gigsmedia 
-12: http://t.co/ea7ixwjfas 
-
-I :81
-Modified by fawwaz
-=== INFORMASI INSTANCE ===
-Source		:defaultsource
-Name		:82-91
-name: 82-91
-target: 0: null (1)
-1: null (1)
-2: null (1)
-3: null (1)
-4: null (1)
-5: null (1)
-6: null (1)
-7: null (1)
-8: null (1)
-9: null (1)
+Name		:45-58
+name: 45-58
+target: 0: other (4)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: i-info (2)
 
 input: cc.mallet.types.FeatureVectorSequence@586b736f
-0: #sebarkan 
-1: @muttan05center 
-2: @irsnetwork 
-3: @gigsbandung 
-4: @mediakomunitas 
-5: @infoin_aja 
-6: @infobdgevent 
-7: @12media_ 
-8: @bgmk_official 
-9: http://t.co/lcnjp25nvy 
+0: ikuti 
+1: career 
+2: seminar 
+3: & 
+4: walk 
+5: in 
+6: interview 
+7: kursiii 
+8: terbatassssss 
+9: guyssss 
+10: ???? 
+11: @infobdgevent 
+12: @infoupi 
+13: http://t.co/narsgiml 
 
-I :91
-keluar dari loop karena sudah sampai akhir database dengan lastid :100
+I :58
 Modified by fawwaz
 === INFORMASI INSTANCE ===
 Source		:defaultsource
-Name		:92-100
-name: 92-100
-target: 0: null (1)
-1: null (1)
-2: null (1)
-3: null (1)
-4: null (1)
-5: null (1)
-6: null (1)
-7: null (1)
-8: null (1)
+Name		:59-74
+name: 59-74
+target: 0: other (4)
+1: i-time (3)
+2: i-time (3)
+3: i-time (3)
+4: i-time (3)
+5: i-time (3)
+6: i-time (3)
+7: i-name (1)
+8: i-place (5)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
 
-input: cc.mallet.types.FeatureVectorSequence@7667a9c2
-0: jgn 
-1: salah 
-2: jlnya 
-3: @doomsday_hell 
-4: nya 
-5: :) 
-6: @infoin_aja 
-7: @infobdgevent 
-8: @gigsbandung 
+input: cc.mallet.types.FeatureVectorSequence@5facc36f
+0: @infobdgevent 
+1: h-3 
+2: tues 
+3: , 
+4: march 
+5: ' 
+6: 10th 
+7: #vibeinvasion 
+8: @moxclub 
+9: w/ 
+10: @vibe_org 
+11: @giez_luxus 
+12: @denyslipmax_ 
+13: @fir_iqbal 
+14: @anezena 
+15: http://t.co/lu0i4zgbam 
+
+I :74
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:75-93
+name: 75-93
+target: 0: i-time (3)
+1: other (4)
+2: i-name (1)
+3: i-name (1)
+4: i-info (2)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4752dd7b
+0: tonight 
+1: !!! 
+2: fashion 
+3: show 
+4: dj 
+5: aay 
+6: ( 
+7: dragonfly 
+8: - 
+9: skye 
+10: ) 
+11: @bdg_partytime 
+12: @infobdgevent 
+13: @infobandung 
+14: come 
+15: join 
+16: us 
+17: ! 
+18: http://t.co/pyruf8xkj7 
+
+I :93
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:94-120
+name: 94-120
+target: 0: i-time (3)
+1: other (4)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: other (4)
+7: i-time (3)
+8: i-time (3)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: other (4)
+21: i-info (2)
+22: i-info (2)
+23: i-info (2)
+24: other (4)
+25: i-info (2)
+26: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@114adad2
+0: tonight 
+1: !!! 
+2: " 
+3: liquid 
+4: calling 
+5: " 
+6: .. 
+7: saturday 
+8: , 
+9: 7 
+10: march 
+11: ' 
+12: 15 
+13: w/ 
+14: dj's 
+15: derry 
+16: - 
+17: imdan 
+18: - 
+19: hau2 
+20: .. 
+21: for 
+22: rsv 
+23: (022)-2033405 
+24: / 
+25: 08567448543 
+26: @infobdgevent 
+
+I :120
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:121-147
+name: 121-147
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-time (3)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-name (1)
+9: i-name (1)
+10: i-name (1)
+11: i-name (1)
+12: other (4)
+13: other (4)
+14: i-place (5)
+15: i-place (5)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: i-time (3)
+20: other (4)
+21: other (4)
+22: other (4)
+23: other (4)
+24: other (4)
+25: other (4)
+26: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@496419dc
+0: udah 
+1: pada 
+2: tau 
+3: belum 
+4: besok 
+5: pasific 
+6: ada 
+7: promo 
+8: buy 
+9: 3 
+10: get 
+11: 1 
+12: hanya 
+13: di 
+14: cfd 
+15: dago 
+16: jam 
+17: 7 
+18: - 
+19: 9 
+20: !! 
+21: siapa 
+22: cepat 
+23: dia 
+24: dapat 
+25: @infobdg 
+26: @infobdgevent 
+
+I :147
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:148-163
+name: 148-163
+target: 0: i-name (1)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: other (4)
+6: i-time (3)
+7: i-time (3)
+8: i-time (3)
+9: other (4)
+10: i-place (5)
+11: i-place (5)
+12: i-place (5)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4adde028
+0: #publicspeakingskill 
+1: & 
+2: effective 
+3: communication 
+4: skill 
+5: on 
+6: 21 
+7: / 
+8: 3 
+9: at 
+10: hotel 
+11: golden 
+12: flower 
+13: @butterflyact 
+14: 081313132300 
+15: http://t.co/nxyfcbiw1k 
+
+I :163
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:164-182
+name: 164-182
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: i-name (1)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2ca7887e
+0: mau 
+1: belajar 
+2: bisnis 
+3: , 
+4: tp 
+5: tak 
+6: mau 
+7: ribet 
+8: ngurusin 
+9: produksi 
+10: & 
+11: pengiriman 
+12: ? 
+13: mending 
+14: hadir 
+15: di 
+16: #yukbisnisbandung 
+17: @yubibdg 
+18: http://t.co/dukdpka24z 
+
+I :182
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:183-201
+name: 183-201
+target: 0: i-time (3)
+1: i-time (3)
+2: other (4)
+3: i-time (3)
+4: i-time (3)
+5: i-time (3)
+6: i-time (3)
+7: i-time (3)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-name (1)
+13: other (4)
+14: i-place (5)
+15: i-place (5)
+16: i-place (5)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2af21f19
+0: next 
+1: week 
+2: ! 
+3: tgl 
+4: 14 
+5: - 
+6: 15 
+7: maret 
+8: ini 
+9: akan 
+10: ada 
+11: bandung 
+12: #toysnkidsexpo2015 
+13: di 
+14: graha 
+15: manggala 
+16: siliwangi 
+17: @neobandung 
+18: http://t.co/fr7fuqaoiw 
+
+I :201
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:202-222
+name: 202-222
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-name (1)
+5: other (4)
+6: other (4)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: other (4)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: other (4)
+18: i-place (5)
+19: i-place (5)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7dd7b855
+0: ga 
+1: cuma 
+2: musik 
+3: , 
+4: #ngamplaglive 
+5: kali 
+6: ini 
+7: ada 
+8: standup 
+9: by 
+10: @kevinpasca 
+11: @lanangedan 
+12: @anto_bangor 
+13: | 
+14: 11 
+15: / 
+16: 3 
+17: at 
+18: holiday 
+19: inn 
+20: http://t.co/6q4dzbwye8 
+
+I :222
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:223-245
+name: 223-245
+target: 0: other (4)
+1: i-place (5)
+2: i-place (5)
+3: i-place (5)
+4: other (4)
+5: i-time (3)
+6: i-time (3)
+7: i-time (3)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-name (1)
+13: i-name (1)
+14: i-name (1)
+15: i-name (1)
+16: i-name (1)
+17: other (4)
+18: i-info (2)
+19: i-info (2)
+20: other (4)
+21: i-info (2)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@5d8714fe
+0: ke 
+1: dago 
+2: tea 
+3: house 
+4: y 
+5: 8 
+6: / 
+7: 3 
+8: ! 
+9: akan 
+10: ada 
+11: pagelaran 
+12: 7 
+13: etnis 
+14: sumatera 
+15: utara 
+16: #horasparahyangan 
+17: ! 
+18: more 
+19: info 
+20: ? 
+21: @horasbandung 
+22: http://t.co/eceu29wnvs 
+
+I :245
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:246-268
+name: 246-268
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: other (4)
+11: other (4)
+12: i-info (2)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: other (4)
+19: i-info (2)
+20: i-info (2)
+21: i-info (2)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4f735faa
+0: jago 
+1: 3on3 
+2: , 
+3: 3point 
+4: shoot 
+5: & 
+6: ngedance 
+7: ? 
+8: ikutan 
+9: #safecare3on3 
+10: yuk 
+11: ! 
+12: registrasi 
+13: 1 
+14: - 
+15: 17 
+16: / 
+17: 3 
+18: ? 
+19: info 
+20: 081224747780 
+21: @safecareid 
+22: http://t.co/tjdwv7ssl8 
+
+I :268
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:269-289
+name: 269-289
+target: 0: other (4)
+1: other (4)
+2: i-name (1)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: other (4)
+14: other (4)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: other (4)
+19: i-place (5)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@1f8dbaa6
+0: bakal 
+1: ada 
+2: #ngamplaglive 
+3: lagi 
+4: nih 
+5: ! 
+6: ada 
+7: @dnf_music 
+8: @dangerangerock 
+9: & 
+10: donor 
+11: darah 
+12: gratis 
+13: ! 
+14: | 
+15: 11 
+16: / 
+17: 3 
+18: at 
+19: @holidayinnbdg 
+20: http://t.co/6q4dzbwye8 
+
+I :289
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:290-310
+name: 290-310
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-place (5)
+4: i-place (5)
+5: other (4)
+6: other (4)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@11d8f879
+0: ayo 
+1: merapat 
+2: ke 
+3: xl 
+4: martadinata 
+5: , 
+6: ada 
+7: foodtruck 
+8: disana 
+9: dgn 
+10: menu2 
+11: kuliner 
+12: yg 
+13: maknyos 
+14: & 
+15: booth 
+16: fashion 
+17: jg 
+18: loh 
+19: dsana 
+20: http://t.co/09jp5vtk6w 
+
+I :310
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:311-329
+name: 311-329
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-name (1)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: other (4)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: other (4)
+17: i-place (5)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@3ba0d916
+0: yuk 
+1: seru 
+2: ” 
+3: an 
+4: di 
+5: #ngamplaglive 
+6: brg 
+7: standupindo 
+8: bdg 
+9: @kevinpasca 
+10: @lanangedan 
+11: @anto_bangor 
+12: | 
+13: 11 
+14: / 
+15: 3 
+16: at 
+17: @holidayinnbdg 
+18: http://t.co/6q4dzbwye8 
+
+I :329
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:330-351
+name: 330-351
+target: 0: other (4)
+1: i-name (1)
+2: other (4)
+3: i-info (2)
+4: i-info (2)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: other (4)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: other (4)
+18: i-info (2)
+19: i-info (2)
+20: i-info (2)
+21: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@3d0c51ef
+0: enjoy 
+1: @malamep2015 
+2: ! 
+3: live 
+4: music 
+5: , 
+6: pom-pom 
+7: boys 
+8: & 
+9: @thepapspaps 
+10: | 
+11: htm 
+12: 20k 
+13: . 
+14: cp 
+15: : 
+16: 08997127861 
+17: | 
+18: info 
+19: : 
+20: @malam_ep15 
+21: http://t.co/xgbzkyaiqm 
+
+I :351
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:352-372
+name: 352-372
+target: 0: i-time (3)
+1: other (4)
+2: i-name (1)
+3: other (4)
+4: other (4)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: other (4)
+13: i-place (5)
+14: i-place (5)
+15: i-place (5)
+16: other (4)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@73d74138
+0: tonight 
+1: !! 
+2: @malamep2015 
+3: bakal 
+4: ada 
+5: live 
+6: music 
+7: , 
+8: pom-pom 
+9: boys 
+10: & 
+11: @thepapspaps 
+12: , 
+13: dago 
+14: tea 
+15: house 
+16: | 
+17: ticket 
+18: : 
+19: 08997127861 
+20: http://t.co/xgbzkyaiqm 
+
+I :372
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:373-392
+name: 373-392
+target: 0: other (4)
+1: other (4)
+2: i-name (1)
+3: other (4)
+4: i-info (2)
+5: i-info (2)
+6: i-time (3)
+7: i-time (3)
+8: i-time (3)
+9: i-time (3)
+10: other (4)
+11: i-place (5)
+12: i-place (5)
+13: i-place (5)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@38fafef2
+0: let's 
+1: join 
+2: #safecare3on3 
+3: ! 
+4: open 
+5: register 
+6: 1 
+7: - 
+8: 17 
+9: maret 
+10: at 
+11: graha 
+12: pena 
+13: bdg 
+14: ekspres?info 
+15: : 
+16: 081224747780 
+17: / 
+18: @safecareid 
+19: http://t.co/tjdwv7ssl8 
+
+I :392
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:393-412
+name: 393-412
+target: 0: i-info (2)
+1: i-info (2)
+2: i-info (2)
+3: i-info (2)
+4: i-info (2)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: other (4)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: other (4)
+18: i-place (5)
+19: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@6677df17
+0: live 
+1: musik 
+2: sambil 
+3: donor 
+4: darah 
+5: ? 
+6: cm 
+7: ada 
+8: di 
+9: #ngamplaglive 
+10: bareng 
+11: @dnf_music 
+12: @dangerangerock 
+13: | 
+14: 11 
+15: / 
+16: 3 
+17: at 
+18: @holidayinnbdg 
+19: http://t.co/6q4dzbwye8 
+
+I :412
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:413-438
+name: 413-438
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: i-name (1)
+13: i-name (1)
+14: i-name (1)
+15: i-name (1)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: i-time (3)
+20: i-time (3)
+21: other (4)
+22: i-place (5)
+23: other (4)
+24: i-info (2)
+25: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@47d7938f
+0: cosmetics 
+1: , 
+2: salon 
+3: & 
+4: spa 
+5: equipment 
+6: , 
+7: hair 
+8: & 
+9: nails 
+10: only 
+11: on 
+12: 2nd 
+13: int 
+14: ' 
+15: #bandungbeautyexpo 
+16: 5 
+17: - 
+18: 8 
+19: / 
+20: 3 
+21: at 
+22: bcc 
+23: - 
+24: @bdgbeautyexpo 
+25: http://t.co/v1k2wwdjyi 
+
+I :438
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:439-461
+name: 439-461
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-name (1)
+13: i-name (1)
+14: i-name (1)
+15: i-time (3)
+16: other (4)
+17: other (4)
+18: other (4)
+19: other (4)
+20: other (4)
+21: other (4)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@1a18b622
+0: buat 
+1: km2 
+2: food 
+3: lover 
+4: & 
+5: fashion 
+6: addict 
+7: , 
+8: yuk 
+9: dtg 
+10: ke 
+11: streetcultural 
+12: fest 
+13: nya 
+14: xl 
+15: bsk 
+16: , 
+17: ajakin 
+18: jg 
+19: tmn2nya 
+20: ya 
+21: ^_^ 
+22: http://t.co/09jp5vtk6w 
+
+I :461
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:462-484
+name: 462-484
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: other (4)
+11: other (4)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: other (4)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: other (4)
+20: i-place (5)
+21: i-place (5)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4c5d7f90
+0: musik 
+1: , 
+2: donor 
+3: darah 
+4: & 
+5: standup 
+6: comedy 
+7: ? 
+8: ya 
+9: #ngamplaglive 
+10: dong 
+11: ! 
+12: w/ 
+13: @dnf_music 
+14: @dangerangerock 
+15: | 
+16: 11 
+17: / 
+18: 3 
+19: at 
+20: holiday 
+21: inn 
+22: http://t.co/6q4dzbwye8 
+
+I :484
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:485-502
+name: 485-502
+target: 0: other (4)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-place (5)
+11: i-place (5)
+12: i-place (5)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: i-info (2)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@e61ee1b
+0: saksikan 
+1: pagelaran 
+2: 7etnis 
+3: sumut 
+4: #horasparahyangan 
+5: budayaku 
+6: harta 
+7: karun 
+8: ngeriku 
+9: ! 
+10: dago 
+11: tea 
+12: house 
+13: 8 
+14: / 
+15: 3 
+16: @horasbandung 
+17: http://t.co/eceu29wnvs 
+
+I :502
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:503-524
+name: 503-524
+target: 0: other (4)
+1: i-name (1)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: other (4)
+18: i-info (2)
+19: i-info (2)
+20: i-info (2)
+21: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@3f5735fd
+0: enjoy 
+1: @malamep2015 
+2: ! 
+3: live 
+4: music 
+5: , 
+6: pom-pom 
+7: boys 
+8: & 
+9: @thepapspaps 
+10: | 
+11: htm 
+12: 20k 
+13: . 
+14: cp 
+15: : 
+16: 08997127861 
+17: | 
+18: info 
+19: : 
+20: @malam_ep15 
+21: http://t.co/xgbzkyaiqm 
+
+I :524
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:525-548
+name: 525-548
+target: 0: other (4)
+1: other (4)
+2: i-time (3)
+3: other (4)
+4: i-place (5)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: other (4)
+19: other (4)
+20: other (4)
+21: other (4)
+22: i-time (3)
+23: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@76999587
+0: don't 
+1: forget 
+2: tonight 
+3: in 
+4: #backtracks 
+5: will 
+6: be 
+7: there 
+8: bottatt 
+9: ( 
+10: hazawude 
+11: x 
+12: mvstekky 
+13: ) 
+14: , 
+15: ms 
+16: tape 
+17: x 
+18: dmz 
+19: , 
+20: uya 
+21: & 
+22: kenzi?7pm 
+23: http://t.co/m621byal1x 
+
+I :548
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:549-566
+name: 549-566
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: i-name (1)
+14: i-name (1)
+15: other (4)
+16: i-info (2)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@5d280ee5
+0: punya 
+1: laptop 
+2: dan 
+3: modem 
+4: tapi 
+5: tak 
+6: menghasilkan 
+7: uang 
+8: ? 
+9: yuk 
+10: temukan 
+11: solusinya 
+12: di 
+13: seminar 
+14: #yukbisnisbandung 
+15: - 
+16: @yubibdg 
+17: http://t.co/dukdpka24z 
+
+I :566
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:567-588
+name: 567-588
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-time (3)
+4: i-time (3)
+5: i-time (3)
+6: i-time (3)
+7: i-name (1)
+8: i-name (1)
+9: other (4)
+10: i-place (5)
+11: i-place (5)
+12: i-place (5)
+13: i-place (5)
+14: i-place (5)
+15: other (4)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: i-info (2)
+21: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@70ea0c2a
+0: rt 
+1: @gigsplay 
+2: : 
+3: 18 
+4: jan 
+5: ' 
+6: 15 
+7: avenged 
+8: sevenfold 
+9: @ 
+10: parkir 
+11: timur 
+12: senayan 
+13: , 
+14: jakarta 
+15: | 
+16: info 
+17: & 
+18: ticket 
+19: : 
+20: @dyandraent 
+21: http://t.co/kz4ayahdt4 
+
+I :588
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:589-613
+name: 589-613
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-name (1)
+13: i-name (1)
+14: i-name (1)
+15: i-name (1)
+16: i-name (1)
+17: i-time (3)
+18: i-time (3)
+19: i-time (3)
+20: i-time (3)
+21: i-time (3)
+22: other (4)
+23: i-info (2)
+24: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@15c4d350
+0: rt 
+1: @infobdg 
+2: : 
+3: accounting 
+4: is 
+5: your 
+6: passion 
+7: ? 
+8: get 
+9: ready 
+10: ! 
+11: parahyangan 
+12: accounting 
+13: tournament 
+14: for 
+15: high 
+16: school 
+17: 21 
+18: - 
+19: 22 
+20: jan 
+21: 2015 
+22: #paths3 
+23: http://t.co/pr 
+24: … 
+
+I :613
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:614-618
+name: 614-618
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@2d0d345a
+0: rt 
+1: @potret19 
+2: : 
+3: http://t.co/fyiyprgl3y 
+4: @bdgevent 
+
+I :618
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:619-641
+name: 619-641
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-name (1)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: other (4)
+12: other (4)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: other (4)
+19: i-info (2)
+20: i-info (2)
+21: i-info (2)
+22: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@3de817d1
+0: rt 
+1: @nanajenanaje 
+2: : 
+3: @bdgevent 
+4: castingtalentwanita 
+5: 25 
+6: - 
+7: 30th 
+8: peran 
+9: cs 
+10: bankbumn 
+11: . 
+12: opencastingdibandungjumat 
+13: 5 
+14: / 
+15: 12 
+16: / 
+17: 2014 
+18: . 
+19: pendafbysms 
+20: 08158279898 
+21: http 
+22: … 
+
+I :641
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:642-661
+name: 642-661
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: i-info (2)
+19: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@5073ba17
+0: rt 
+1: @p3sbdg 
+2: : 
+3: menutup 
+4: taun 
+5: dgn 
+6: berbagi 
+7: kebahagian 
+8: utk 
+9: mereka 
+10: 14 
+11: des' 
+12: 14 
+13: @se_bdg 
+14: @infobdg 
+15: @infobandung 
+16: @calendarbdg 
+17: @bdgevent 
+18: http://t.co/2vqku 
+19: … 
+
+I :661
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:662-687
+name: 662-687
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-info (2)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: other (4)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: i-time (3)
+20: i-time (3)
+21: i-time (3)
+22: i-time (3)
+23: i-time (3)
+24: other (4)
+25: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@5dbe6544
+0: rt 
+1: @maenbola 
+2: : 
+3: @bdgevent 
+4: gratis 
+5: tiket 
+6: ps3turnamen 
+7: pes2013 
+8: berhadiah 
+9: 100juta 
+10: bagi 
+11: pemilik 
+12: ktp 
+13: bdg 
+14: ! 
+15: tgl 
+16: 12 
+17: - 
+18: 13des 
+19: , 
+20: mulai 
+21: pk 
+22: 10.00 
+23: -selesai 
+24: @maen 
+25: … 
+
+I :687
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:688-711
+name: 688-711
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: i-name (1)
+11: i-name (1)
+12: i-place (5)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: i-info (2)
+19: i-info (2)
+20: i-info (2)
+21: other (4)
+22: other (4)
+23: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@7eea8370
+0: rt 
+1: @garudaorganizer 
+2: : 
+3: bandung 
+4: siapkan 
+5: cv 
+6: terbaik 
+7: kamu 
+8: . 
+9: career 
+10: expo 
+11: bandung 
+12: sabuga 
+13: 16 
+14: - 
+15: 17 
+16: januari 
+17: 2015 
+18: more 
+19: info 
+20: 26be441c 
+21: @bdgevent 
+22: http://t.c 
+23: … 
+
+I :711
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:712-734
+name: 712-734
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: other (4)
+11: other (4)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: other (4)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: other (4)
+20: i-place (5)
+21: i-place (5)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@565b6f28
+0: musik 
+1: , 
+2: donor 
+3: darah 
+4: & 
+5: standup 
+6: comedy 
+7: ? 
+8: ya 
+9: #ngamplaglive 
+10: dong 
+11: ! 
+12: ada 
+13: @dnf_music 
+14: @dangerangerock 
+15: | 
+16: 11 
+17: / 
+18: 3 
+19: at 
+20: holiday 
+21: inn 
+22: http://t.co/6q4dzbwye8 
+
+I :734
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:735-755
+name: 735-755
+target: 0: i-name (1)
+1: i-time (3)
+2: i-time (3)
+3: i-place (5)
+4: i-place (5)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-time (3)
+10: i-name (1)
+11: i-name (1)
+12: i-name (1)
+13: i-name (1)
+14: other (4)
+15: i-place (5)
+16: i-place (5)
+17: other (4)
+18: other (4)
+19: i-time (3)
+20: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@cded763
+0: pasific 
+1: 21 
+2: maret 
+3: sabuga 
+4: bandung 
+5: @de19wa 
+6: @sheilaon7 
+7: @maliqmusic 
+8: @moccaofficial 
+9: now 
+10: buy 
+11: 3 
+12: get 
+13: 1 
+14: at 
+15: cfd 
+16: dago 
+17: only 
+18: for 
+19: today 
+20: @infobdgevent 
+
+I :755
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:756-773
+name: 756-773
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-name (1)
+9: i-name (1)
+10: other (4)
+11: i-place (5)
+12: i-place (5)
+13: i-place (5)
+14: other (4)
+15: i-info (2)
+16: i-info (2)
+17: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@7a0eab2e
+0: yuk 
+1: daftar 
+2: " 
+3: @infobdgevent 
+4: : 
+5: #publicspeakingskill 
+6: & 
+7: effective 
+8: communication 
+9: skill 
+10: at 
+11: hotel 
+12: golden 
+13: flower 
+14: | 
+15: 081313132300 
+16: http://t.co/dx8qyhphit 
+17: " 
+
+I :773
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:774-793
+name: 774-793
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-name (1)
+4: i-time (3)
+5: i-time (3)
+6: i-time (3)
+7: i-time (3)
+8: other (4)
+9: i-place (5)
+10: i-place (5)
+11: i-place (5)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: i-info (2)
+19: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@5908979c
+0: yuk 
+1: dtg 
+2: ke 
+3: #toysnkidsexpo2015 
+4: 14 
+5: – 
+6: 15 
+7: maret 
+8: di 
+9: graha 
+10: manggala 
+11: siliwangi 
+12: ! 
+13: buat 
+14: pecinta 
+15: mainan 
+16: & 
+17: hobby 
+18: @neobandung 
+19: http://t.co/fr7fuqaoiw 
+
+I :793
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:794-812
+name: 794-812
+target: 0: i-time (3)
+1: i-time (3)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-time (3)
+7: i-time (3)
+8: i-time (3)
+9: i-time (3)
+10: other (4)
+11: i-place (5)
+12: i-place (5)
+13: i-place (5)
+14: other (4)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4319b06e
+0: last 
+1: day 
+2: 2nd 
+3: int 
+4: ' 
+5: #bandungbeautyexpo 
+6: 5 
+7: - 
+8: 8 
+9: march 
+10: in 
+11: bandung 
+12: convention 
+13: centre 
+14: , 
+15: more 
+16: info 
+17: @bdgbeautyexpo 
+18: http://t.co/v1k2wwdjyi 
+
+I :812
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:813-830
+name: 813-830
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: i-name (1)
+8: i-info (2)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: i-time (3)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4b8e282c
+0: uji 
+1: kemampuan 
+2: battle 
+3: & 
+4: dance 
+5: competition-mu 
+6: di 
+7: #safecare3on3 
+8: ?registrasi 
+9: 1 
+10: - 
+11: 17 
+12: maret 
+13: , 
+14: info 
+15: 081224747780 
+16: @safecareid 
+17: http://t.co/tjdwv7ssl8 
+
+I :830
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:831-844
+name: 831-844
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: i-name (1)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@61ef8774
+0: mau 
+1: bicaramu 
+2: berkharisma 
+3: ? 
+4: join 
+5: us 
+6: #publicspeakingskill 
+7: w/ 
+8: @passionateharri 
+9: & 
+10: @gilangpambudhi 
+11: info 
+12: @butterflyact 
+13: http://t.co/nxyfcbiw1k 
+
+I :844
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:845-865
+name: 845-865
+target: 0: i-name (1)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: i-time (3)
+5: i-time (3)
+6: i-time (3)
+7: i-time (3)
+8: i-time (3)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-place (5)
+13: i-place (5)
+14: i-place (5)
+15: other (4)
+16: i-place (5)
+17: i-place (5)
+18: i-place (5)
+19: other (4)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@34a602e7
+0: la 
+1: novia 
+2: wedding 
+3: exhibition 
+4: 2015 
+5: 6 
+6: march 
+7: 2015 
+8: - 
+9: 8 
+10: march 
+11: 2015 
+12: trans 
+13: convention 
+14: centre 
+15: , 
+16: trans 
+17: luxury 
+18: hotel 
+19: @infobdgevent 
+20: http://t.co/tlm4ncqe0u 
+
+I :865
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:866-885
+name: 866-885
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: other (4)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: other (4)
+18: i-place (5)
+19: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7f08a6b1
+0: live 
+1: musik 
+2: sambil 
+3: donor 
+4: darah 
+5: ? 
+6: cm 
+7: ada 
+8: di 
+9: #ngamplaglive 
+10: bareng 
+11: @dnf_music 
+12: @dangerangerock 
+13: | 
+14: 11 
+15: / 
+16: 3 
+17: at 
+18: @holidayinnbdg 
+19: http://t.co/6q4dzbwye8 
+
+I :885
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:886-900
+name: 886-900
+target: 0: other (4)
+1: i-time (3)
+2: i-time (3)
+3: i-time (3)
+4: i-time (3)
+5: i-time (3)
+6: i-name (1)
+7: i-place (5)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@10f7ef9f
+0: @infobdgevent 
+1: tues 
+2: , 
+3: march 
+4: ' 
+5: 10th 
+6: #vibeinvasion 
+7: @moxclub 
+8: w/ 
+9: @vibe_org 
+10: @giez_luxus 
+11: @denyslipmax_ 
+12: @fir_iqbal 
+13: @anezena 
+14: http://t.co/uh1upr9rix 
+
+I :900
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:901-915
+name: 901-915
+target: 0: other (4)
+1: i-time (3)
+2: i-time (3)
+3: i-time (3)
+4: i-time (3)
+5: i-time (3)
+6: i-name (1)
+7: i-place (5)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@594b86d
+0: @infobdgevent 
+1: tues 
+2: , 
+3: march 
+4: ' 
+5: 10th 
+6: #vibeinvasion 
+7: @moxclub 
+8: w/ 
+9: @vibe_org 
+10: @giez_luxus 
+11: @denyslipmax_ 
+12: @fir_iqbal 
+13: @anezena 
+14: http://t.co/mrff1axnkm 
+
+I :915
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:916-933
+name: 916-933
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-time (3)
+11: other (4)
+12: other (4)
+13: i-name (1)
+14: i-info (2)
+15: other (4)
+16: other (4)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@66d7fef7
+0: guys 
+1: ! 
+2: ikutan 
+3: festival 
+4: budaya 
+5: sunda 
+6: yuk 
+7: buat 
+8: ngisi 
+9: bln 
+10: mei 
+11: kalian 
+12: ! 
+13: #fbs2015 
+14: @officialgerpeda 
+15: @infobdgevent 
+16: @ridwankamil 
+17: http://t.co/jvjzvx0dl8 
+
+I :933
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:934-952
+name: 934-952
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-name (1)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: other (4)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: other (4)
+17: i-place (5)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@6ea43ee0
+0: yuk 
+1: seru 
+2: ” 
+3: an 
+4: di 
+5: #ngamplaglive 
+6: brg 
+7: standupindo 
+8: bdg 
+9: @kevinpasca 
+10: @lanangedan 
+11: @anto_bangor 
+12: | 
+13: 11 
+14: / 
+15: 3 
+16: at 
+17: @holidayinnbdg 
+18: http://t.co/6q4dzbwye8 
+
+I :952
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:953-967
+name: 953-967
+target: 0: i-name (1)
+1: i-name (1)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: i-info (2)
+14: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@611c1cdf
+0: workshop 
+1: #publicspeakingskill 
+2: ! 
+3: 70% 
+4: praktek 
+5: dan 
+6: terbukti 
+7: aplikatif 
+8: loh 
+9: ! 
+10: just 
+11: in 
+12: here 
+13: @butterflyact 
+14: http://t.co/nxyfcbiw1k 
+
+I :967
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:968-988
+name: 968-988
+target: 0: other (4)
+1: other (4)
+2: i-name (1)
+3: other (4)
+4: other (4)
+5: other (4)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: other (4)
+14: other (4)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: other (4)
+19: i-place (5)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7caba647
+0: bakal 
+1: ada 
+2: #ngamplaglive 
+3: lagi 
+4: nih 
+5: ! 
+6: ada 
+7: @dnf_music 
+8: @dangerangerock 
+9: & 
+10: donor 
+11: darah 
+12: gratis 
+13: ! 
+14: | 
+15: 11 
+16: / 
+17: 3 
+18: at 
+19: @holidayinnbdg 
+20: http://t.co/6q4dzbwye8 
+
+I :988
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:989-1003
+name: 989-1003
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: other (4)
+13: i-info (2)
+14: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@6931bf42
+0: mau 
+1: punya 
+2: toko 
+3: online 
+4: tanpa 
+5: mengeluarkan 
+6: biaya 
+7: ? 
+8: yuk 
+9: belajar 
+10: di 
+11: #yukbisnisbandung 
+12: - 
+13: @yubibdg 
+14: http://t.co/dukdpka24z 
+
+I :1003
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1004-1025
+name: 1004-1025
+target: 0: other (4)
+1: i-time (3)
+2: other (4)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-time (3)
+9: i-time (3)
+10: i-time (3)
+11: other (4)
+12: i-place (5)
+13: i-place (5)
+14: i-place (5)
+15: i-place (5)
+16: i-place (5)
+17: i-place (5)
+18: other (4)
+19: other (4)
+20: other (4)
+21: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4103bc02
+0: @infobdgevent 
+1: besok 
+2: ! 
+3: info 
+4: session 
+5: laureate 
+6: hospitality 
+7: education 
+8: 3 
+9: - 
+10: 5pm 
+11: @ 
+12: ruko 
+13: paskal 
+14: hyper 
+15: square 
+16: blok 
+17: c6 
+18: be 
+19: there 
+20: ! 
+21: http://t.co/bmioo9kyav 
+
+I :1025
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1026-1046
+name: 1026-1046
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: i-name (1)
+8: i-name (1)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: other (4)
+19: i-info (2)
+20: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@5c2c48a6
+0: event 
+1: bulan 
+2: ini 
+3: ? 
+4: " 
+5: @infobdgevent 
+6: : 
+7: workshop 
+8: #publicspeakingskill 
+9: ! 
+10: 70% 
+11: praktek 
+12: dan 
+13: terbukti 
+14: aplikatif 
+15: ! 
+16: just 
+17: in 
+18: here 
+19: http://t.co/dx8qyhphit 
+20: " 
+
+I :1046
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1047-1065
+name: 1047-1065
+target: 0: i-time (3)
+1: i-time (3)
+2: i-time (3)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-name (1)
+9: i-name (1)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@5f55b990
+0: 39 
+1: days 
+2: left 
+3: iipf 
+4: ( 
+5: indonesia 
+6: international 
+7: photo 
+8: festival 
+9: ) 
+10: . 
+11: join 
+12: us 
+13: ! 
+14: cc 
+15: : 
+16: @infobdg 
+17: @infobdgevent 
+18: @event_indonesia 
+
+I :1065
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1066-1086
+name: 1066-1086
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-name (1)
+5: other (4)
+6: other (4)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: other (4)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: other (4)
+18: i-place (5)
+19: i-place (5)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7509cdd5
+0: ga 
+1: cuma 
+2: musik 
+3: , 
+4: #ngamplaglive 
+5: kali 
+6: ini 
+7: ada 
+8: standup 
+9: by 
+10: @kevinpasca 
+11: @lanangedan 
+12: @anto_bangor 
+13: | 
+14: 11 
+15: / 
+16: 3 
+17: at 
+18: holiday 
+19: inn 
+20: http://t.co/6q4dzbwye8 
+
+I :1086
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1087-1105
+name: 1087-1105
+target: 0: other (4)
+1: other (4)
+2: i-name (1)
+3: other (4)
+4: i-place (5)
+5: i-place (5)
+6: i-place (5)
+7: i-time (3)
+8: i-time (3)
+9: i-time (3)
+10: i-time (3)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@56a896fa
+0: akan 
+1: ada 
+2: #toysnkidsexpo2015 
+3: di 
+4: graha 
+5: manggala 
+6: siliwangi 
+7: 14 
+8: - 
+9: 15 
+10: maret 
+11: ! 
+12: wjb 
+13: dtg 
+14: buat 
+15: pecinta 
+16: mainan 
+17: @neobandung 
+18: http://t.co/fr7fuqaoiw 
+
+I :1105
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1106-1124
+name: 1106-1124
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-info (2)
+5: i-name (1)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: i-time (3)
+15: i-time (3)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@56502388
+0: daftar 
+1: skrg 
+2: yuk 
+3: ! 
+4: registrasi 
+5: #safecare3on3 
+6: 3on3 
+7: , 
+8: 3point 
+9: shoot 
+10: & 
+11: dance 
+12: competition 
+13: sampai 
+14: 17 
+15: maret 
+16: ?info 
+17: @safecareid 
+18: http://t.co/tjdwv7ssl8 
+
+I :1124
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1125-1147
+name: 1125-1147
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: other (4)
+9: other (4)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: i-time (3)
+14: other (4)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: other (4)
+19: other (4)
+20: other (4)
+21: other (4)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@274ce1fd
+0: @infobdgevent 
+1: hay 
+2: kak 
+3: , 
+4: ada 
+5: seminar 
+6: bahasa 
+7: isyarat 
+8: lhoo 
+9: , 
+10: tanggal 
+11: 14 
+12: maret 
+13: 2015 
+14: , 
+15: more 
+16: info 
+17: @kmpd_ 
+18: yuuks 
+19: , 
+20: merapat 
+21: :) 
+22: http://t.co/csv8qc6j9o 
+
+I :1147
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1148-1170
+name: 1148-1170
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: other (4)
+11: other (4)
+12: other (4)
+13: i-info (2)
+14: i-info (2)
+15: other (4)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: other (4)
+20: i-place (5)
+21: i-place (5)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2888bd33
+0: musik 
+1: , 
+2: donor 
+3: darah 
+4: & 
+5: standup 
+6: comedy 
+7: ? 
+8: ya 
+9: #ngamplaglive 
+10: dong 
+11: ! 
+12: ada 
+13: @dnf_music 
+14: @dangerangerock 
+15: | 
+16: 11 
+17: / 
+18: 3 
+19: at 
+20: holiday 
+21: inn 
+22: http://t.co/m9khkwaxbd 
+
+I :1170
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1171-1194
+name: 1171-1194
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: i-name (1)
+7: i-name (1)
+8: i-name (1)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: other (4)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: other (4)
+21: i-info (2)
+22: other (4)
+23: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@293d740f
+0: @infobdgevent 
+1: agi 
+2: kak 
+3: , 
+4: ada 
+5: " 
+6: seminar 
+7: bahasa 
+8: isyarat 
+9: " 
+10: u/ 
+11: difabel 
+12: rungu 
+13: 14 
+14: maret 
+15: 2015 
+16: , 
+17: follow 
+18: @kmpd_ 
+19: cp 
+20: . 
+21: 085795779486 
+22: :) 
+23: http://t.co/s97q3oc1rv 
+
+I :1194
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1195-1213
+name: 1195-1213
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: i-name (1)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@18e99f0
+0: bingung 
+1: gmn 
+2: ngomong 
+3: & 
+4: ga 
+5: pede 
+6: ? 
+7: solusinya 
+8: ? 
+9: kita 
+10: pecahkan 
+11: saja 
+12: di 
+13: #publicspeakingskill 
+14: 21 
+15: maret 
+16: 2015 
+17: @butterflyact 
+18: http://t.co/nxyfcbiw1k 
+
+I :1213
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1214-1231
+name: 1214-1231
+target: 0: i-time (3)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: other (4)
+16: i-place (5)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@391c5c5c
+0: besok 
+1: ! 
+2: live 
+3: musik 
+4: sambil 
+5: donor 
+6: darah 
+7: ? 
+8: cm 
+9: ada 
+10: di 
+11: #ngamplaglive 
+12: bareng 
+13: @dnf_music 
+14: @dangerangerock 
+15: at 
+16: @holidayinnbdg 
+17: http://t.co/m9khkwaxbd 
+
+I :1231
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1232-1252
+name: 1232-1252
+target: 0: other (4)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: other (4)
+6: i-place (5)
+7: i-place (5)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: other (4)
+18: other (4)
+19: other (4)
+20: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@74f3b94e
+0: ikutilah 
+1: info 
+2: session 
+3: program 
+4: acca 
+5: di 
+6: kota 
+7: bandung 
+8: ! 
+9: powered 
+10: by 
+11: csaf 
+12: indonesia 
+13: & 
+14: acca 
+15: cc 
+16: : 
+17: @sslikmi 
+18: @stmiklikmi 
+19: @infobdg 
+20: @infobdgevent 
+
+I :1252
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1253-1270
+name: 1253-1270
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-name (1)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: other (4)
+13: i-time (3)
+14: other (4)
+15: other (4)
+16: i-place (5)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2d0aebde
+0: yuk 
+1: seru 
+2: ” 
+3: an 
+4: di 
+5: #ngamplaglive 
+6: brg 
+7: standupindo 
+8: bdg 
+9: @kevinpasca 
+10: @lanangedan 
+11: @anto_bangor 
+12: | 
+13: besok 
+14: ! 
+15: at 
+16: @holidayinnbdg 
+17: http://t.co/m9khkwaxbd 
+
+I :1270
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1271-1292
+name: 1271-1292
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: i-name (1)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: i-time (3)
+20: i-info (2)
+21: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@280352ec
+0: ini 
+1: wajib 
+2: ? 
+3: @infobdgevent 
+4: : 
+5: bingung 
+6: gmn 
+7: ngomong 
+8: & 
+9: ga 
+10: pede 
+11: ? 
+12: solusinya 
+13: ? 
+14: #publicspeakingskill 
+15: 21 
+16: / 
+17: 03 
+18: / 
+19: 15 
+20: @butterflyact 
+21: http://t.co/hukk2uxvid 
+
+I :1292
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1293-1311
+name: 1293-1311
+target: 0: i-name (1)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: i-info (2)
+13: i-info (2)
+14: other (4)
+15: other (4)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@72391879
+0: #cpcorner2015 
+1: is 
+2: coming 
+3: ! 
+4: #gottheguts 
+5: to 
+6: feel 
+7: the 
+8: ultimate 
+9: talkshow 
+10: experience 
+11: ? 
+12: more 
+13: info 
+14: , 
+15: go 
+16: follow 
+17: @creativep_ec 
+18: http://t.co/fkkjgzixeo 
+
+I :1311
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1312-1334
+name: 1312-1334
+target: 0: i-time (3)
+1: other (4)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: i-time (3)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: other (4)
+18: i-place (5)
+19: i-place (5)
+20: i-place (5)
+21: i-place (5)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@275ea85
+0: today 
+1: ! 
+2: #balerancage 
+3: " 
+4: kujang 
+5: wirageni 
+6: " 
+7: angkatan 
+8: 26 
+9: garnida 
+10: stks 
+11: . 
+12: 10 
+13: - 
+14: 11 
+15: maret 
+16: 19.30 
+17: at 
+18: gedung 
+19: dikti 
+20: stks 
+21: bandung 
+22: http://t.co/gdewb0gv9y 
+
+I :1334
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1335-1359
+name: 1335-1359
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: i-name (1)
+10: i-name (1)
+11: i-name (1)
+12: i-name (1)
+13: i-name (1)
+14: i-name (1)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: i-time (3)
+19: i-time (3)
+20: other (4)
+21: i-place (5)
+22: i-place (5)
+23: i-place (5)
+24: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@b77c306
+0: ngaku 
+1: doyan 
+2: main 
+3: get 
+4: rich 
+5: ? 
+6: mesti 
+7: dtg 
+8: ke 
+9: " 
+10: letsgetrich 
+11: gathering 
+12: & 
+13: competition 
+14: " 
+15: 29 
+16: / 
+17: 3 
+18: / 
+19: 15 
+20: @ 
+21: telkomsel 
+22: dago 
+23: digilife 
+24: http://t.co/rd43unnr7c 
+
+I :1359
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1360-1377
+name: 1360-1377
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: i-name (1)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: other (4)
+14: i-place (5)
+15: i-place (5)
+16: i-place (5)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@63a4c4cb
+0: kamu 
+1: pecinta 
+2: mainan 
+3: dan 
+4: hobby 
+5: ? 
+6: jgn 
+7: lewatkan 
+8: #toysnkidsexpo2015 
+9: 14 
+10: – 
+11: 15 
+12: maret 
+13: at 
+14: graha 
+15: manggala 
+16: siliwangi 
+17: http://t.co/fr7fuqaoiw 
+
+I :1377
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1378-1394
+name: 1378-1394
+target: 0: i-time (3)
+1: other (4)
+2: other (4)
+3: i-name (1)
+4: other (4)
+5: other (4)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: other (4)
+13: i-place (5)
+14: i-info (2)
+15: other (4)
+16: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@56741e88
+0: besok 
+1: bakal 
+2: ada 
+3: #ngamplaglive 
+4: nih 
+5: ! 
+6: ada 
+7: @dnf_music 
+8: @dangerangerock 
+9: & 
+10: donor 
+11: darah 
+12: at 
+13: @holidayinnbdg 
+14: gratis 
+15: ! 
+16: http://t.co/m9khkwaxbd 
+
+I :1394
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1395-1409
+name: 1395-1409
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-name (1)
+11: i-info (2)
+12: other (4)
+13: i-info (2)
+14: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@61809f0f
+0: jangan 
+1: salahkan 
+2: jika 
+3: omset 
+4: penjualan 
+5: anda 
+6: naik 
+7: drastis 
+8: setelah 
+9: ikut 
+10: #yukbisnsibandung 
+11: free 
+12: ! 
+13: @yubibdg 
+14: http://t.co/dukdpka24z 
+
+I :1409
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1410-1434
+name: 1410-1434
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: other (4)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: i-time (3)
+18: other (4)
+19: i-place (5)
+20: i-place (5)
+21: i-place (5)
+22: other (4)
+23: i-info (2)
+24: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@434ac3cb
+0: ngerasa 
+1: jago 
+2: 3on3 
+3: , 
+4: 3point 
+5: shoot 
+6: & 
+7: ngedance 
+8: ? 
+9: wajib 
+10: ikutan 
+11: #safecare3on3 
+12: !! 
+13: 20 
+14: - 
+15: 22 
+16: / 
+17: 3 
+18: di 
+19: fest 
+20: city 
+21: link 
+22: - 
+23: @safecareid 
+24: http://t.co/tjdwv7ssl8 
+
+I :1434
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1435-1453
+name: 1435-1453
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-time (3)
+4: other (4)
+5: other (4)
+6: i-place (5)
+7: i-place (5)
+8: i-place (5)
+9: i-place (5)
+10: i-place (5)
+11: other (4)
+12: i-name (1)
+13: i-name (1)
+14: i-name (1)
+15: i-name (1)
+16: i-info (2)
+17: other (4)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@617c66f0
+0: @infobdgevent 
+1: jgn 
+2: lupa 
+3: besok 
+4: merapat 
+5: di 
+6: loop 
+7: station 
+8: bdg 
+9: jl 
+10: diponegoro 
+11: ada 
+12: nobar 
+13: persib 
+14: afc 
+15: cup 
+16: bareng 
+17: ... 
+18: http://t.co/bumxmbdvgk 
+
+I :1453
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1454-1471
+name: 1454-1471
+target: 0: i-time (3)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: other (4)
+16: i-place (5)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2e4a4890
+0: today 
+1: ! 
+2: musik 
+3: , 
+4: donor 
+5: darah 
+6: & 
+7: standup 
+8: comedy 
+9: ? 
+10: ya 
+11: #ngamplaglive 
+12: ada 
+13: @dnf_music 
+14: @dangerangerock 
+15: at 
+16: @holidayinnbdg 
+17: http://t.co/m9khkwaxbd 
+
+I :1471
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1472-1489
+name: 1472-1489
+target: 0: i-time (3)
+1: i-time (3)
+2: i-time (3)
+3: i-name (1)
+4: i-info (2)
+5: i-info (2)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: other (4)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@ee1fdae
+0: 6 
+1: hari 
+2: lg 
+3: #safecare3on3 
+4: registrasi 
+5: 3on3 
+6: , 
+7: 3point 
+8: shoot 
+9: & 
+10: dance 
+11: competition 
+12: ditutup 
+13: ! 
+14: info 
+15: 081224747780 
+16: @safecareid 
+17: http://t.co/tjdwv7aqwy 
+
+I :1489
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1490-1507
+name: 1490-1507
+target: 0: i-time (3)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: other (4)
+16: i-place (5)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@16d5b224
+0: today 
+1: ! 
+2: live 
+3: musik 
+4: sambil 
+5: donor 
+6: darah 
+7: ? 
+8: cm 
+9: ada 
+10: di 
+11: #ngamplaglive 
+12: bareng 
+13: @dnf_music 
+14: @dangerangerock 
+15: at 
+16: @holidayinnbdg 
+17: http://t.co/m9khkwsytb 
+
+I :1507
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1508-1526
+name: 1508-1526
+target: 0: i-time (3)
+1: other (4)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: i-info (2)
+8: i-time (3)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: other (4)
+14: i-place (5)
+15: i-place (5)
+16: i-place (5)
+17: i-place (5)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@27a26532
+0: today 
+1: ! 
+2: #balerancage 
+3: " 
+4: kujang 
+5: wirageni 
+6: " 
+7: @garnida26_stks 
+8: 10 
+9: - 
+10: 11 
+11: maret 
+12: 19.30 
+13: at 
+14: gedung 
+15: dikti 
+16: stks 
+17: bandung 
+18: http://t.co/gdewb0otlo 
+
+I :1526
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1527-1544
+name: 1527-1544
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-place (5)
+6: i-place (5)
+7: i-place (5)
+8: other (4)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: i-time (3)
+14: i-time (3)
+15: other (4)
+16: other (4)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@16a1c9f2
+0: @infobdgevent 
+1: #infobdg 
+2: ayo 
+3: hadir 
+4: di 
+5: gedung 
+6: kaa 
+7: bandung 
+8: , 
+9: sabtu 
+10: 14 
+11: maret 
+12: 2015 
+13: jam 
+14: 13:00 
+15: . 
+16: #civicislam 
+17: http://t.co/y6julheod0 
+
+I :1544
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1545-1562
+name: 1545-1562
+target: 0: i-name (1)
+1: i-info (2)
+2: i-info (2)
+3: i-info (2)
+4: i-info (2)
+5: i-info (2)
+6: i-info (2)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-name (1)
+11: other (4)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: other (4)
+16: i-info (2)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@57d13a79
+0: talkshow 
+1: w/ 
+2: chairul 
+3: tanjung 
+4: , 
+5: @ridwankamil 
+6: etc 
+7: . 
+8: only 
+9: at 
+10: #cpcorner2015 
+11: ! 
+12: tix 
+13: : 
+14: http://t.co/jwvec7szvr 
+15: - 
+16: @creativep_ec 
+17: http://t.co/fkkjgzixeo 
+
+I :1562
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1563-1579
+name: 1563-1579
+target: 0: other (4)
+1: other (4)
+2: i-time (3)
+3: i-time (3)
+4: i-time (3)
+5: other (4)
+6: i-name (1)
+7: i-name (1)
+8: i-name (1)
+9: i-name (1)
+10: i-name (1)
+11: other (4)
+12: i-place (5)
+13: other (4)
+14: other (4)
+15: other (4)
+16: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@69560af9
+0: #eventbdg 
+1: #next 
+2: march 
+3: ' 
+4: 14th 
+5: @tokosinakal 
+6: " 
+7: nakal 
+8: in 
+9: disco 
+10: " 
+11: at 
+12: @revel_official 
+13: @infobdgevent 
+14: @event_bdg 
+15: @infobdg 
+16: http://t.co/dy3odckxh4 
+
+I :1579
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1580-1593
+name: 1580-1593
+target: 0: other (4)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: other (4)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@fea9776
+0: @infobdgevent 
+1: seminar 
+2: pendidikan 
+3: nasional 
+4: & 
+5: kewirausahaan 
+6: w/anies 
+7: baswedan 
+8: w/chairul 
+9: tanjung 
+10: , 
+11: cp 
+12: @inbispolban 
+13: http://t.co/xbbm9d0blx 
+
+I :1593
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1594-1612
+name: 1594-1612
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: i-name (1)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: i-place (5)
+15: i-place (5)
+16: other (4)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@727dcc23
+0: isi 
+1: weekend 
+2: mu 
+3: yuk 
+4: ! 
+5: ke 
+6: #toysnkidsexpo2015 
+7: acara 
+8: pameran 
+9: mainan 
+10: & 
+11: hobby 
+12: terbesar 
+13: di 
+14: jawa 
+15: barat 
+16: - 
+17: @neobandung 
+18: http://t.co/fr7fuqaoiw 
+
+I :1612
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1613-1629
+name: 1613-1629
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-name (1)
+11: other (4)
+12: i-info (2)
+13: other (4)
+14: i-info (2)
+15: other (4)
+16: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@20e5488e
+0: hanya 
+1: dengan 
+2: bicara 
+3: bisa 
+4: menjual 
+5: lebih 
+6: mahal 
+7: ! 
+8: rahasianya 
+9: di 
+10: re-create 
+11: ! 
+12: info 
+13: ? 
+14: @butterflyact 
+15: #publicspeakingskill 
+16: http://t.co/nxyfcbiw1k 
+
+I :1629
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1630-1650
+name: 1630-1650
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-name (1)
+4: other (4)
+5: i-time (3)
+6: i-time (3)
+7: i-time (3)
+8: i-time (3)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-place (5)
+13: i-place (5)
+14: i-place (5)
+15: i-place (5)
+16: other (4)
+17: i-info (2)
+18: other (4)
+19: i-info (2)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2cfe7381
+0: @infobdgevent 
+1: jangan 
+2: lewatkan 
+3: #jobexpo2015 
+4: | 
+5: 18 
+6: - 
+7: 19 
+8: mar 
+9: ’ 
+10: 15 
+11: , 
+12: landmark 
+13: conv 
+14: . 
+15: hall 
+16: | 
+17: info 
+18: : 
+19: @indonesiacareer 
+20: http://t.co/i19lhvlnfy 
+
+I :1650
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1651-1665
+name: 1651-1665
+target: 0: i-name (1)
+1: i-info (2)
+2: i-info (2)
+3: i-info (2)
+4: other (4)
+5: i-info (2)
+6: other (4)
+7: i-info (2)
+8: other (4)
+9: other (4)
+10: i-info (2)
+11: other (4)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7551313a
+0: #childhoodfest2015 
+1: info 
+2: & 
+3: registrasi 
+4: : 
+5: 081809080999 
+6: | 
+7: @erwinmadmoron 
+8: @infobdgevent 
+9: , 
+10: @gumzcustommotor 
+11: | 
+12: online 
+13: reg 
+14: http://t.co/fmlra4spr0 
+
+I :1665
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1666-1682
+name: 1666-1682
+target: 0: i-name (1)
+1: other (4)
+2: other (4)
+3: i-time (3)
+4: other (4)
+5: other (4)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: other (4)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@25771302
+0: #cpcorner2015 
+1: coming 
+2: this 
+3: march 
+4: ! 
+5: meet 
+6: chairul 
+7: tanjung 
+8: , 
+9: @ridwankamil 
+10: , 
+11: @darwistriadi 
+12: . 
+13: tix 
+14: : 
+15: http://t.co/jwvec7szvr 
+16: http://t.co/fkkjgzixeo 
+
+I :1682
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1683-1705
+name: 1683-1705
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-name (1)
+9: i-name (1)
+10: i-name (1)
+11: i-time (3)
+12: i-time (3)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: other (4)
+17: i-place (5)
+18: other (4)
+19: i-info (2)
+20: i-info (2)
+21: i-info (2)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2c80fb85
+0: ikatan 
+1: akuntan 
+2: indonesia 
+3: jabar 
+4: present 
+5: " 
+6: workshop 
+7: kertas 
+8: kerja 
+9: audit 
+10: " 
+11: 13 
+12: - 
+13: 14 
+14: / 
+15: 3 
+16: at 
+17: unisba 
+18: - 
+19: info 
+20: : 
+21: @am_iaijabar 
+22: http://t.co/9yczr5w4si 
+
+I :1705
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1706-1718
+name: 1706-1718
+target: 0: other (4)
+1: i-time (3)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: other (4)
+8: i-place (5)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4800ef96
+0: @infobdgevent 
+1: tonight 
+2: " 
+3: d'try 
+4: 4th 
+5: anniversary 
+6: " 
+7: only 
+8: @moxclub 
+9: for 
+10: info 
+11: 087722066855 
+12: http://t.co/vlkfx8ypu9 
+
+I :1718
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1719-1737
+name: 1719-1737
+target: 0: other (4)
+1: other (4)
+2: i-info (2)
+3: i-time (3)
+4: i-time (3)
+5: other (4)
+6: i-name (1)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: i-place (5)
+15: i-place (5)
+16: other (4)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@357185c8
+0: inget 
+1: ya 
+2: 2 
+3: hari 
+4: lagi 
+5: ! 
+6: #toysnkidsexpo2015 
+7: pameran 
+8: mainan 
+9: dan 
+10: produk 
+11: anak 
+12: terbesar 
+13: di 
+14: jawa 
+15: barat 
+16: - 
+17: @neobandung 
+18: http://t.co/fr7fuqaoiw 
+
+I :1737
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1738-1754
+name: 1738-1754
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-name (1)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@300628e1
+0: mau 
+1: jd 
+2: kharismatik 
+3: & 
+4: menarik 
+5: bnyk 
+6: orang 
+7: ? 
+8: rahasianya 
+9: cm 
+10: di 
+11: #publicspeakingskill 
+12: terbatas 
+13: !! 
+14: 99org 
+15: @butterflyact 
+16: http://t.co/nxyfcbiw1k 
+
+I :1754
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1755-1770
+name: 1755-1770
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-name (1)
+9: other (4)
+10: other (4)
+11: other (4)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@6465e468
+0: hmpsm 
+1: unpar 
+2: proudly 
+3: presents 
+4: national 
+5: seminar 
+6: 2015 
+7: : 
+8: crevolution 
+9: @infobdg 
+10: @infobandung 
+11: @infobdgevent 
+12: more 
+13: info 
+14: : 
+15: http://t.co/0c2stjc0zt 
+
+I :1770
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1771-1794
+name: 1771-1794
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: i-time (3)
+21: i-time (3)
+22: i-time (3)
+23: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@5d769b56
+0: » 
+1: @lsociete 
+2: present 
+3: #outofcontrol 
+4: vol 
+5: . 
+6: 3 
+7: ?there'll 
+8: be 
+9: ical 
+10: , 
+11: diskopantera 
+12: , 
+13: rizal 
+14: sastra 
+15: & 
+16: mangkok 
+17: manis 
+18: dj 
+19: set 
+20: 14 
+21: / 
+22: 3 
+23: http://t.co/lxvi2rygd6 
+
+I :1794
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1795-1812
+name: 1795-1812
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: i-name (1)
+8: i-info (2)
+9: i-time (3)
+10: i-time (3)
+11: i-time (3)
+12: i-time (3)
+13: other (4)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@15d05b0a
+0: uji 
+1: kemampuan 
+2: battle 
+3: & 
+4: dance 
+5: competition-mu 
+6: di 
+7: #safecare3on3 
+8: ?registrasi 
+9: 1 
+10: - 
+11: 17 
+12: maret 
+13: , 
+14: info 
+15: 081224747780 
+16: @safecareid 
+17: http://t.co/tjdwv7ssl8 
+
+I :1812
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1813-1829
+name: 1813-1829
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-time (3)
+9: other (4)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: other (4)
+15: other (4)
+16: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@2208f8b6
+0: looking 
+1: for 
+2: tenants 
+3: to 
+4: support 
+5: creative 
+6: indusrty 
+7: fair 
+8: 2015 
+9: . 
+10: cp 
+11: : 
+12: diyan 
+13: 085222155646 
+14: @infobdgkuliner 
+15: @infobdgevent 
+16: http://t.co/8vaifvpqjt 
+
+I :1829
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1830-1847
+name: 1830-1847
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-name (1)
+5: other (4)
+6: other (4)
+7: i-time (3)
+8: i-time (3)
+9: i-place (5)
+10: i-place (5)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: other (4)
+16: other (4)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7b00862e
+0: prepare 
+1: u'r 
+2: self 
+3: for 
+4: #pgsrun2015 
+5: 5km 
+6: on 
+7: march 
+8: 28th?start 
+9: stadion 
+10: siliwangi 
+11: , 
+12: line 
+13: batalyon 
+14: arhanudri 
+15: 3 
+16: @de_affenue 
+17: http://t.co/7rhq9ukt9d 
+
+I :1847
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1848-1864
+name: 1848-1864
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: i-info (2)
+15: i-name (1)
+16: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@5f697518
+0: jangan 
+1: daftar 
+2: jika 
+3: anda 
+4: belum 
+5: siap 
+6: penjualan 
+7: produk 
+8: naik 
+9: drastis 
+10: , 
+11: brand 
+12: makin 
+13: dikenal 
+14: @yubibdg 
+15: #yukbisnisbandung 
+16: http://t.co/dukdpka24z 
+
+I :1864
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1865-1878
+name: 1865-1878
+target: 0: i-name (1)
+1: i-name (1)
+2: i-name (1)
+3: i-time (3)
+4: i-time (3)
+5: i-time (3)
+6: other (4)
+7: other (4)
+8: i-name (1)
+9: i-info (2)
+10: i-info (2)
+11: other (4)
+12: other (4)
+13: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@486ab98
+0: metal 
+1: head 
+2: bandung 
+3: tgl 
+4: 15 
+5: maret 
+6: akan 
+7: ada 
+8: perform 
+9: @childrenofgaza 
+10: @huseinidol8 
+11: @infobdgevent 
+12: #huseinonasdr 
+13: http://t.co/z8ocxzega9 
+
+I :1878
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1879-1904
+name: 1879-1904
+target: 0: other (4)
+1: i-time (3)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-name (1)
+11: i-time (3)
+12: i-time (3)
+13: i-time (3)
+14: i-time (3)
+15: i-time (3)
+16: i-time (3)
+17: other (4)
+18: i-place (5)
+19: i-place (5)
+20: i-place (5)
+21: i-place (5)
+22: i-info (2)
+23: i-info (2)
+24: i-info (2)
+25: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@256b8a7a
+0: @infobdgevent 
+1: 2015 
+2: masih 
+3: susah 
+4: cari 
+5: kerja 
+6: ? 
+7: kesini 
+8: aja 
+9: ! 
+10: #jobexpo 
+11: 18 
+12: - 
+13: 19 
+14: mar 
+15: ' 
+16: 15 
+17: . 
+18: landmark 
+19: conv 
+20: . 
+21: hall 
+22: info 
+23: : 
+24: @indonesiacareer 
+25: http://t.co/xsm2noo2a0 
+
+I :1904
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1905-1920
+name: 1905-1920
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-name (1)
+15: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@375062c7
+0: be 
+1: inspired 
+2: by 
+3: famous 
+4: entrepreneurs 
+5: ! 
+6: @ridwankamil 
+7: , 
+8: @therealdisastr 
+9: , 
+10: etc 
+11: tix 
+12: : 
+13: http://t.co/jwvec7szvr 
+14: @creativep_ec 
+15: http://t.co/fkkjgzixeo 
+
+I :1920
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1921-1936
+name: 1921-1936
+target: 0: i-name (1)
+1: i-name (1)
+2: i-name (1)
+3: i-time (3)
+4: i-time (3)
+5: i-time (3)
+6: i-time (3)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7e85132f
+0: malam 
+1: sauyunan 
+2: , 
+3: malam 
+4: ini 
+5: jam 
+6: 19.00 
+7: . 
+8: cc 
+9: @film40days 
+10: @nmworld 
+11: @ecocijaringao 
+12: @infobdgevent 
+13: @angklungitb 
+14: @angklunglima 
+15: http://t.co/sguze22kf7 
+
+I :1936
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1937-1961
+name: 1937-1961
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: other (4)
+18: i-place (5)
+19: other (4)
+20: i-info (2)
+21: i-info (2)
+22: i-info (2)
+23: i-info (2)
+24: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@52aeb38d
+0: come 
+1: & 
+2: join 
+3: #outofcontrol 
+4: vol 
+5: . 
+6: 3 
+7: w/ 
+8: ical 
+9: , 
+10: diskopantera 
+11: , 
+12: rizal 
+13: sastra 
+14: & 
+15: many 
+16: more 
+17: at 
+18: @lsociete 
+19: | 
+20: rsvp 
+21: 022 
+22: - 
+23: 2512638 
+24: http://t.co/lxvi2rygd6 
+
+I :1961
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1962-1980
+name: 1962-1980
+target: 0: other (4)
+1: i-name (1)
+2: i-name (1)
+3: other (4)
+4: i-time (3)
+5: i-time (3)
+6: i-time (3)
+7: i-time (3)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: other (4)
+13: other (4)
+14: other (4)
+15: i-info (2)
+16: other (4)
+17: other (4)
+18: other (4)
+
+input: cc.mallet.types.FeatureVectorSequence@4b8e1863
+0: " 
+1: malam 
+2: sauyunan 
+3: , 
+4: malam 
+5: ini 
+6: jam 
+7: 19.00 
+8: . 
+9: cc 
+10: @nmworld 
+11: @ecocijaringao 
+12: @infobdgevent 
+13: @angklungitb 
+14: @angklunglima 
+15: http://t.co/ausqjm3nsx 
+16: " 
+17: yuk 
+18: dateng 
+
+I :1980
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1981-1991
+name: 1981-1991
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-name (1)
+4: i-name (1)
+5: i-place (5)
+6: i-place (5)
+7: i-place (5)
+8: other (4)
+9: i-info (2)
+10: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@5de33255
+0: @infobandung 
+1: @infobdg 
+2: @infobdgevent 
+3: malam 
+4: sauyunan 
+5: saung 
+6: angklung 
+7: udjo 
+8: -> 
+9: http://t.co/csy1mpq7uf 
+10: http://t.co/juf5o0vc24 
+
+I :1991
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:1992-2003
+name: 1992-2003
+target: 0: i-name (1)
+1: i-name (1)
+2: i-name (1)
+3: i-name (1)
+4: other (4)
+5: i-place (5)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-info (2)
+11: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@6efd9a9a
+0: seminar 
+1: profesional 
+2: make 
+3: up 
+4: di 
+5: rtc 
+6: @infobdgevent 
+7: #makeupartist 
+8: #seminar 
+9: minat 
+10: 081321434147 
+11: http://t.co/wuwzwlig5b 
+
+I :2003
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:2004-2021
+name: 2004-2021
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: i-time (3)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: other (4)
+11: other (4)
+12: i-place (5)
+13: i-place (5)
+14: i-name (1)
+15: other (4)
+16: i-info (2)
+17: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@4bb12d63
+0: jangan 
+1: lewatkan 
+2: ! 
+3: besok 
+4: ada 
+5: pameran 
+6: mainan 
+7: & 
+8: produk 
+9: anak 
+10: terbesar 
+11: di 
+12: jawa 
+13: barat 
+14: #toysnkidsexpo2015 
+15: - 
+16: @neobandung 
+17: http://t.co/fr7fuqaoiw 
+
+I :2021
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:2022-2044
+name: 2022-2044
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: i-name (1)
+5: i-name (1)
+6: i-name (1)
+7: i-name (1)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: other (4)
+21: i-place (5)
+22: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@5d1ae567
+0: enjoy 
+1: u'r 
+2: saturday 
+3: in 
+4: #outofcontrol 
+5: vol 
+6: . 
+7: 3 
+8: w/ 
+9: ical 
+10: , 
+11: diskopantera 
+12: , 
+13: rizal 
+14: sastra 
+15: , 
+16: mangkok 
+17: manis 
+18: dj 
+19: set 
+20: at 
+21: @lsociete 
+22: http://t.co/lxvi2rygd6 
+
+I :2044
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:2045-2069
+name: 2045-2069
+target: 0: i-time (3)
+1: other (4)
+2: i-name (1)
+3: i-name (1)
+4: i-name (1)
+5: i-name (1)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: other (4)
+18: i-place (5)
+19: other (4)
+20: i-info (2)
+21: i-info (2)
+22: i-info (2)
+23: i-info (2)
+24: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@10cafcf2
+0: tomorrow 
+1: ! 
+2: #outofcontrol 
+3: vol 
+4: . 
+5: 3 
+6: w/ 
+7: ical 
+8: , 
+9: rizal 
+10: sastra 
+11: & 
+12: mangkok 
+13: manis 
+14: dj 
+15: set 
+16: etc 
+17: at 
+18: @lsociete 
+19: | 
+20: rsvp 
+21: 022 
+22: - 
+23: 2512638 
+24: http://t.co/lxvi2rygd6 
+
+I :2069
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:2070-2081
+name: 2070-2081
+target: 0: other (4)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: i-time (3)
+8: other (4)
+9: other (4)
+10: other (4)
+11: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@7ea47c7a
+0: @comicsunda 
+1: @novriliaadella 
+2: @fenofa 
+3: @jalmamerdeka 
+4: @infobdgfjb 
+5: @adellaudhelia 
+6: @infobdgevent 
+7: h-7 
+8: 100% 
+9: duren 
+10: #yuumerapat 
+11: http://t.co/p0ppryebob 
+
+I :2081
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:2082-2100
+name: 2082-2100
+target: 0: i-time (3)
+1: other (4)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: other (4)
+7: other (4)
+8: other (4)
+9: other (4)
+10: i-place (5)
+11: i-place (5)
+12: i-place (5)
+13: other (4)
+14: other (4)
+15: other (4)
+16: i-name (1)
+17: i-info (2)
+18: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@60e86e8a
+0: besok 
+1: ! 
+2: akan 
+3: ada 
+4: pameran 
+5: mainan 
+6: dan 
+7: produk 
+8: anak 
+9: terbesar 
+10: di 
+11: jawa 
+12: barat 
+13: ! 
+14: dtg 
+15: ke 
+16: #toysnkidsexpo2015 
+17: @neobandung 
+18: http://t.co/fr7fuqaoiw 
+
+I :2100
+keluar dari loop karena sudah sampai akhir database dengan lastid :2121
+Modified by fawwaz
+=== INFORMASI INSTANCE ===
+Source		:defaultsource
+Name		:2101-2121
+name: 2101-2121
+target: 0: other (4)
+1: i-name (1)
+2: other (4)
+3: other (4)
+4: other (4)
+5: other (4)
+6: i-info (2)
+7: i-info (2)
+8: i-info (2)
+9: i-info (2)
+10: i-info (2)
+11: i-info (2)
+12: i-info (2)
+13: i-info (2)
+14: i-info (2)
+15: i-info (2)
+16: i-info (2)
+17: i-info (2)
+18: i-info (2)
+19: i-info (2)
+20: i-info (2)
+
+input: cc.mallet.types.FeatureVectorSequence@3bb157ba
+0: tiket 
+1: #pgsrun2015 
+2: skrg 
+3: masih 
+4: presale 
+5: ! 
+6: tiket 
+7: box 
+8: » 
+9: bober 
+10: tropica 
+11: & 
+12: riau 
+13: , 
+14: waroeng 
+15: distrik 
+16: & 
+17: wiki 
+18: koffie 
+19: @de_affenue 
+20: http://t.co/7rhq9ukt9d 
 
 Sekarang di terminate dulu di bawah ini kode 2
 Targe processing adalah : true
 State #0 "O"
 initialWeight=0.0, finalWeight=0.0
-#destinations=2
+#destinations=6
 -> O
--> null
-State #1 "null"
+-> i-name
+-> i-info
+-> i-time
+-> other
+-> i-place
+State #1 "i-name"
 initialWeight=0.0, finalWeight=0.0
-#destinations=2
+#destinations=6
 -> O
--> null
-Training on 4 instances
-Testing on 2 instances
+-> i-name
+-> i-info
+-> i-time
+-> other
+-> i-place
+State #2 "i-info"
+initialWeight=0.0, finalWeight=0.0
+#destinations=6
+-> O
+-> i-name
+-> i-info
+-> i-time
+-> other
+-> i-place
+State #3 "i-time"
+initialWeight=0.0, finalWeight=0.0
+#destinations=6
+-> O
+-> i-name
+-> i-info
+-> i-time
+-> other
+-> i-place
+State #4 "other"
+initialWeight=0.0, finalWeight=0.0
+#destinations=6
+-> O
+-> i-name
+-> i-info
+-> i-time
+-> other
+-> i-place
+State #5 "i-place"
+initialWeight=0.0, finalWeight=0.0
+#destinations=6
+-> O
+-> i-name
+-> i-info
+-> i-time
+-> other
+-> i-place
+Training on 65 instances
+Testing on 44 instances
 ~=~ PRINT INFORMASI CRF ~=~
 *** CRF STATES ***
-STATE NAME="O" (2 outgoing transitions)
-  initialWeight = -8.698613721597857E-14
-  finalWeight = -0.3938547702992129
+STATE NAME="O" (6 outgoing transitions)
+  initialWeight = -7.553977996321095E-14
+  finalWeight = -0.4382683324999932
   transitions:
     O -> O
         WEIGHTS = "O,O"
-    O -> null
-        WEIGHTS = "O,null"
+    O -> i-name
+        WEIGHTS = "O,i-name"
+    O -> i-info
+        WEIGHTS = "O,i-info"
+    O -> i-time
+        WEIGHTS = "O,i-time"
+    O -> other
+        WEIGHTS = "O,other"
+    O -> i-place
+        WEIGHTS = "O,i-place"
 
-STATE NAME="null" (2 outgoing transitions)
+STATE NAME="i-name" (6 outgoing transitions)
   initialWeight = -Infinity
-  finalWeight = 0.39385477029920885
+  finalWeight = -1.3239765272624657
   transitions:
-    null -> O
-        WEIGHTS = "null,O"
-    null -> null
-        WEIGHTS = "null,null"
+    i-name -> O
+        WEIGHTS = "i-name,O"
+    i-name -> i-name
+        WEIGHTS = "i-name,i-name"
+    i-name -> i-info
+        WEIGHTS = "i-name,i-info"
+    i-name -> i-time
+        WEIGHTS = "i-name,i-time"
+    i-name -> other
+        WEIGHTS = "i-name,other"
+    i-name -> i-place
+        WEIGHTS = "i-name,i-place"
+
+STATE NAME="i-info" (6 outgoing transitions)
+  initialWeight = -Infinity
+  finalWeight = 3.259023567513027
+  transitions:
+    i-info -> O
+        WEIGHTS = "i-info,O"
+    i-info -> i-name
+        WEIGHTS = "i-info,i-name"
+    i-info -> i-info
+        WEIGHTS = "i-info,i-info"
+    i-info -> i-time
+        WEIGHTS = "i-info,i-time"
+    i-info -> other
+        WEIGHTS = "i-info,other"
+    i-info -> i-place
+        WEIGHTS = "i-info,i-place"
+
+STATE NAME="i-time" (6 outgoing transitions)
+  initialWeight = -Infinity
+  finalWeight = -1.076648248274631
+  transitions:
+    i-time -> O
+        WEIGHTS = "i-time,O"
+    i-time -> i-name
+        WEIGHTS = "i-time,i-name"
+    i-time -> i-info
+        WEIGHTS = "i-time,i-info"
+    i-time -> i-time
+        WEIGHTS = "i-time,i-time"
+    i-time -> other
+        WEIGHTS = "i-time,other"
+    i-time -> i-place
+        WEIGHTS = "i-time,i-place"
+
+STATE NAME="other" (6 outgoing transitions)
+  initialWeight = -Infinity
+  finalWeight = 1.2632978647056972
+  transitions:
+    other -> O
+        WEIGHTS = "other,O"
+    other -> i-name
+        WEIGHTS = "other,i-name"
+    other -> i-info
+        WEIGHTS = "other,i-info"
+    other -> i-time
+        WEIGHTS = "other,i-time"
+    other -> other
+        WEIGHTS = "other,other"
+    other -> i-place
+        WEIGHTS = "other,i-place"
+
+STATE NAME="i-place" (6 outgoing transitions)
+  initialWeight = -Infinity
+  finalWeight = -1.6834283241816361
+  transitions:
+    i-place -> O
+        WEIGHTS = "i-place,O"
+    i-place -> i-name
+        WEIGHTS = "i-place,i-name"
+    i-place -> i-info
+        WEIGHTS = "i-place,i-info"
+    i-place -> i-time
+        WEIGHTS = "i-place,i-time"
+    i-place -> other
+        WEIGHTS = "i-place,other"
+    i-place -> i-place
+        WEIGHTS = "i-place,i-place"
 
 
 
 *** CRF WEIGHTS ***
 WEIGHTS NAME = O,O
-: <DEFAULT_FEATURE> = -0.8102486193418869
-: 085781812363 = -6.988243603382996E-4
-: cp = -6.993974977663298E-4
-: htm = -6.999104629312869E-4
-: cc = -7.048779524622783E-4
-: @12media_ = -7.100730670615465E-4
-: 175k = -7.35687927306233E-4
-: bdg = -7.358573123915599E-4
-: 21st = -7.358665300918007E-4
-: tix = -7.359208592111314E-4
-: sabuga = -7.359399055213501E-4
-: march = -7.360077687961704E-4
-: wib = -7.37975157147908E-4
-: tottenham = -7.398137828778328E-4
-: #pasific2 = -7.401857293581408E-4
-: @jackstarbdg = -7.4030852683866E-4
-: qpr = -7.410950990201063E-4
-: @mediakomunitas = -7.480445359615125E-4
-: 21.00 = -7.860052845358299E-4
-: 15k = -7.908935571848355E-4
-: og = -7.912043791087046E-4
-: :) = -8.210029248435092E-4
-: v = -8.304396489515867E-4
-: sabtu = -8.352666343544126E-4
-: in = -8.354170978473159E-4
-: 2015 = -8.379313233467165E-4
-: , = -8.398089484148946E-4
-: maret = -8.400757036525928E-4
-: 7 = -8.402153365596795E-4
-: nya = -8.405750529001027E-4
-: live = -8.410224909715764E-4
-: http://t.co/rbzmsysaa7 = -8.434667667639826E-4
-: @doomsday_hell = -8.523667008759889E-4
-: @de19wa = -8.523905011730965E-4
-: @infobdg = -9.043758805291838E-4
-: #gw28 = -9.317208902952078E-4
-: @bgmk_official = -9.751357778876194E-4
-: @irsnetwork = -0.0010072466515556524
-: jlnya = -0.0010735375819234479
-: @sheilaon7 = -0.0010735407062778626
-: @infoin_aja = -0.0014753899872687237
-: : = -0.003249335478175481
-: @gigsbandung = -0.004291600285306758
-: http://t.co/lcnjp25nvy = -0.0048086675666063955
-: | = -0.006093149846321285
-: #bpl = -0.007818254292923972
-: @muttan05center = -0.007839697990643886
-: salah = -0.007859926484663214
-: @maliqmusic = -0.007859927327740381
-: @infobdgevent = -0.009831427132254638
-: #nonbar = -0.17936567372019796
-: #sebarkan = -0.17937184686142918
-: @moccaofficial = -0.17938214800676985
-: jgn = -0.17938214804654953
-WEIGHTS NAME = O,null
-: <DEFAULT_FEATURE> = -0.6461465137829469
-: jgn = 0.17938214804656513
-: @moccaofficial = 0.17938214800676983
-: #sebarkan = 0.17937184686142763
-: #nonbar = 0.17936567372013215
-: @12media_ = -0.008589765854849012
-: @jackstarbdg = -0.009900978172072134
-: sabuga = -0.009902481499388778
-: tix = -0.009902489229146431
-: march = -0.009902734002816098
-: qpr = -0.009908572303896926
-: cc = -0.009910489066626813
-: htm = -0.009914099658507203
-: cp = -0.009914171323965264
-: @mediakomunitas = -0.01012117960428683
-: http://t.co/lcnjp25nvy = -0.010887429586487954
-: 15k = -0.010976555230331973
-: 21.00 = -0.01098197000858983
-: 085781812363 = -0.011007103665096609
-: @bgmk_official = -0.011939217909860493
-: sabtu = -0.012025389324400317
-: v = -0.012028059861096478
-: http://t.co/rbzmsysaa7 = -0.012052306225783023
-: @infobdg = -0.012055048836345358
-: bdg = -0.012060320017076163
-: 21st = -0.012060344345066892
-: 175k = -0.0120604009181126
-: , = -0.012082882989395614
-: 7 = -0.012085045641080896
-: maret = -0.012085304748865357
-: 2015 = -0.012086244129248271
-: in = -0.01208790041046637
-: wib = -0.012090404160920058
-: live = -0.012091031230207881
-: nya = -0.012091196796711114
-: :) = -0.012092465661085615
-: og = -0.012102265034520904
-: tottenham = -0.012118079899260429
-: #pasific2 = -0.012120473009898373
-: @de19wa = -0.012221299587468206
-: @doomsday_hell = -0.012221310019077542
-: @sheilaon7 = -0.016966007679348923
-: jlnya = -0.016966009212569
-: @irsnetwork = -0.016985746993299283
-: #gw28 = -0.017015543948845663
-: @gigsbandung = -0.018588310386060566
-: @infoin_aja = -0.023415501889377095
-: @infobdgevent = -0.03705486025412738
-: : = -0.04375159794610603
-: | = -0.07910373160711939
-: @maliqmusic = -0.17152222067902928
-: salah = -0.17152222156188626
-: @muttan05center = -0.17153214887078524
-: #bpl = -0.17154741942727467
-WEIGHTS NAME = null,O
-: <DEFAULT_FEATURE> = -1.0400012840821047
-: #gw28 = -0.009833460927805059
-: wib = -0.009898288593604563
-: #pasific2 = -0.00989867485440728
-: tottenham = -0.009899119112840351
-: 175k = -0.00989917405008203
-: 21st = -0.009900401962717482
-: bdg = -0.009900404526807061
-: 085781812363 = -0.009911425735369824
-: #bpl = -0.010129010546216928
-: @muttan05center = -0.010153295654211043
-: salah = -0.010179620309829237
-: @maliqmusic = -0.010179621057886397
-: @irsnetwork = -0.010819745632870094
-: og = -0.010993567326987051
-: cp = -0.011020843204014382
-: htm = -0.0110241139687644
-: cc = -0.011067018632247128
-: :) = -0.01165386844874876
-: @mediakomunitas = -0.011667975967091992
-: jlnya = -0.01200013913803008
-: @sheilaon7 = -0.012000149382363412
-: in = -0.012025241641409183
-: v = -0.012027454033186698
-: 21.00 = -0.012042374033532127
-: 2015 = -0.012055538090282885
-: tix = -0.012060167986207708
-: march = -0.012060203106362563
-: sabuga = -0.012060237423946362
-: nya = -0.012072893533029027
-: @doomsday_hell = -0.012079405148735239
-: @de19wa = -0.012079663220006356
-: live = -0.012082295017342086
-: maret = -0.012084099748942404
-: 7 = -0.012085165115958247
-: , = -0.012085452029225667
-: sabtu = -0.012087425303456084
-: 15k = -0.012104879435362188
-: http://t.co/rbzmsysaa7 = -0.012115957950110508
-: qpr = -0.012117404411027953
-: @jackstarbdg = -0.012120347431916091
-: @12media_ = -0.01220428062068657
-: @infobdg = -0.012929939128438341
-: @bgmk_official = -0.014720961375206693
-: @infoin_aja = -0.018976213680719268
-: : = -0.044592385337328476
-: | = -0.07895632348264563
-: http://t.co/lcnjp25nvy = -0.10439583079053334
-: @gigsbandung = -0.11194244508401822
-: @infobdgevent = -0.18980678088959443
-WEIGHTS NAME = null,null
-: <DEFAULT_FEATURE> = 2.496396417205029
-: @infobdgevent = 0.23669306827597736
-: @maliqmusic = 0.18956176906462738
-: salah = 0.18956176835639216
-: @muttan05center = 0.18952514251565428
-: #bpl = 0.18949468426635213
-: | = 0.1641532049358471
-: @gigsbandung = 0.13482235575539445
-: http://t.co/lcnjp25nvy = 0.12009192794363466
-: : = 0.09159331876142364
-: @infoin_aja = 0.04386710555738203
-: @sheilaon7 = 0.03003969776798469
-: jlnya = 0.030039685932530803
-: @irsnetwork = 0.028812739277738118
-: #gw28 = 0.027780725766833284
-: @bgmk_official = 0.027635315062954934
-: @infobdg = 0.02588936384527101
-: @de19wa = 0.02515335330865451
-: @doomsday_hell = 0.025153081868682824
-: live = 0.025014348738526322
-: http://t.co/rbzmsysaa7 = 0.02501173094262942
-: 7 = 0.02501042609349611
-: maret = 0.02500948020136825
-: , = 0.02500814396696214
-: nya = 0.025004665382636265
-: 2015 = 0.024979713542763862
-: in = 0.024948559149709858
-: sabtu = 0.0249480812620993
-: v = 0.024885953543160113
-: :) = 0.02456733703469748
-: og = 0.02388703674051431
-: 15k = 0.023872328222844644
-: 21.00 = 0.0238103493265738
-: qpr = 0.02276707181382938
-: @jackstarbdg = 0.022761634130695197
-: #pasific2 = 0.022759333593677815
-: tottenham = 0.022757012794899664
-: wib = 0.022726667911591995
-: march = 0.022698944878011343
-: sabuga = 0.022698658828847747
-: tix = 0.02269857807454485
-: 21st = 0.022696612837925463
-: bdg = 0.02269658185627855
-: 175k = 0.02269526289550521
-: @mediakomunitas = 0.022537200107352957
-: cc = 0.021682385651315257
-: htm = 0.02163812409015265
-: cp = 0.021634412025717024
-: 085781812363 = 0.021617353760794884
-: @12media_ = 0.021504119542602205
+: <DEFAULT_FEATURE> = -1.7369689463543696
+WEIGHTS NAME = O,i-name
+: <DEFAULT_FEATURE> = -0.513862523378327
+: #childhoodfest2015 = 2.4537688823982298
+: #cpcorner2015 = 1.9583410206677037
+: talkshow = 1.711881656513206
+: malam = 1.2320458218695005
+: #publicspeakingskill = 1.2196373067722919
+: #nonbar = 1.1497318572953978
+: the = 1.1088856920031498
+: la = 1.0902304792493704
+WEIGHTS NAME = O,i-info
+: <DEFAULT_FEATURE> = -2.1748150438274303
+: live = 1.863489554191955
+WEIGHTS NAME = O,i-time
+: <DEFAULT_FEATURE> = -0.587435191585202
+: today = 2.476424233550988
+: tonight = 2.3079144907299267
+: tomorrow = 1.7814502305928177
+: besok = 1.7769689319375876
+: 6 = 1.613064461183786
+: last = 1.3820954297271961
+WEIGHTS NAME = O,other
+: <DEFAULT_FEATURE> = 0.5396426723997352
+: @infobdgevent = 2.092466978205256
+: rt = 1.4502121748022812
+: musik = 1.1861758291665525
+: #eventbdg = 1.1073682583368205
+: ke = 0.9349931269856213
+: jangan = 0.9250316163006388
+: jago = 0.7419646184620682
+: ayo = 0.7337343965652326
+: " = 0.7308646109403906
+: tiket = 0.7206462336992349
+: looking = 0.6981293967676607
+: ga = 0.6669203876186676
+: inget = 0.5964082405515239
+: bakal = 0.5690104857235893
+: » = 0.5498146172999469
+: be = 0.5328566317963598
+: isi = 0.5308690411246684
+: ikatan = 0.5222965298440235
+: mau = 0.5204739829927678
+: hmpsm = 0.5153128470907213
+: event = 0.5148086390620289
+: ngaku = 0.5108144860855304
+: udah = 0.509898940418602
+: @comicsunda = 0.508601412341794
+: buat = 0.507872978724996
+: uji = 0.5077629896292236
+: hanya = 0.5002913656323861
+: yuk = 0.49534651514664085
+: punya = 0.43452409675501535
+: kamu = 0.4343129102369991
+: @infobandung = 0.40783776657762894
+: let's = 0.36212671249312856
+: come = 0.35826876173438305
+: live = -0.8740312957532108
+WEIGHTS NAME = O,i-place
+: <DEFAULT_FEATURE> = -2.6345502492077997
+WEIGHTS NAME = i-name,O
+: <DEFAULT_FEATURE> = -1.1699550926790507
+WEIGHTS NAME = i-name,i-name
+: <DEFAULT_FEATURE> = 2.6328078617031907
+: sauyunan = 3.5426735850443536
+: crevolution = 2.2694328732755378
+: 3 = 1.974007833176906
+: #publicspeakingskill = 1.9658277016192072
+: " = 1.9233333821385092
+: vol = 1.9052851701687836
+: show = 1.824733429472617
+: education = 1.651223129766743
+: #bandungbeautyexpo = 1.5662855833034464
+: fair = 1.5648041772996668
+: school = 1.5519170650331289
+: expo = 1.546203930537606
+: #horasparahyangan = 1.4933986349521615
+: session = 1.485474688458009
+: int = 1.467368201787776
+: & = 1.4564167837931792
+: tottenham = 1.4411788234619478
+: exhibition = 1.4098245832833718
+: xl = 1.4012496080644958
+: isyarat = 1.3976691654104167
+: indusrty = 1.3889309134096692
+: #gw28 = 1.3343923883007844
+: fest = 1.3212345821340286
+: #bpl = 1.300952434752171
+: kewirausahaan = 1.2877547389685355
+: v = 1.27800356277459
+: promo = 1.2766489108246117
+: nya = 1.2611183385419718
+: persib = 1.25276976320234
+: bandung = 1.2523267519418486
+: sale = 1.2363094441270324
+: #yukbisnisbandung = 1.2330069217818134
+: hospitality = 1.2149086940085738
+: novia = 1.1990567354775352
+: laureate = 1.1952490136968232
+: wirageni = 1.1914921453966927
+: high = 1.189653207680273
+: tournament = 1.1887652850220705
+: disco = 1.1825647204009715
+: effective = 1.1649077709167335
+: skill = 1.1424515648575364
+: 1 = 1.126672998958436
+: wedding = 1.1054434796918648
+: executive = 1.0825080373581408
+: super = 1.0728687057541577
+: utara = 1.070077469653127
+: 7 = 1.0463280075829302
+: afc = 1.0347274534421582
+: cup = 1.0310614743399038
+: accounting = 1.0226076156982482
+: communication = 1.012933913474991
+: etnis = 1.008476904637284
+: bahasa = 1.006185448351582
+: nasional = 1.0001294908013454
+: gathering = 0.9825120896026974
+: calling = 0.9806003552377722
+: nakal = 0.9685216988384421
+: kujang = 0.9671701276595593
+: competition = 0.9618534168090925
+: sumatera = 0.9475543668667872
+: letsgetrich = 0.9449108186185919
+: anniversary = 0.9449070383747219
+: liquid = 0.9208829742281762
+: buy = 0.9129589235186534
+: 2015 = 0.8907676733133516
+: ' = 0.8818876200954862
+: audit = 0.8800114738071645
+: pendidikan = 0.8527372680889227
+: 4th = 0.8501810504372964
+: d'try = 0.8498498603646149
+: workshop = 0.8274490980565876
+: . = 0.8087866922175597
+: get = 0.8048677034749613
+: kerja = 0.7945652290733907
+: in = 0.7795880692975679
+: kertas = 0.7714897846277033
+: seminar = 0.7243207768698287
+: : = 0.6682206637013718
+: for = 0.5592753515350595
+: ada = 0.5107665908453507
+: , = -0.18377924475244656
+WEIGHTS NAME = i-name,i-info
+: <DEFAULT_FEATURE> = 0.5294808019910553
+: bareng = 3.0451622797766236
+: free = 3.0347155360371816
+: @garnida26_stks = 2.425384979886155
+: 25 = 2.402558297122044
+: info = 2.2173134041135785
+: w/ = 2.1991058511375488
+: dj = 2.0820276035633083
+: http://t.co/fkkjgzixeo = 1.9789255873228022
+: up = 1.9444828154472475
+: w/anies = 1.9143820652555215
+: registrasi = 1.8451644628051758
+: ?registrasi = 1.715708478794358
+: ?there'll = 1.6494074801993093
+: brg = 1.4349128168246013
+WEIGHTS NAME = i-name,i-time
+: <DEFAULT_FEATURE> = -0.3046427495716946
+: 2015 = 3.4986254100923224
+: bsk = 2.9572662089823876
+: 3 = 2.242050160471193
+: malam = 1.7661809129721455
+: 5 = 1.7374205015264204
+: 14 = 1.6474905369583526
+: 13 = 1.3550502416115686
+: 29 = 1.184722307369357
+: 21 = 1.0273297798542977
+WEIGHTS NAME = i-name,other
+: <DEFAULT_FEATURE> = 0.7491368885073273
+: ! = 3.731609646402622
+: dong = 3.067183320448691
+: | = 2.7935333890196006
+: - = 2.7312853992567843
+: only = 2.4942462718483687
+: on = 2.3505802285692403
+: skrg = 2.3368283719246503
+: yuk = 2.2474327048155933
+: kali = 2.107030530905166
+: lagi = 2.09210705591505
+: is = 2.046971112761709
+: .. = 1.9709789825347686
+: acara = 1.951689188028982
+: @infobdg = 1.7435003736101953
+: at = 1.7097330930753059
+: angkatan = 1.6342337155060322
+: hanya = 1.4903448904399266
+: pameran = 1.1427238968162923
+: " = 1.0513546679527492
+: , = 0.7584056207969059
+WEIGHTS NAME = i-name,i-place
+: <DEFAULT_FEATURE> = 0.20770810026968956
+: @moxclub = 3.596748825790448
+: sabuga = 2.6954540627702834
+: saung = 1.7618584726488036
+WEIGHTS NAME = i-info,O
+: <DEFAULT_FEATURE> = -1.1987126677813413
+WEIGHTS NAME = i-info,i-name
+: <DEFAULT_FEATURE> = -1.316058788291409
+: @creativep_ec = 2.55398630727929
+WEIGHTS NAME = i-info,i-info
+: <DEFAULT_FEATURE> = 2.599590465658598
+: @dangerangerock = 2.567083239883938
+: http://t.co/jwvec7szvr = 2.206108638394436
+: & = 2.170833650223755
+: : = 2.0385213245610148
+: info = 1.9526500309311212
+: etc = 1.9460645984162153
+: standup = 1.916424986784944
+: @kmpd_ = 1.8862219513993534
+: 081224747780 = 1.8082536578900252
+: set = 1.8038936541472828
+: ical = 1.7426629029490686
+: tanjung = 1.7274077135694579
+: dj's = 1.571757484968759
+: @kevinpasca = 1.5654060858121774
+: by = 1.5534585361381348
+: @safecareid = 1.5520272574168843
+: hau2 = 1.5489049009714304
+: darah = 1.5293313373441488
+: 022 = 1.4822753932027999
+: (022)-2033405 = 1.464053142739931
+: imdan = 1.4587852974878908
+: derry = 1.4570226700636195
+: 26be441c = 1.4406181152558808
+: http://t.co/rbzmsysaa7 = 1.4133610157522798
+: 081313132300 = 1.4085153342594499
+: donor = 1.3907691348098878
+: musik = 1.385333767434937
+: @bdg_partytime = 1.3815060487665116
+: sambil = 1.3807775788809398
+: rsv = 1.3794192283213857
+: @dnf_music = 1.3545138202456526
+: @anto_bangor = 1.343001489368066
+: 3on3 = 1.3211090845186853
+: rizal = 1.3114253330073649
+: bdg = 1.2976823523747638
+: box = 1.291110406850471
+: ditutup = 1.279267599897464
+: 30th = 1.2786236137839289
+: off = 1.2753068485345986
+: @lanangedan = 1.268543530198344
+: gratis = 1.2683417573690006
+: http://t.co/dukdpka24z = 1.2674000698448817
+: , = 1.2669314310305033
+: @vibe_org = 1.2565145273697806
+: 08158279898 = 1.2481518599302521
+: 80% = 1.2469457659119658
+: 2512638 = 1.2383389041305355
+: sastra = 1.2200140851462893
+: - = 1.216133930360867
+: register = 1.2114787034777232
+: baswedan = 1.2019142324192773
+: standupindo = 1.2011943935497522
+: many = 1.1868747147609036
+: 15k = 1.1749502673696754
+: disana = 1.1717663326061425
+: aay = 1.162479352547301
+: reg = 1.153000660595415
+: 21.00 = 1.147819606619389
+: bankbumn = 1.1458573431177794
+: @therealdisastr = 1.1294628357059107
+: to = 1.110191098263235
+: chairul = 1.0878883915778141
+: manis = 1.0565363052829972
+: diskopantera = 1.0542615893130252
+: peran = 1.0459461053085515
+: ) = 1.0437421628574397
+: @giez_luxus = 1.006600490263631
+: tiket = 1.0049213903557368
+: cs = 0.9988571208793917
+: wib = 0.9898055775534381
+: skye = 0.9859797149437943
+: w/chairul = 0.9803683837228716
+: 085222155646 = 0.9757790655075332
+: ( = 0.9589388282477451
+: » = 0.9534229851425813
+: ktp = 0.9332195041941627
+: http = 0.9303755694791211
+: http://t.co/juf5o0vc24 = 0.9193104893024431
+: http://t.co/tjdwv7ssl8 = 0.9131965545048248
+: dsana = 0.9101692582668359
+: @denyslipmax_ = 0.909565315084619
+: be = 0.9034126939313412
+: 3point = 0.903220303231015
+: loh = 0.9008966275316743
+: dragonfly = 0.9005325917832464
+: diyan = 0.8813502151782883
+: dance = 0.8788046256005527
+: ps3turnamen = 0.8777608291178548
+: @fir_iqbal = 0.8696268477347312
+: competition = 0.8688724476416944
+: menu2 = 0.865389778727222
+: @anezena = 0.8459738015844781
+: mangkok = 0.8355107575944017
+: http://t.co/eceu29wnvs = 0.8133773467273795
+: pemilik = 0.8122032227041314
+: registrasi = 0.8089477190531801
+: pes2013 = 0.7919549913754493
+: booth = 0.7894507328717273
+: bober = 0.7877874162500771
+: dgn = 0.778272305089698
+: kuliner = 0.773586407325776
+: bagi = 0.762870151537026
+: berhadiah = 0.7561649215821493
+: waroeng = 0.7497858477860326
+: 100juta = 0.7479045886126063
+: yg = 0.7250668233772306
+: http://t.co/fr7fuqaoiw = 0.7202465112716773
+: jg = 0.7167528729215037
+: http://t.co/fmlra4spr0 = 0.7150507188167977
+: shoot = 0.7040597669834424
+: maknyos = 0.6947394724696421
+: @ridwankamil = 0.6912425084973008
+: tropica = 0.6752115772840063
+: distrik = 0.6699476080379441
+: more = 0.6662718483746493
+: koffie = 0.6391041912676897
+: @inbispolban = 0.6359980069536694
+: wiki = 0.6295487366504966
+: @am_iaijabar = 0.6162858740196424
+: riau = 0.6122608353122331
+: @de_affenue = 0.5956147226611593
+: 087722066855 = 0.5805391005974847
+: dj = 0.5599569654478804
+: http://t.co/xbbm9d0blx = 0.495393108111699
+: fashion = 0.4898365665320826
+: http://t.co/9yczr5w4si = 0.4887340981174169
+: http://t.co/7rhq9ukt9d = 0.4767614336847066
+: http://t.co/fkkjgzixeo = 0.4725893685350456
+: http://t.co/vlkfx8ypu9 = 0.46717887725260493
+: @bdgbeautyexpo = 0.4557579378693685
+: tix = 0.42058136468513396
+: http://t.co/v1k2wwdjyi = 0.41098339558126135
+: http://t.co/lxvi2rygd6 = 0.4006463268358746
+: http://t.co/uh1upr9rix = 0.3811879335222459
+: http://t.co/mrff1axnkm = 0.3811879335222459
+: http://t.co/0c2stjc0zt = 0.3252995114126229
+: http://t.co/tjdwv7aqwy = 0.2792346874461792
+: http://t.co/09jp5vtk6w = 0.052893339032636606
+: cp = -0.11506699879136506
+: http://t.co/nxyfcbiw1k = -0.18919270315524558
+: / = -0.5292052720091768
+: @creativep_ec = -1.340731725417626
+WEIGHTS NAME = i-info,i-time
+: <DEFAULT_FEATURE> = -0.5128718596905819
+: 1 = 3.3873246814758056
+: hari = 2.846309561319072
+: last = 2.177660108458243
+: 10 = 2.1074807911442313
+: 14 = 1.5698827969646323
+WEIGHTS NAME = i-info,other
+: <DEFAULT_FEATURE> = 0.7390083832517784
+: … = 5.165727789939477
+: ! = 3.9700156404830116
+: @infobdgevent = 3.730743320250334
+: | = 3.269434889734106
+: ? = 2.959517864227837
+: . = 2.9590874791378625
+: " = 2.80714522076315
+: :) = 2.5775718396784084
+: #publicspeakingskill = 2.521161335616673
+: at = 2.488745354780458
+: .. = 2.4704110292777934
+: ... = 2.3485427185640315
+: @infobdgkuliner = 2.099348420334736
+: @bdgevent = 2.091293480812311
+: @infobdg = 2.029326723180327
+: : = 1.9871810852993386
+: - = 1.660310552692529
+: , = 1.6211048572845113
+: / = 1.5861821911781115
+WEIGHTS NAME = i-info,i-place
+: <DEFAULT_FEATURE> = -1.8422198048961718
+WEIGHTS NAME = i-time,O
+: <DEFAULT_FEATURE> = -0.9373577005776758
+WEIGHTS NAME = i-time,i-name
+: <DEFAULT_FEATURE> = 0.3442180802386138
+: #vibeinvasion = 2.8589898171755848
+: #safecare3on3 = 2.8051632578415435
+: " = 2.4485370744485357
+: 2nd = 2.215121426295097
+: pasific = 1.969004023139697
+WEIGHTS NAME = i-time,i-info
+: <DEFAULT_FEATURE> = -0.38709518972857343
+: more = 2.393781334514126
+: info = 2.0404885787652423
+: w/ = 1.8331361697795705
+: og = 1.594066137668212
+: http://t.co/lxvi2rygd6 = 1.568475310373
+WEIGHTS NAME = i-time,i-time
+: <DEFAULT_FEATURE> = 2.313931324356021
+: - = 4.044698141440025
+: / = 3.5836530683573264
+: 2015 = 2.882259517916629
+: maret = 2.87606192729156
+: 3 = 2.4777046044935966
+: march = 2.3696715932738877
+: , = 2.300544076320216
+: lg = 2.2448341753088457
+: ini = 2.2434265085499296
+: ' = 2.0859861720578854
+: 15 = 2.0672961224300375
+: des' = 1.9999950079369937
+: 19.00 = 1.9883945690676208
+: 7 = 1.9215574331157304
+: lagi = 1.916096717318494
+: days = 1.785827872031264
+: -selesai = 1.6189122151100614
+: 17 = 1.6172752304001239
+: day = 1.6073381999779086
+: 14th = 1.5747130268158727
+: 10th = 1.5260475159662528
+: 5pm = 1.4250354615179452
+: 2 = 1.412539911163558
+: jam = 1.3412593364588286
+: 12 = 1.3255593196327968
+: 10.00 = 1.279873353869405
+: hari = 1.1089318124516807
+: 9 = 1.088709970966264
+: – = 1.0878170187588716
+: pk = 1.0741779527893611
+: januari = 1.0159596529756016
+: 14 = 0.9709899500070588
+: 19.30 = 0.9571479291734837
+: jan = 0.9497319607795658
+: mulai = 0.9139651457328947
+: 22 = 0.8911964573564383
+: 2014 = 0.750102741024698
+: 6 = 0.6792445015719318
+: 13des = 0.5930972930050602
+: 8 = 0.5873882659874363
+: 11 = 0.40428276689607134
+WEIGHTS NAME = i-time,other
+: <DEFAULT_FEATURE> = 0.8862625754487673
+: ! = 4.649435042688454
+: at = 3.3980699733662325
+: !!! = 3.2487180289493613
+: . = 3.1879372267661648
+: 100% = 2.588668861890289
+: @tokosinakal = 2.51680073262621
+: @ = 2.393177355084906
+: @maen = 2.039268744234552
+: @se_bdg = 1.9872431847910572
+: , = 1.772381134809468
+: in = 1.7426827153520497
+: ? = 1.6542797249323717
+: !! = 1.5970589085353486
+: ada = 1.518997122962957
+: #paths3 = 1.488132649605079
+: merapat = 1.0524040601757778
+WEIGHTS NAME = i-time,i-place
+: <DEFAULT_FEATURE> = -1.0087266796667882
+: trans = 1.9039150142768648
+WEIGHTS NAME = other,O
+: <DEFAULT_FEATURE> = -1.5151295593445158
+WEIGHTS NAME = other,i-name
+: <DEFAULT_FEATURE> = 0.9535990967820175
+: #ngamplaglive = 4.393887348226363
+: #toysnkidsexpo2015 = 3.8844447000556324
+: #safecare3on3 = 3.7408572512717773
+: seminar = 3.0391259330668468
+: #cpcorner2015 = 2.840835270283213
+: national = 2.7000581218410042
+: re-create = 2.662689235616176
+: #outofcontrol = 2.3844983706339913
+: #yukbisnsibandung = 2.3390555379702946
+: #pgsrun2015 = 2.2622215800523873
+: " = 2.229642258966321
+: #balerancage = 2.2016323234257533
+: malam = 2.136306317358583
+: castingtalentwanita = 2.0780336376234616
+: qpr = 2.022197044146843
+: #yukbisnisbandung = 1.9839528244928366
+: career = 1.8946011380704448
+: creative = 1.7592080685418208
+: nobar = 1.7480900833507853
+: workshop = 1.7476853175349278
+: fashion = 1.6271017132898937
+: pagelaran = 1.5882906867310316
+: parahyangan = 1.501144916033184
+: streetcultural = 1.444552325775307
+: info = 1.0258038769177282
+WEIGHTS NAME = other,i-info
+: <DEFAULT_FEATURE> = 1.0295152289140481
+: follow = 4.0050171959127345
+: @neobandung = 3.094498086146719
+: 081809080999 = 3.078236411222964
+: more = 3.0178660667628265
+: cp = 2.9456931461797664
+: @yubibdg = 2.7334889934830957
+: @erwinmadmoron = 2.708102849983075
+: 08567448543 = 2.6981725835160644
+: info = 2.5146338426371293
+: rsvp = 2.278979758268783
+: 2 = 2.238217425666203
+: http://t.co/ausqjm3nsx = 2.192455239270761
+: http://t.co/bumxmbdvgk = 2.1302795117948397
+: 085795779486 = 2.1260198590558694
+: @gumzcustommotor = 2.121278364820891
+: http://t.co/s97q3oc1rv = 1.992874447481109
+: http://t.co/csy1mpq7uf = 1.9919602352201267
+: http://t.co/pr = 1.9626932229743712
+: http://t.co/dx8qyhphit = 1.9282974884779367
+: @creativep_ec = 1.8889351959092147
+: @butterflyact = 1.8820542173126895
+: foodtruck = 1.8617223746755827
+: @horasbandung = 1.814090858023506
+: gratis = 1.8044544156769133
+: htm = 1.7876031388761513
+: http://t.co/2vqku = 1.7491360257849144
+: http://t.co/nxyfcbiw1k = 1.6444405285461219
+: online = 1.6358300344661847
+: for = 1.5827551248591258
+: http://t.co/p0ppryebob = 1.5744469803626657
+: ada = 1.4815214099205838
+: pendafbysms = 1.4663000543498579
+: http://t.co/dy3odckxh4 = 1.427345244095813
+: http://t.co/sguze22kf7 = 1.401899542429009
+: @dnf_music = 1.3970013407462711
+: open = 1.3956495378635119
+: http://t.co/tlm4ncqe0u = 1.3504657904087187
+: http://t.co/8vaifvpqjt = 1.3199505020504991
+: tix = 1.3186773223830617
+: @ridwankamil = 1.2842183339551776
+: http://t.co/tqyzrrjo26 = 1.2710385715899593
+: http://t.co/bmioo9kyav = 1.2551002292047801
+: http://t.co/09jp5vtk6w = 1.2440775230150536
+: http://t.co/pyruf8xkj7 = 1.2211601740532212
+: tiket = 1.1259595100256865
+: registrasi = 1.0872746501256352
+: w/ = 0.8392590762785138
+WEIGHTS NAME = other,i-time
+: <DEFAULT_FEATURE> = 0.005750156179167003
+: besok = 5.23854059293835
+: tonight = 3.337561962730762
+: h-7 = 2.516292156012494
+: 11 = 2.461331051685014
+: 14 = 2.079007755837936
+: tues = 2.03857286193789
+: march = 1.9635942441450795
+: malam = 1.9627805346106186
+: saturday = 1.878662366608687
+: 8 = 1.7279369990230014
+: 21 = 1.5730858014538613
+: 10 = 1.4754965221643688
+: tgl = 1.3355356716211308
+: 5 = 1.167244052603249
+WEIGHTS NAME = other,other
+: <DEFAULT_FEATURE> = 2.5271563868786884
+: di = 3.089829966433325
+: @infobdgevent = 2.8577006186164553
+: ! = 2.5892273258853966
+: … = 2.399042462353865
+: ke = 2.339735456029721
+: ? = 2.2269632936083004
+: present = 2.196675223412106
+: nih = 2.167098344478224
+: u/ = 2.0279131154171814
+: ya = 2.0070841126027807
+: yuk = 1.9821788251752457
+: dateng = 1.8957394533378176
+: @bdgevent = 1.8890541727948027
+: http://t.c = 1.8783287868830663
+: mainan = 1.873641479318446
+: musik = 1.8730746446296214
+: & = 1.8637201473300309
+: #next = 1.85973214723545
+: dan = 1.7984915422174854
+: ini = 1.77914778036452
+: ada = 1.7397982076036362
+: comedy = 1.730122162600434
+: join = 1.7277329315270784
+: donor = 1.6597601744781867
+: there = 1.600132722377094
+: @infobdg = 1.5917414691325549
+: @infobandung = 1.583700351264826
+: @angklunglima = 1.575453196100356
+: : = 1.564110181727807
+: go = 1.5560564469097486
+: lewatkan = 1.5153418436101889
+: coming = 1.5083059661404719
+: addict = 1.480912353279054
+: kamu = 1.4787860619537467
+: rungu = 1.4752184617883326
+: ajakin = 1.4679371377927464
+: difabel = 1.4229605481627168
+: ? = 1.413636495412655
+: presale = 1.3932486610949755
+: opencastingdibandungjumat = 1.3680540181560548
+: entrepreneurs = 1.3658939401310008
+: garnida = 1.3413787867646638
+: darah = 1.3354879955459098
+: 26 = 1.322279049271834
+: to = 1.3198766938558906
+: mereka = 1.3171918925077624
+: only = 1.3056958586382832
+: mahal = 1.2645906797603397
+: here = 1.2583952494938984
+: @ecocijaringao = 1.2505912061147861
+: #yuumerapat = 1.2425004574582152
+: aplikatif = 1.2244931218835096
+: masih = 1.2226265802932128
+: kak = 1.218732606491372
+: stks = 1.2129666413610813
+: tenants = 1.1944449496612288
+: siapkan = 1.1901842715464515
+: get = 1.1814134758970771
+: support = 1.1751989062270047
+: famous = 1.1749486015838295
+: @nmworld = 1.1724638206106124
+: cuma = 1.1620969297442871
+: ready = 1.1515617865009926
+: ^_^ = 1.1447630999178668
+: us = 1.1299675864812144
+: ngedance = 1.1183388449260339
+: ikut = 1.1096411249201967
+: terbaik = 1.109525235528893
+: tanpa = 1.1056970497297252
+: duren = 1.1054172879954347
+: cc = 1.095690143099589
+: dtg = 1.0946996362975163
+: ultimate = 1.0939350012886597
+: siapa = 1.082116609493525
+: cv = 1.0461386933867889
+: 3on3 = 1.041792699425589
+: , = 1.0408737041806821
+: utk = 1.0363979075440333
+: lebih = 1.0235671414182392
+: your = 1.0129876583015336
+: lover = 1.0125402179326857
+: terbesar = 1.0094885686097308
+: . = 1.00821942415171
+: presents = 1.006676676681817
+: dapat = 0.9835024093584576
+: berbagi = 0.9827330250495486
+: inspired = 0.9825275754637827
+: produk = 0.9637502906425186
+: jabar = 0.9632657525015947
+: talkshow = 0.9612587985754519
+: kebahagian = 0.9574600011220845
+: setelah = 0.9571486584578341
+: mengeluarkan = 0.9566897991849497
+: taun = 0.9565303776048119
+: @adellaudhelia = 0.9518217382045875
+: anak = 0.9401345512307695
+: cepat = 0.9391510244388999
+: menjual = 0.935756028705075
+: battle = 0.9336788012468198
+: @angklungitb = 0.9335990967260729
+: dia = 0.9311481630692444
+: cm = 0.9263114824142086
+: feel = 0.9261472407797353
+: @infobdgfjb = 0.9223608682530491
+: toko = 0.9217859194102828
+: hobby = 0.91934868662593
+: drastis = 0.9084340624228803
+: food = 0.9032647899684237
+: bisa = 0.8989552482186355
+: @maenbola = 0.8987759347752587
+: @jalmamerdeka = 0.89843400767408
+: proudly = 0.8972233638970386
+: naik = 0.8941603161304169
+: anda = 0.8903184925133554
+: penjualan = 0.8874520092053528
+: indonesia = 0.8858321607252809
+: passion = 0.8851032607072111
+: tak = 0.8832046918848999
+: menghasilkan = 0.8795385324396308
+: tmn2nya = 0.8776712767457308
+: omset = 0.877174892929863
+: menutup = 0.875197160678352
+: jgn = 0.8671784367834524
+: @fenofa = 0.8665860419709361
+: experience = 0.8665666784588588
+: bicara = 0.8662926136186473
+: standup = 0.857929493408478
+: terbukti = 0.8574703394269804
+: mu = 0.8465976874520836
+: tapi = 0.8442803537007643
+: jika = 0.8401002466162754
+: main = 0.8365561394459996
+: biaya = 0.8333618890994977
+: @garudaorganizer = 0.8327856105633851
+: punya = 0.8326055967022604
+: kemampuan = 0.8312649463676998
+: weekend = 0.8213807454136322
+: km2 = 0.8192734130452116
+: tau = 0.8191633918303152
+: unpar = 0.8185464457227586
+: akuntan = 0.8185199918611253
+: dengan = 0.8119054048527766
+: @novriliaadella = 0.809648665071101
+: @event_bdg = 0.8075339795028391
+: accounting = 0.8060896747566194
+: uang = 0.8038201283808051
+: doyan = 0.8036045375158981
+: just = 0.7979704543328697
+: rich = 0.7972359165723729
+: pada = 0.7953418560182565
+: seru = 0.7900298606767864
+: bulan = 0.7862085743340336
+: shoot = 0.7740196101534501
+: jg = 0.7716670965724859
+: @nanajenanaje = 0.7714246117949338
+: belum = 0.7700079494307374
+: ” = 0.7655229147271304
+: pameran = 0.7411422434147058
+: salahkan = 0.7362503138478211
+: 3point = 0.7327934679422717
+: agi = 0.7272907393005128
+: @p3sbdg = 0.7234918900413488
+: modem = 0.7151648206555778
+: @calendarbdg = 0.7062754534711685
+: competition-mu = 0.6974202235425121
+: dgn = 0.6828543553408609
+: live = 0.6818560522276439
+: praktek = 0.6693940311023259
+: @film40days = 0.669299827985232
+: laptop = 0.6423813429376921
+: sambil = 0.6281486154031749
+: 70% = 0.603525353536427
+: ikutan = 0.6028874126475184
+: by = 0.5828458417620985
+: akan = 0.5821005234658533
+: lupa = 0.5778570171256228
+: #gottheguts = 0.5764184723390855
+: come = 0.5693517692607508
+: mesti = 0.5687409829741812
+: pecinta = 0.5613033147239576
+: an = 0.5355050014415178
+: temukan = 0.5221340066612586
+: dance = 0.5186668923686809
+: solusinya = 0.4925993197325742
+: in = 0.4883479032526485
+: online = 0.4526812872353825
+: | = 0.38462679888297635
+: belajar = 0.3661418644949804
+: at = 0.3535638225866099
+: fashion = 0.3379285916269137
+: bandung = 0.2927062183336222
+: the = 0.2870818234689519
+: rahasianya = 0.2801106499850387
+: is = 0.24202712604035762
+: " = 0.20996673698590365
+: @lsociete = 0.20283562639433786
+: merapat = 0.12162200777347895
+: for = 0.09340581892404123
+WEIGHTS NAME = other,i-place
+: <DEFAULT_FEATURE> = 1.37223424449257
+: @lsociete = 3.3444930771607226
+: @holidayinnbdg = 3.245216749700047
+: @revel_official = 3.1232239520499343
+: unisba = 2.7796221121772606
+: @moxclub = 2.429029805722526
+: jawa = 2.4183911265006546
+: graha = 2.2176770930735232
+: @jackstarbdg = 2.1296678208263176
+: holiday = 2.0179238029350346
+: trans = 1.860844691673253
+: gedung = 1.8081242959634691
+: xl = 1.7135382252756903
+: cfd = 1.6162590128237306
+: ruko = 1.558851846995318
+: hotel = 1.4564669252121278
+: telkomsel = 1.381487436889075
+: dago = 1.374513908719321
+: bandung = 1.3011893950279898
+: loop = 1.2518582337984159
+: the = 1.2173327900638813
+WEIGHTS NAME = i-place,O
+: <DEFAULT_FEATURE> = -0.9881336477163969
+WEIGHTS NAME = i-place,i-name
+: <DEFAULT_FEATURE> = -0.7801444440960364
+: #toysnkidsexpo2015 = 3.1308152752125333
+WEIGHTS NAME = i-place,i-info
+: <DEFAULT_FEATURE> = 0.13108303275613958
+: http://t.co/6q4dzbwye8 = 3.29128394272807
+: w/ = 2.9960803354376466
+: for = 2.3737600737414732
+: http://t.co/m9khkwaxbd = 2.2362881014297016
+: @butterflyact = 2.090175770996672
+: ekspres?info = 1.5486991016885456
+: http://t.co/rd43unnr7c = 1.465579957184677
+: http://t.co/gdewb0otlo = 1.431044964975787
+: http://t.co/gdewb0gv9y = 1.4309267324435173
+: http://t.co/fr7fuqaoiw = 1.3267758561216543
+WEIGHTS NAME = i-place,i-time
+: <DEFAULT_FEATURE> = -0.7801475178919994
+: 16 = 2.2102097036542356
+: sabtu = 2.1673965270280355
+: jam = 1.7437560888194115
+WEIGHTS NAME = i-place,other
+: <DEFAULT_FEATURE> = 0.19521651212141333
+: @infobdgevent = 3.463482122982023
+: | = 3.0278472104266547
+: , = 2.681561138118418
+: - = 2.560606825614618
+: y = 2.2499420712616724
+: -> = 2.1615669008590697
+: @infobdgdiskon = 2.1218684641854297
+: be = 1.8519593574914452
+: ada = 1.722882509901093
+WEIGHTS NAME = i-place,i-place
+: <DEFAULT_FEATURE> = 2.632485844335316
+: barat = 2.7155188693120547
+: dago = 2.424711652811974
+: convention = 2.2250470061902945
+: centre = 2.115796242755008
+: inn = 2.096992514456571
+: bdg = 1.9628427232152479
+: martadinata = 1.857235304384471
+: dikti = 1.77830055711997
+: diponegoro = 1.7067191674052056
+: hotel = 1.6745231416975854
+: siliwangi = 1.6483278971058029
+: stks = 1.6107419255348352
+: angklung = 1.5720458490953748
+: udjo = 1.5454470317347717
+: flower = 1.5440188779879347
+: luxury = 1.5133508411059786
+: golden = 1.489742807692005
+: house = 1.4755097495217406
+: tea = 1.4376036032983446
+: executive = 1.3717429714501712
+: manggala = 1.3227181417474696
+: digilife = 1.299156430439085
+: c6 = 1.2649570356601814
+: @istanaplaza = 1.2568867377873536
+: pena = 1.1893503479277638
+: bandung = 1.1811143707275147
+: paskal = 1.1798247243478694
+: station = 1.1707168967439354
+: boutiques = 1.1654603899876057
+: jl = 1.11341286778298
+: blok = 0.9833455512745053
+: hyper = 0.9475977671952993
+: square = 0.8992013530950915
