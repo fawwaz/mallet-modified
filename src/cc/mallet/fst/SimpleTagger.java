@@ -222,7 +222,8 @@ public class SimpleTagger
       
       System.out.println("Building End Pipeline");
       
-      return pipe.pipe(carrier);
+      //return pipe.pipe(carrier);
+      return carrier;
     }
   }
 
@@ -789,7 +790,7 @@ public class SimpleTagger
                 buf.append(fv.toString(true));                
               }
               Integer base = Integer.valueOf((String) testData.get(i).getName());
-              Integer curr_sequence_id = base + j;
+              Integer curr_sequence_id = base + j+5500;
               //updater.UpdateLabelAnotasiTweetFinal(buf.toString(), curr_sequence_id);
               System.out.println(">"+buf.toString()+ " Name (Start): "+curr_sequence_id);
             }

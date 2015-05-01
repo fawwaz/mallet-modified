@@ -520,42 +520,58 @@
 	"buffers":
 	[
 		{
-			"file": "laporantugasakhir",
+			"file": "src/cc/mallet/fst/SimpleTagger.java",
 			"settings":
 			{
-				"buffer_size": 103267,
+				"buffer_size": 33458,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "runnerTAEvaluate.bat",
+			"file": "src/cc/mallet/fst/MultiSegmentationEvaluator.java",
 			"settings":
 			{
-				"buffer_size": 244,
-				"line_ending": "Windows"
+				"buffer_size": 15126,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "runnerTATrainer.bat",
 			"settings":
 			{
-				"buffer_size": 322,
+				"buffer_size": 340,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/cc/mallet/fst/SimpleTagger.java",
+			"file": "laporantugasakhir",
 			"settings":
 			{
-				"buffer_size": 31281,
-				"line_ending": "Unix"
+				"buffer_size": 395807,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/eclipse3/MyTokenizer/src/MyAnotatorText.java",
+			"settings":
+			{
+				"buffer_size": 4112,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "runnerTAEvaluate.bat",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 35.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -804,14 +820,22 @@
 	},
 	"file_history":
 	[
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java",
-		"/E/TA/mallet-2.0.7/laporantugasakhir",
-		"/E/TA/mallet-2.0.7/runnerTATest.bat",
-		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
+		"/E/eclipse3/MyTokenizer/src/MyTokenizer.java",
 		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java",
+		"/E/TA/mallet-2.0.7/laporantugasakhir",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/TokenSequence2FeatureSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVector.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/FeatureSequence2FeatureVector.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
+		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java",
+		"/E/TA/mallet-2.0.7/runnerTATest.bat",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/PrintInputAndTarget.java",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz Baru/maketrihed",
@@ -845,8 +869,6 @@
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/README-preparation.txt",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/alifa/nama alifa.txt",
 		"/E/TA/mallet-2.0.7/pom.xml",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java",
@@ -881,7 +903,6 @@
 		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
 		"/E/OPENSHIFT/ruangsimpul/client/index.html",
 		"/E/eclipse3/MyTokenizer/src/MyFilter.java",
-		"/E/eclipse3/MyTokenizer/src/MyTokenizer.java",
 		"/E/TA/mallet-2.0.7/sandboxTA",
 		"/E/TA/mallet-2.0.7/raw_tweet_final.sql",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Instance.java",
@@ -926,12 +947,7 @@
 		"/C/xampp/htdocs/kibar/app/Http/Controllers/HomeController.php",
 		"/C/xampp/htdocs/kibar/resources/views/myhome.blade.php",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/MyDB.java",
-		"/C/xampp/htdocs/latihanlaravel/config/database.php",
-		"/E/OPENSHIFT/latihanlaravel2/scripts/controllers/TimeEntry.js",
-		"/E/OPENSHIFT/latihanlaravel2/scripts/services/time.js",
-		"/E/OPENSHIFT/latihanlaravel2/index.hml.html",
-		"/E/OPENSHIFT/latihanlaravel2/scripts/app.js",
-		"/C/xampp/htdocs/latihanlaravel/app/Http/routes.php"
+		"/C/xampp/htdocs/latihanlaravel/config/database.php"
 	],
 	"find":
 	{
@@ -942,6 +958,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"E:\\eclipse3\\MyTokenizer\\src",
+			"E:\\eclipse3\\MyTokenizer",
 			"E:\\TA\\mallet-2.0.7\\src\\cc\\mallet\\",
 			"E:\\TA\\mallet-2.0.7\\src\\cc\\mallet\\fst\\",
 			"E:\\TA\\mallet-2.0.7",
@@ -989,6 +1007,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"isnumber",
+			"testoption",
+			"lab",
+			"savesource",
+			"features",
+			"setcharsequence",
 			"testoption",
 			"@infobdgevent",
 			"nbestoption",
@@ -1110,16 +1134,10 @@
 			"gettargetalphabet",
 			"instancelist",
 			"teepipe",
-			"extends featurefactory",
-			"extends compositefeaturefactory",
-			"extends featurefactory",
-			"setfeaturefactory",
-			"featurefactory",
-			"class.forname",
-			".pipe"
+			"extends featurefactory"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -1200,101 +1218,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "laporantugasakhir",
-					"settings":
-					{
-						"buffer_size": 103267,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11973,
-								11973
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "runnerTAEvaluate.bat",
-					"settings":
-					{
-						"buffer_size": 244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 279.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "runnerTATrainer.bat",
-					"settings":
-					{
-						"buffer_size": 322,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								74,
-								128
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "src/cc/mallet/fst/SimpleTagger.java",
 					"settings":
 					{
-						"buffer_size": 31281,
+						"buffer_size": 33458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25719,
-								25719
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1304,7 +1244,140 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7275.0,
+						"translation.y": 7066.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/cc/mallet/fst/MultiSegmentationEvaluator.java",
+					"settings":
+					{
+						"buffer_size": 15126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3339,
+								3351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 806.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "runnerTATrainer.bat",
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 1053.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "laporantugasakhir",
+					"settings":
+					{
+						"buffer_size": 395807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395807,
+								395807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 191919.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/eclipse3/MyTokenizer/src/MyAnotatorText.java",
+					"settings":
+					{
+						"buffer_size": 4112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2329,
+								2348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 416.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "runnerTAEvaluate.bat",
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 483.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1362,24 +1435,76 @@
 		"selected_items":
 		[
 			[
-				"runnertaevaluat",
+				"runnertaeval",
 				"mallet-2.0.7/runnerTAEvaluate.bat"
-			],
-			[
-				"simpletagger",
-				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
 			],
 			[
 				"laporan",
 				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
-				"runnertatra",
+				"simpletagger",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"myanotate",
+				"MyTokenizer/src/MyAnotatorText.java"
+			],
+			[
+				"mytokenizer",
+				"MyTokenizer/src/MyTokenizer.java"
+			],
+			[
+				"laporantugasa",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"runnertatrain",
 				"mallet-2.0.7/runnerTATrainer.bat"
 			],
 			[
-				"runnertaeval",
+				"multisegmente",
+				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
+			],
+			[
+				"regexmatches",
+				"mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java"
+			],
+			[
+				"tokenizerpipe",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
+			],
+			[
+				"basicnerfeature",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"featurevector",
+				"mallet-2.0.7/src/cc/mallet/types/FeatureVector.java"
+			],
+			[
+				"featuresequence2",
+				"mallet-2.0.7/src/cc/mallet/pipe/FeatureSequence2FeatureVector.java"
+			],
+			[
+				"tokensequence2featuresequence",
+				"mallet-2.0.7/src/cc/mallet/pipe/TokenSequence2FeatureSequence.java"
+			],
+			[
+				"charsequencelexer",
+				"mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java"
+			],
+			[
+				"charsequence2token",
+				"mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java"
+			],
+			[
+				"runnertaevaluat",
 				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
+			[
+				"runnertatra",
+				"mallet-2.0.7/runnerTATrainer.bat"
 			],
 			[
 				"runnertate",
@@ -1400,10 +1525,6 @@
 			[
 				"printtarget",
 				"mallet-2.0.7/src/cc/mallet/pipe/PrintInputAndTarget.java"
-			],
-			[
-				"featurevector",
-				"mallet-2.0.7/src/cc/mallet/types/FeatureVector.java"
 			],
 			[
 				"featurevectorsequence",
@@ -1440,14 +1561,6 @@
 			[
 				"stringtokenization",
 				"mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java"
-			],
-			[
-				"tokenizerpipe",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
-			],
-			[
-				"basicnerfeature",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
 			],
 			[
 				"featurefactory",
@@ -1488,10 +1601,6 @@
 			[
 				"filter",
 				"MyTokenizer/src/MyFilter.java"
-			],
-			[
-				"mytokenizer",
-				"MyTokenizer/src/MyTokenizer.java"
 			],
 			[
 				"sandbox",
@@ -1634,10 +1743,6 @@
 				"mallet-2.0.7/src/cc/mallet/types/InstanceList.java"
 			],
 			[
-				"laporantugasa",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
 				"sequencelearneroption",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java"
 			],
@@ -1742,10 +1847,6 @@
 				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
 			],
 			[
-				"regexmatches",
-				"mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java"
-			],
-			[
 				"sequenceevaluator",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceEvaluator.java"
 			],
@@ -1758,16 +1859,8 @@
 				"mallet-2.0.7/src/cc/mallet/pipe/Pipe.java"
 			],
 			[
-				"tokensequence2featuresequence",
-				"mallet-2.0.7/src/cc/mallet/pipe/TokenSequence2FeatureSequence.java"
-			],
-			[
 				"lexer",
 				"mallet-2.0.7/src/cc/mallet/util/Lexer.java"
-			],
-			[
-				"charsequencelexer",
-				"mallet-2.0.7/src/cc/mallet/util/CharSequenceLexer.java"
 			],
 			[
 				"charsequence2tokenseq",
@@ -1852,26 +1945,6 @@
 			[
 				"compositef",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java"
-			],
-			[
-				"basicnerf",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
-			],
-			[
-				"inbracket",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/InBracket.java"
-			],
-			[
-				"inbracker",
-				"mallet-2.0.7/src/cc/mallet/optimize/GradientBracketLineOptimizer.java"
-			],
-			[
-				"features/fc",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FC.java"
-			],
-			[
-				"langid",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/LangIDPrefixingPipe.java"
 			]
 		],
 		"width": 0.0

@@ -45,7 +45,7 @@ public class UpdateLabelAnotasiFinal {
 		System.out.println("label : "+label+" Sequence :"+sequence_num);
 		System.out.println(connection == null ? "null":"not null");
 		try{
-			preparedstatement = connection.prepareStatement("update `anotasi_tweet_final` set `label`=? where `sequence_num`=?");
+			preparedstatement = connection.prepareStatement("update `anotasi_tweet_final` set `label2`=? where `sequence_num`=?");
 			preparedstatement.setString(1, label);
 			preparedstatement.setInt(2, sequence_num);
 			System.out.println("Execute update is disabled for safety");
