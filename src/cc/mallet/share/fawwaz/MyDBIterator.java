@@ -23,18 +23,21 @@ public class MyDBIterator implements Iterator<Instance>{
 	ArrayList<String> sesuai_format;
 	String currentTweetGroup;
 	Integer currentStart,currentEnd,nextStart;
+	boolean isTest;
 	
-	
-	public MyDBIterator(){
+	public MyDBIterator(boolean isTest){
 		// default constructor
-		this("root","","jdbc:mysql://localhost/mytomcatapp");
+		this("root","","jdbc:mysql://localhost/mytomcatapp",isTest);
 	}
 	
-	public MyDBIterator(String username, String password,String url) {
+	public MyDBIterator(String username, String password,String url, boolean isTest) {
+		this.isTest = isTest;
 		startConnection(url, username, password);
 		anotated_list = new ArrayList<>();
-		sesuai_format = new ArrayList<>();
+		sesuai_format = new ArrayList<>();		
 		getData();
+		
+		
 		CloseConnection();
 	
 		
@@ -61,7 +64,15 @@ public class MyDBIterator implements Iterator<Instance>{
 			if(i.equals(anotated_list.size()-1)){
 				lastid = i+1;
 				currentEnd = anotated_list.size();
-				sb.append(line.token + " "+ line.label+"\n");
+				
+				// Kalau test
+				if(isTest){
+					sb.append(line.token);
+				}else{
+					sb.append(line.token + " "+ line.label);
+				}
+				sb.append("\n");
+				
 				currentTweetGroup = sb.toString();
 				System.out.println("keluar dari loop karena sudah sampai akhir database dengan lastid :"+lastid);
 				return;
@@ -77,13 +88,26 @@ public class MyDBIterator implements Iterator<Instance>{
 				currentEnd = i+1;
 				lastid = i+1;
 				nextStart = lastid+1;
-				sb.append(line.token + " "+ line.label);
+				
+				// Kalau test
+				if(isTest){
+					sb.append(line.token);
+				}else{
+					sb.append(line.token + " "+ line.label);
+				}
 				sb.append("\n");
 				//System.out.println("~~ LASTId :" + lastid);
 				currentTweetGroup = sb.toString();
 				return;
 			}else{
-				sb.append(line.token + " "+ line.label);
+				
+				// Kalau test
+				if(isTest){
+					sb.append(line.token);
+				}else{
+					sb.append(line.token + " "+ line.label);
+				}
+				
 				sb.append("\n");
 			}
 			i++;
@@ -141,8 +165,12 @@ public class MyDBIterator implements Iterator<Instance>{
 	
 	private void getData(){
 		try{
-			preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final limit 100");
-			//preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet");
+			if(isTest){
+				preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
+			}else{
+				preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet");
+			}
+			
 			resultset = preparedstatement.executeQuery();
 			
 			while(resultset.next()){
@@ -151,7 +179,6 @@ public class MyDBIterator implements Iterator<Instance>{
 				anotate_data.twitter_tweet_id	= resultset.getString("twitter_tweet_id");
 				anotate_data.token 				= resultset.getString("token");
 				anotate_data.label				= resultset.getString("label");
-				 
 				anotated_list.add(anotate_data);
 			}
 			System.out.println("[INFO] Successful inserted");

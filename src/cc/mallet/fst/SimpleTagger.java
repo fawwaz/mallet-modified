@@ -21,6 +21,8 @@ import java.util.regex.Pattern;
 
 import cc.mallet.share.fawwaz.MyDBIterator;
 import cc.mallet.share.fawwaz.MyPipe2FeatureVectorSequence;
+import cc.mallet.share.fawwaz.Twokenize;
+import cc.mallet.share.fawwaz.UpdateLabelAnotasiFinal;
 import cc.mallet.types.Alphabet;
 import cc.mallet.types.AugmentableFeatureVector;
 import cc.mallet.types.FeatureVector;
@@ -114,17 +116,22 @@ public class SimpleTagger
 
     public Instance pipe (Instance carrier)
     {
+      // temporer
       Object inputData = carrier.getData();
       Alphabet features = getDataAlphabet();
       LabelAlphabet labels;
       LabelSequence target = null;
       String [][] tokens;
+      
+      
+      // Parse token
       if (inputData instanceof String)
         tokens = parseSentence((String)inputData);
       else if (inputData instanceof String[][])
         tokens = (String[][])inputData;
       else
         throw new IllegalArgumentException("Not a String or String[][]; got "+inputData);
+      
       FeatureVector[] fvs = new FeatureVector[tokens.length];
       if (isTargetProcessing())
       {
@@ -134,7 +141,7 @@ public class SimpleTagger
       
       // Ini modifikasi fawwaz
       System.out.println("Modified by fawwaz");
-      String[] indices = ((String) carrier.getName()).split("-");
+      
       
       for (int l = 0; l < tokens.length; l++) {
         int nFeatures;
@@ -147,15 +154,43 @@ public class SimpleTagger
         }
         else nFeatures = tokens[l].length;
         ArrayList<Integer> featureIndices = new ArrayList<Integer>();
-
-        //Add all feature
+        
+        System.out.println("isTarget Processing ? :"+isTargetProcessing());
+        
+        //Add all feature to feature dictionary
         for (int f = 0; f < nFeatures; f++) {
+        	
         	int featureIndex = features.lookupIndex(tokens[l][f]);
         	// gdruck
         	// If the data alphabet's growth is stopped, featureIndex
         	// will be -1.  Ignore these features.
         	if (featureIndex >= 0) {
         		featureIndices.add(featureIndex);
+        	}
+        }
+        
+        // Add Additional feature for myself
+        System.out.println("=== Modified by Fawwaz ===");
+        if(tokens[l][0].matches("\\d+")){
+        	featureIndices.add(features.lookupIndex("ISNUMBER"));
+        }else if(tokens[l][0].matches("\\p{P}")){
+        	featureIndices.add(features.lookupIndex("PUNCTUATION"));
+        }else if(tokens[l][0].matches("(di|@|d|ke|k)")){
+        	featureIndices.add(features.lookupIndex("ISPLACEDIRECTIVE"));
+        }else if(tokens[l][0].matches("http://t\\.co/\\w+")){
+        	featureIndices.add(features.lookupIndex("ISURL"));
+        }else if(tokens[l][0].matches("@\\w+")){
+        	featureIndices.add(features.lookupIndex("ISMENTION"));
+        }else if(tokens[l][0].matches("#\\w+")){
+        	featureIndices.add(features.lookupIndex("ISHASHTAG"));
+        }else if(tokens[l][0].matches(Twokenize.varian_bulan)){
+        	featureIndices.add(features.lookupIndex("ISMONTHNAME"));
+        }else{
+        	// ini nge cek dulu tokenya l-1 dan l+1 sehingga harus i>1 atau i<n-1
+        	if(l>0 && l<nFeatures-1){
+        		if(tokens[l-1][0].matches("\\d+")&& tokens[l][0].matches("[/\\-]") && tokens[l+1][0].matches("\\d+")){
+        			featureIndices.add(features.lookupIndex("DATESEPARATOR"));
+        		}
         	}
         }
 
@@ -165,25 +200,33 @@ public class SimpleTagger
         	featureIndicesArr[index] = featureIndices.get(index);
         }
 
-
+        // Creating feature vector for the current token
        	fvs[l] = featureInductionOption.value ? new AugmentableFeatureVector(features, featureIndicesArr, null, featureIndicesArr.length) : 
         	new FeatureVector(features, featureIndicesArr);
       }
       carrier.setData(new FeatureVectorSequence(fvs));
-      //carrier.setSource("1");
+
+      // INformasi umum instance
       System.out.println("=== INFORMASI INSTANCE ===");
       System.out.println(carrier.getSource()==null ? "Source is null" : "Source\t\t:"+carrier.getSource().toString());
       System.out.println(carrier.getName()==null ? "Name is null" : "Name\t\t:"+carrier.getName().toString());
+      
+      
+      
       if (isTargetProcessing())
         carrier.setTarget(target);
       else
         carrier.setTarget(new LabelSequence(getTargetAlphabet()));
       PrintInputAndTarget pipe = new PrintInputAndTarget();
       
+      
+      System.out.println("Building End Pipeline");
+      
       return pipe.pipe(carrier);
     }
   }
 
+ 
   private static final CommandOption.Double gaussianVarianceOption = new CommandOption.Double
     (SimpleTagger.class, "gaussian-variance", "DECIMAL", true, 10.0,
      "The gaussian prior variance used for training.", null);
@@ -512,6 +555,7 @@ public class SimpleTagger
   public static void main (String[] args) throws Exception
   {
     System.out.println("Modified by fawwaz");
+
     Reader trainingFile = null, testFile = null;
     InstanceList trainingData = null, testData = null;
     int numEvaluations = 0;
@@ -576,7 +620,7 @@ public class SimpleTagger
             Pattern.compile("^\\s*$"), true));
       /**/
       
-      trainingData.addThruPipe(new MyDBIterator());
+      trainingData.addThruPipe(new MyDBIterator(false));
       System.out.println("Sekarang di terminate dulu di bawah ini kode 2");
       //System.exit(2);
       logger.info
@@ -592,7 +636,7 @@ public class SimpleTagger
               new LineGroupIterator(testFile,
                 Pattern.compile("^\\s*$"), true));
           /**/
-          testData.addThruPipe(new MyDBIterator());
+          testData.addThruPipe(new MyDBIterator(true));
         } else
         {
         	System.out.println("Changed the iterator route : This is called when train and test option is NOT null >>BUT<< the testfile is null");
@@ -615,7 +659,7 @@ public class SimpleTagger
           new LineGroupIterator(testFile,
             Pattern.compile("^\\s*$"), true));
       /**/
-      testData.addThruPipe(new MyDBIterator());
+      testData.addThruPipe(new MyDBIterator(true));
     } else
     {
     	System.out.println("Changed The iterator route : This is called when test option is null");
@@ -626,7 +670,7 @@ public class SimpleTagger
           new LineGroupIterator(testFile,
             Pattern.compile("^\\s*$"), true));
       /**/
-      testData.addThruPipe(new MyDBIterator());
+      testData.addThruPipe(new MyDBIterator(true));
     }
     logger.info ("Number of predicates: "+p.getDataAlphabet().size());
     
@@ -714,6 +758,11 @@ public class SimpleTagger
         test(new NoopTransducerTrainer(crf), eval, testData);
       else
       {
+    	  // -- start modified --
+    	    System.out.println("Creating updater label anotasi final");
+    	    UpdateLabelAnotasiFinal updater = new UpdateLabelAnotasiFinal();
+    	    updater.startConnection();
+    	    //--end modified --
         boolean includeInput = includeInputOption.value();
         for (int i = 0; i < testData.size(); i++)
         {
@@ -741,12 +790,21 @@ public class SimpleTagger
               }
               Integer base = Integer.valueOf((String) testData.get(i).getName());
               Integer curr_sequence_id = base + j;
+              //updater.UpdateLabelAnotasiTweetFinal(buf.toString(), curr_sequence_id);
               System.out.println(">"+buf.toString()+ " Name (Start): "+curr_sequence_id);
             }
             System.out.println();
           }
         }
+        
+        System.out.println("closing updater");
+        // ---modified by fawwaz
+        updater.CloseConnection();
+        // -- end modified by fawwaz
+        }
+        
       }
     }
-  }
+  
+
 }

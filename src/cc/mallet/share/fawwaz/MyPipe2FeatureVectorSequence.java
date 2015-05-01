@@ -1,6 +1,9 @@
 package cc.mallet.share.fawwaz;
 
+import java.util.ArrayList;
+
 import cc.mallet.pipe.Pipe;
+import cc.mallet.pipe.SerialPipes;
 import cc.mallet.types.Alphabet;
 import cc.mallet.types.Instance;
 import cc.mallet.types.LabelAlphabet;
@@ -24,8 +27,23 @@ public class MyPipe2FeatureVectorSequence extends Pipe{
 		LabelAlphabet labels;
 		LabelSequence target = null;
 		System.out.println("do something please");
+		System.out.println("Building Pipe");
 		
 		
-		return carrier;
+		ArrayList<Pipe> pipelist = new ArrayList<>();
+		Pipe mypipe = new SerialPipes(pipelist);
+		
+		
+		return mypipe.pipe(carrier);
 	}
+	
+	// --- Private functions ---
+	private String[][] parseSentence(String sentence)
+    {
+      String[] lines = sentence.split("\n");
+      String[][] tokens = new String[lines.length][];
+      for (int i = 0; i < lines.length; i++)
+        tokens[i] = lines[i].split(" ");
+      return tokens;
+    }
 }
