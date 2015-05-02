@@ -790,7 +790,7 @@ public class SimpleTagger
                 buf.append(fv.toString(true));                
               }
               Integer base = Integer.valueOf((String) testData.get(i).getName());
-              Integer curr_sequence_id = base + j+5500;
+              Integer curr_sequence_id = base + j+6000;
               //updater.UpdateLabelAnotasiTweetFinal(buf.toString(), curr_sequence_id);
               System.out.println(">"+buf.toString()+ " Name (Start): "+curr_sequence_id);
             }

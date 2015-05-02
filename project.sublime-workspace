@@ -523,7 +523,7 @@
 			"file": "src/cc/mallet/fst/SimpleTagger.java",
 			"settings":
 			{
-				"buffer_size": 33458,
+				"buffer_size": 33485,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +547,7 @@
 			"file": "laporantugasakhir",
 			"settings":
 			{
-				"buffer_size": 395807,
+				"buffer_size": 429996,
 				"line_ending": "Windows"
 			}
 		},
@@ -1226,7 +1226,7 @@
 					"file": "src/cc/mallet/fst/SimpleTagger.java",
 					"settings":
 					{
-						"buffer_size": 33458,
+						"buffer_size": 33485,
 						"regions":
 						{
 						},
@@ -1308,15 +1308,15 @@
 					"file": "laporantugasakhir",
 					"settings":
 					{
-						"buffer_size": 395807,
+						"buffer_size": 429996,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								395807,
-								395807
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1434,6 +1434,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"runnertaevalu",
+				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
 			[
 				"runnertaeval",
 				"mallet-2.0.7/runnerTAEvaluate.bat"
@@ -1941,10 +1945,6 @@
 			[
 				"featurepipeline",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeaturePipeline.java"
-			],
-			[
-				"compositef",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java"
 			]
 		],
 		"width": 0.0
