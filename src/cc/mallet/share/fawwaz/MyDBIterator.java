@@ -166,9 +166,9 @@ public class MyDBIterator implements Iterator<Instance>{
 	private void getData(){
 		try{
 			if(isTest){
-				preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final limit 8500,3000");
+				preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
 			}else{
-				preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final limit 8500");
+				preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
 			}
 			
 			resultset = preparedstatement.executeQuery();
