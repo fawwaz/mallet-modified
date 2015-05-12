@@ -141,7 +141,6 @@ public class SimpleTagger
       
       // Ini modifikasi fawwaz
       
-      
       for (int l = 0; l < tokens.length; l++) {
         int nFeatures;
         if (isTargetProcessing())
@@ -154,6 +153,7 @@ public class SimpleTagger
         else nFeatures = tokens[l].length;
         ArrayList<Integer> featureIndices = new ArrayList<Integer>();
         
+        System.out.println("isTarget Processing ? :"+isTargetProcessing());
         
         //Add all feature to feature dictionary
         for (int f = 0; f < nFeatures; f++) {
@@ -561,6 +561,7 @@ public class SimpleTagger
     int iterationsBetweenEvals = 16;
     int restArgs = commandOptions.processOptions(args);
 
+
     if (restArgs == args.length)
     {
       commandOptions.printUsage(true);
@@ -573,6 +574,7 @@ public class SimpleTagger
         testFile = new FileReader(new File(args[restArgs+1]));
     } else 
       testFile = new FileReader(new File(args[restArgs]));
+
 
     
     System.out.println("==================");
@@ -706,7 +708,6 @@ public class SimpleTagger
           startTags[i] = pair[0];
           continueTags[i] = pair[1];
         }
-
         eval = new MultiSegmentationEvaluator(new InstanceList[] {trainingData, testData}, new String[] {"Training", "Testing"}, 
         		startTags, continueTags);
       }

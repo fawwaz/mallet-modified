@@ -84,8 +84,6 @@ public class MultiSegmentationEvaluator extends TransducerEvaluator
 
 	public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description)
   {
-    
-
   	Transducer model = tt.getTransducer();
     int numCorrectTokens, totalTokens;
     int[] numTrueSegments, numPredictedSegments, numCorrectSegments;
