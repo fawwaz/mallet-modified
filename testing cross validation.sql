@@ -1,0 +1,1 @@
+select * from anotasi_tweet_final where twitter_tweet_id in (select * from (select twitter_tweet_id from filtered_tweet_final where label = 1 limit 70,70) as t)

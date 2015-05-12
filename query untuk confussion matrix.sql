@@ -1,0 +1,1 @@
+select sequence_num,twitter_tweet_id,token,label,label2 from anotasi_tweet_final where twitter_tweet_id in (select twitter_tweet_id from anotasi_tweet_final where label='other' and label2='i-info' group by twitter_tweet_id) 

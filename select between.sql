@@ -1,0 +1,1 @@
+select child.* from anotasi_tweet_final as child, (select sequence_num from anotasi_tweet_final where token = 'di' ) as parent where child.sequence_num between parent.sequence_num-1 and parent.sequence_num+4
