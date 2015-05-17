@@ -1,0 +1,1 @@
+select sequence_num,twitter_tweet_id,token,label,fold6 from anotasi_tweet_final where fold10="i-info" and fold10 is not null

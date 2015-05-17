@@ -1097,6 +1097,8 @@ public class CRF extends Transducer implements Serializable
 						labelNames = newLabelNames;
 						weightNames = newWeightNames;
 					}
+					// Modified by fawwaz
+					/*
 					for (int i = 0; i < destNames.length; i++)
 					{
 						StringBuffer b = new StringBuffer();
@@ -1105,6 +1107,7 @@ public class CRF extends Transducer implements Serializable
 						logger.info(stateName + "->" + destNames[i] +
 								"(" + labelNames[i] + ")" + b.toString());
 					}
+					*/
 					addState (stateName, 0.0, 0.0, destNames, labelNames, weightNames);
 				}
 				for (int o = order-1; o >= 0; o--) 

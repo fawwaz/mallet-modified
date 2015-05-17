@@ -75,7 +75,11 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 			}
 			//System.err.println ("TokenAccuracyEvaluator "+i+" numCorrectTokens="+numCorrectTokens+" totalTokens="+totalTokens+" accuracy="+((double)numCorrectTokens)/totalTokens);
 		}
+
+		// start fawwaz
+		System.out.println("total Tokens Corrected on tokenaccuracyevaluator"+totalTokens);
 		double acc = ((double)numCorrectTokens)/totalTokens;
+		// end fawwaz
 		//System.err.println ("TokenAccuracyEvaluator accuracy="+acc);
 		accuracy.put(description, acc);
 		logger.info (description +" accuracy="+acc);

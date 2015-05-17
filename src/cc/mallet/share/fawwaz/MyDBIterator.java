@@ -33,8 +33,8 @@ public class MyDBIterator implements Iterator<Instance>{
 	public MyDBIterator(String username, String password,String url, boolean isTest) {
 		this.isTest = isTest;
 		startConnection(url, username, password);
-		anotated_list = new ArrayList<>();
-		sesuai_format = new ArrayList<>();		
+		anotated_list = new ArrayList<anotasi_tweet_final>();
+		sesuai_format = new ArrayList<String>();		
 		getData();
 		
 		
@@ -57,7 +57,7 @@ public class MyDBIterator implements Iterator<Instance>{
 			return;
 		}
 		currentStart = nextStart;
-		System.out.println("I :" + i);
+		
 		while(true){
 			//System.out.println("iterasi : "+i);
 			line		= anotated_list.get(i);
@@ -67,8 +67,10 @@ public class MyDBIterator implements Iterator<Instance>{
 				
 				// Kalau test
 				if(isTest){
+					System.out.println("[INFO] for Test");
 					sb.append(line.token);
 				}else{
+					System.out.println("[INFO] for Training");
 					sb.append(line.token + " "+ line.label);
 				}
 				sb.append("\n");
@@ -168,11 +170,13 @@ public class MyDBIterator implements Iterator<Instance>{
 			if(isTest){
 				// JANGAN LUPA DIGANTI COY
 				//preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
-				preparedstatement = connection.prepareStatement("select * from anotasi_tweet_final where twitter_tweet_id in (select * from (select twitter_tweet_id from filtered_tweet_final where label = 1 limit 0,70) as t)");
+				System.out.println("Selecting For non Training DATa");
+				preparedstatement = connection.prepareStatement("select * from anotasi_tweet_final where twitter_tweet_id in (select * from (select twitter_tweet_id from filtered_tweet_final where label = 1 limit 630,70) as t)");
 			}else{
-				preparedstatement = connection.prepareStatement("select * from anotasi_tweet_final where twitter_tweet_id in (select twitter_tweet_id from filtered_tweet_final where label = 1 and twitter_tweet_id not in (select * from (select twitter_tweet_id from filtered_tweet_final where label = 1 limit 0,70) as t))");
+				System.out.println("[INFO] Selecting for Training Data");
+				preparedstatement = connection.prepareStatement("select * from anotasi_tweet_final where twitter_tweet_id in (select twitter_tweet_id from filtered_tweet_final where label = 1 and twitter_tweet_id not in (select * from (select twitter_tweet_id from filtered_tweet_final where label = 1 limit 630,70) as t))");
 			}
-			
+
 			resultset = preparedstatement.executeQuery();
 			
 			while(resultset.next()){

@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Simp",
+				"SimpleTaggerSentence2FeatureVectorSequence"
+			],
+			[
+				"tota",
+				"totalTokens"
+			],
+			[
+				"setTar",
+				"setTargetProcessing"
+			],
+			[
 				"for",
 				"for	for"
 			],
@@ -502,45 +514,17 @@
 			[
 				"library",
 				"load_library	CI - Load Library"
-			],
-			[
-				"view",
-				"viewdata"
-			],
-			[
-				"bsnavbar",
-				"bs3-navbar:link	bs3-navbar-link"
-			],
-			[
-				"bs3-",
-				"bs3-input:month	bs3-input-month"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/cc/mallet/types/CrossValidationIterator.java",
+			"file": "/E/eclipse3/.metadata/.log",
 			"settings":
 			{
-				"buffer_size": 6007,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/cc/mallet/pipe/PrintInput.java",
-			"settings":
-			{
-				"buffer_size": 1620,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/cc/mallet/fst/CRF.java",
-			"settings":
-			{
-				"buffer_size": 76645,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -550,6 +534,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"installpac",
+				"Package Control: Install Package"
+			],
 			[
 				"ssphp",
 				"Set Syntax: PHP"
@@ -796,20 +784,36 @@
 	},
 	"file_history":
 	[
-		"/E/TA/mallet-2.0.7/project.sublime-workspace",
-		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
-		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
-		"/E/TA/mallet-2.0.7/select repairing query.sql",
-		"/E/TA/mallet-2.0.7/laporantaevaluate",
-		"/E/TA/mallet-2.0.7/laporantugasakhir",
+		"/C/eclipse2/configuration/.settings/org.eclipse.core.net.prefs",
+		"/C/eclipse2/configuration/.settings/org.jboss.tools.usage.prefs",
+		"/C/eclipse2/configuration/.settings/org.jboss.tools.runtime.core.prefs",
+		"/C/eclipse2/configuration/.settings/org.eclipse.ui.ide.prefs",
+		"/E/eclipse3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs",
+		"/C/eclipse2/eclipse.ini",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRF.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java",
+		"/E/TA/mallet-2.0.7/Anotator.bat",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/TokenAccuracyEvaluator.java",
+		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
+		"/E/TA/mallet-2.0.7/laporantugasakhir",
+		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
+		"/E/TA/mallet-2.0.7/laporantaevaluate",
+		"/E/TA/hello.c",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/TransducerEvaluator.java",
+		"/E/TA/mallet-2.0.7/runnerTATest.bat",
+		"/E/TA/mallet-2.0.7/runnerTATrainerlain.bat",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/types/CrossValidationIterator.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/PrintInput.java",
+		"/E/TA/mallet-2.0.7/project.sublime-workspace",
+		"/E/TA/mallet-2.0.7/select repairing query.sql",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Instance.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/InstanceList.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/Pipe.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/Transducer.java",
 		"/E/OPENSHIFT/satubahasa/.jshintrc",
 		"/E/OPENSHIFT/satubahasa/app/scripts/app.js",
@@ -828,7 +832,6 @@
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java",
-		"/E/TA/mallet-2.0.7/runnerTATest.bat",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/PrintInputAndTarget.java",
@@ -908,22 +911,7 @@
 		"/C/xampp/htdocs/kibar/resources/views/events/show.blade.php",
 		"/C/xampp/htdocs/kibar/config/app.php",
 		"/E/OPENSHIFT/kibar-frontend/index.html",
-		"/E/OPENSHIFT/front-end-kibar/bower.json",
-		"/E/OPENSHIFT/front-end-kibar/.bowerrc",
-		"/C/Program Files/Weka-3-6/runner weka.bat",
-		"/E/S2/runner weka.bat",
-		"/E/S2/korpusnlp.csv",
-		"/C/xampp/htdocs/kibar/app/Http/Controllers/EventsController.php",
-		"/C/xampp/htdocs/kibar/app/Http/routes.php",
-		"/C/xampp/htdocs/kibar/app/Event.php",
-		"/C/xampp/htdocs/kibar/database/migrations/2015_04_24_074020_create_table_events.php",
-		"/E/S2/korpusnlp backup",
-		"/C/xampp/htdocs/octobercms/config/app.php",
-		"/C/xampp/htdocs/kibar/resources/views/events/index.blade.php",
-		"/C/xampp/htdocs/kibar/resources/views/app.blade.php",
-		"/C/xampp/htdocs/kibar/app/Http/Controllers/WelcomeController.php",
-		"/C/xampp/htdocs/kibar/resources/views/mywelcome.php",
-		"/C/xampp/htdocs/kibar/resources/views/home.blade.php"
+		"/E/OPENSHIFT/front-end-kibar/bower.json"
 	],
 	"find":
 	{
@@ -934,6 +922,9 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"E:\\TA\\mallet-2.0.7",
+			"E:\\TA\\mallet-2.07",
+			"E:\\TA\\mallet-2.07\\",
 			"E:\\eclipse3\\MyTokenizer\\src",
 			"E:\\eclipse3\\MyTokenizer",
 			"E:\\TA\\mallet-2.0.7\\src\\cc\\mallet\\",
@@ -983,6 +974,48 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"project",
+			"train(",
+			"print",
+			"weights",
+			"simpletagger",
+			"testData",
+			"\\n",
+			"training data",
+			"eval(",
+			"training",
+			"on",
+			"System.exit",
+			"testdata",
+			"isTArgetprocessing",
+			"setTargetProcessing",
+			"settargetprocessing",
+			"trainoption.value",
+			"testData",
+			"Creating",
+			"isTargetProcessing",
+			"info",
+			"weights",
+			"CRF:",
+			"CRF: Incrimental",
+			"Searching",
+			"CRF Incrimental",
+			"CRF:",
+			"CRF: Incrimental",
+			"setnexttweet",
+			"setnextgroup",
+			"informasi crf",
+			"train(",
+			"eval",
+			"testoption",
+			"eval",
+			"eval =",
+			"test(",
+			"testoption",
+			"eval",
+			"restArgs",
+			"exit(",
+			"testData",
 			"<<<<<<< HEAD",
 			"head",
 			"test",
@@ -1068,49 +1101,7 @@
 			"info",
 			"i-place",
 			"O",
-			"System.out.print",
-			"system",
-			"testOption",
-			"testoption",
-			"= train",
-			"\\w-\\w",
-			"7march",
-			"crf",
-			"maxLatticeFactory",
-			"transduce",
-			"MaxLatticeFactory",
-			"maxlatticefactory",
-			"maxLatticeFactory",
-			"CRF crf",
-			"includeinputoption",
-			"include-input",
-			"classify",
-			"tostring",
-			"state",
-			"token",
-			"data",
-			"target",
-			"dodigitcollapses",
-			"start",
-			"phrase",
-			"labelAlphabet",
-			"ratio",
-			"targetAlphabet",
-			"target",
-			"targetprocessing",
-			"istargetprocessing",
-			"targetprocessing",
-			"label",
-			"setdata",
-			"optlabel",
-			"label",
-			"defaultLabel",
-			"alphabet",
-			"targetAlphabet",
-			"gettargetalphabet",
-			"getAlphabet",
-			"getalphabet",
-			"entries"
+			"System.out.print"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1194,15 +1185,15 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/cc/mallet/types/CrossValidationIterator.java",
+					"file": "/E/eclipse3/.metadata/.log",
 					"settings":
 					{
-						"buffer_size": 6007,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -1215,66 +1206,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/cc/mallet/pipe/PrintInput.java",
-					"settings":
-					{
-						"buffer_size": 1620,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								693,
-								683
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 190.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/cc/mallet/fst/CRF.java",
-					"settings":
-					{
-						"buffer_size": 76645,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68362,
-								68367
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 22110.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1332,6 +1268,122 @@
 		"selected_items":
 		[
 			[
+				"crf.jav",
+				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
+			],
+			[
+				"dbitera",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"laporantaeval",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"anotator",
+				"mallet-2.0.7/Anotator.bat"
+			],
+			[
+				"runnertatrain",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"runnertaeval",
+				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
+			[
+				"transducerevaluator",
+				"mallet-2.0.7/src/cc/mallet/fst/TransducerEvaluator.java"
+			],
+			[
+				"tokenaccuracy",
+				"mallet-2.0.7/src/cc/mallet/fst/TokenAccuracyEvaluator.java"
+			],
+			[
+				"runnertatrai",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"runnertaevalu",
+				"mallet-2.0.7/runnerTAEvaluate.bat"
+			],
+			[
+				"laporantaevalu",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"laporantaeva",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"laporan",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"runnertat",
+				"mallet-2.0.7/runnerTATest.bat"
+			],
+			[
+				"lapor",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporantugas",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"simpletagger",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"runnertatrainer",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"crf",
+				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
+			],
+			[
+				"crf.java",
+				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
+			],
+			[
+				"laporant",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"viterbiwriter",
+				"mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java"
+			],
+			[
+				"crftrainerbythreadedlabell",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"crftrainerbythreadlabel",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"runnertatra",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"mydbitera",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"tokenaccura",
+				"mallet-2.0.7/src/cc/mallet/fst/TokenAccuracyEvaluator.java"
+			],
+			[
+				"lapora",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporantugasak",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
 				"project",
 				"mallet-2.0.7/project.sublime-workspace"
 			],
@@ -1348,10 +1400,6 @@
 				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
 			],
 			[
-				"simpletagger",
-				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
-			],
-			[
 				"mydbiterator",
 				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
 			],
@@ -1364,44 +1412,12 @@
 				"mallet-2.0.7/src/cc/mallet/types/Instance.java"
 			],
 			[
-				"laporantugas",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
 				"simpletag",
 				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
 			],
 			[
 				"laporanta",
 				"mallet-2.0.7/laporantaevaluate"
-			],
-			[
-				"laporantaeva",
-				"mallet-2.0.7/laporantaevaluate"
-			],
-			[
-				"lapora",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
-				"runnertaeval",
-				"mallet-2.0.7/runnerTAEvaluate.bat"
-			],
-			[
-				"runnertatrai",
-				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"lapor",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
-				"runnertatrain",
-				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"laporant",
-				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
 				"laporantu",
@@ -1440,10 +1456,6 @@
 				"mallet-2.0.7/src/cc/mallet/fst/Transducer.java"
 			],
 			[
-				"crf",
-				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
-			],
-			[
 				"multise",
 				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
 			],
@@ -1458,18 +1470,6 @@
 			[
 				"crossvalidationiterator",
 				"mallet-2.0.7/src/cc/mallet/types/CrossValidationIterator.java"
-			],
-			[
-				"runnertatrainer",
-				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"runnertaevalu",
-				"mallet-2.0.7/runnerTAEvaluate.bat"
-			],
-			[
-				"laporan",
-				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
 				"myanotate",
@@ -1522,10 +1522,6 @@
 			[
 				"runnertaevaluat",
 				"mallet-2.0.7/runnerTAEvaluate.bat"
-			],
-			[
-				"runnertatra",
-				"mallet-2.0.7/runnerTATrainer.bat"
 			],
 			[
 				"runnertate",
@@ -1688,10 +1684,6 @@
 				"mallet-2.0.7/runnerTATest.bat"
 			],
 			[
-				"viterbiwriter",
-				"mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java"
-			],
-			[
 				"crfoptimizablebybatch",
 				"mallet-2.0.7/src/cc/mallet/fst/CRFOptimizableByBatchLabelLikelihood.java"
 			],
@@ -1786,62 +1778,6 @@
 			[
 				"label",
 				"mallet-2.0.7/src/cc/mallet/types/Label.java"
-			],
-			[
-				"targe2label",
-				"mallet-2.0.7/src/cc/mallet/pipe/Target2Label.java"
-			],
-			[
-				"alphabet",
-				"mallet-2.0.7/src/cc/mallet/types/Alphabet.java"
-			],
-			[
-				"namedutil",
-				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTaggerUtils.java"
-			],
-			[
-				"crfsequen",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearnerOptions.java"
-			],
-			[
-				"option",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearnerOptions.java"
-			],
-			[
-				"target2label",
-				"mallet-2.0.7/src/cc/mallet/pipe/Target2Label.java"
-			],
-			[
-				"arraydataandtarget",
-				"mallet-2.0.7/src/cc/mallet/pipe/iterator/ArrayDataAndTargetIterator.java"
-			],
-			[
-				"crfsequence",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
-			],
-			[
-				"sequenceevaluator",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceEvaluator.java"
-			],
-			[
-				"namedentitytagger",
-				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTaggerUtils.java"
-			],
-			[
-				"pip",
-				"mallet-2.0.7/src/cc/mallet/pipe/Pipe.java"
-			],
-			[
-				"lexer",
-				"mallet-2.0.7/src/cc/mallet/util/Lexer.java"
-			],
-			[
-				"charsequence2tokenseq",
-				"mallet-2.0.7/src/cc/mallet/pipe/CharSequence2TokenSequence.java"
-			],
-			[
-				"tokenizerpa",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
 			]
 		],
 		"width": 0.0
