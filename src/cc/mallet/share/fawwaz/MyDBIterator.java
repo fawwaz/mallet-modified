@@ -171,10 +171,12 @@ public class MyDBIterator implements Iterator<Instance>{
 				// JANGAN LUPA DIGANTI COY
 				//preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
 				System.out.println("Selecting For non Training DATa");
+				//preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
 				preparedstatement = connection.prepareStatement("select * from anotasi_tweet_final where twitter_tweet_id in (select * from (select twitter_tweet_id from filtered_tweet_final where label = 1 limit 630,70) as t)");
 			}else{
 				System.out.println("[INFO] Selecting for Training Data");
 				preparedstatement = connection.prepareStatement("select * from anotasi_tweet_final where twitter_tweet_id in (select twitter_tweet_id from filtered_tweet_final where label = 1 and twitter_tweet_id not in (select * from (select twitter_tweet_id from filtered_tweet_final where label = 1 limit 630,70) as t))");
+				//preparedstatement = connection.prepareStatement("SELECT * from anotasi_tweet_final");
 			}
 
 			resultset = preparedstatement.executeQuery();

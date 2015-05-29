@@ -1,0 +1,1 @@
+select * from ((select * from filtered_tweet_final where modified_length >82) union (select * from filtered_tweet_final WHERE  modified_length < 83 and tweet regexp "(seminar|besok|march|malam|tgl|today|w/|[0-9]+/[0-9])" order by label)) as t where label = 2 group by twitter_tweet_id

@@ -1,1 +1,1 @@
-select * from `filtered_tweet` WHERE  modified_length < 83 and label = 1 and tweet not regexp "(seminar|besok|march|malam|tgl|today|w/|[0-9]+/[0-9])" order by label
+select * from filtered_tweet_final WHERE  modified_length < 83 and tweet not regexp "(seminar|besok|march|malam|tgl|today|w/|[0-9]+/[0-9])" order by label

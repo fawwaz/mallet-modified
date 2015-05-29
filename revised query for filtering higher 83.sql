@@ -1,1 +1,1 @@
-select * from filtered_tweet where modified_length > 83 and tweet  regexp "follow.+@infobdgevent|youtube|order|menyewakan|terima|menerima"  order by label desc
+select * from filtered_tweet_final where modified_length > 83 and tweet  regexp "follow.+@infobdgevent|youtube|order|menyewakan|terima|menerima"  order by label desc

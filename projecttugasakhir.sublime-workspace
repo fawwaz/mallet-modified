@@ -520,10 +520,29 @@
 	"buffers":
 	[
 		{
-			"file": "/E/eclipse3/.metadata/.log",
+			"contents": "Todo \n====\nImplementasi feature extractor : POS Tag \n- Dictionary based (kamus)\n- Morfologis (imbuhan dll)\nImplementasi feature extractor\n- POS Tag Kata ke n-1 & N+1\n- Named entity Tag\nImplementasi feature extractor : Gazeteer\n- Idealnya dari foursquare\n- dumping dari webiste infobdgevent\n> simbol khusus\n> lekiskal\n\n#Template fillter (waktu) belum diimplementasikan. ubah dari input \"besok\" jadi tanggal angka\n\n#super ideal banget : buktikan fitur fitur yang digunakan oleh ritter/Annie tidak berlaku di dalam bahasa indonesia\n\n\nTodo Nulis\n====\nLengkapi tabel tokenizer yang digunakan -> kalau susah jadiin lampiran\n+ Adjust ulang angka dalam setap statistik \n+ breakdown setiap data\n+ adjust nama penulis di dafatar pustaka\n# Tambahkan penjelasan CRF di bab 2\n -> CRF itu ada beberapa jenis yang linear dan lain lain\n -> algoritma matrix learning parameter yang kaya di wikipedia yang umum bisa digunakan untuk mencari aprameter dalam crf\n#Tamabhin evaluasi overall\n\n\nDONE\n========================\n* Judul subbab \"III.1  Analisis Permasalahan\" dihapus saja\n* typo: bermunculanya, didefnisikan, Tujuanya, akang, kontenya\n* Hapus semua kata \"kita\"\n* Hapus semua kata \"akan\" yang berkaitan dengan proses TA\n* Hal 5: pembangunan prototipe dilakukan setelah eksperimen kan ? urutan metodologi penelitian dicek kembali sesuai yang telah dilakukan.\n* Ganti \"pembatasan panjang huruf dalam satu  tweet\" menjadi \"pembatasan jumlah huruf dalam satu  tweet\"\n* Urutan subbab II.1 dan II.2 ditukar. Flow: ekstraksi informasi, twitter, dan penelitian terkait\n* Agar nomor subbab tidak terlalu panjang, hapus subbab \"II.2.1  Tahapan Ekstraksi Informasi\" (gabung saja sebagai paragraf)\n* Ganti subbab Event Detection and Classification menjadi \"Deteksi dan Klasifikasi Event\"\n* Pada bagian tujuan item 1, dinyatakan  \"menggunakan pendekatan berbasis statistik\" Hal ini belum pernah dibahas sebelumnya pada latar belakang. Perlu ditambahkan 1 paragraf tentang pendekatan yang sudah dilakukan orang lain, atau dihapus dari tujuan dan dibahas pada bab 3.\n* Perbaiki \"Dalam hal ekstraksi informasi  event,  Sakaki  dkk.  (2012) membagi proses ekstraksi informasi  event  ... mengenai event. Pada tugas akhir ini juga akan dilakukan pendekatan yang sama.\" menjadi \"Tugas akhir ini menggunakan pendekatan yang sama dengan Sakaki  dkk.  (2012), yang membagi proses ekstraksi informasi  event ...\"\n* \" algoritma pembelajaran jenis supervised learning ... \" menjadi \"algoritma pembelajaran yang  membutuhkan dataset sebagai data latih.\"\n\n~ Jangan memulai kalimat dgn kata kerja, misalnya \"Dibutuhkan ...\"\n~ Penulisan kata depan dipisah dengan kata yg mengikutinya (bukan diluar, diatas), sedangkan imbuhan digabung (contohnya diberikan)\n~ Perbaiki penulisan: dikelompokkan (bukan dikelompokan), linguistik (bukan lingguistik), sequence labeling (bukan sequence labelling)\n~ Gunakan bahasa Indonesia sebanyak mungkin: classifier menjadi model klasifikasi, training dataset menjadi data pelatihan\n~ Hal 3: tambahkan citation pada \"sebagian lagi melakukan penelitian seputar ekstraksi informasi  event  dari  Twitter\"\n? Perlu spasi tambahan antar paragraf agar lebih mudah dibaca (atau set after paragraph)\n~ Konsistensi yg mana lebih tepat:  \"ekstraksi informasi dari tweet berbahasa  Indonesia\" atau \"ekstraksi informasi  event  dari  Twitter  dalam bahasa  Indonesia\"\n~ Gbr III.5 apakah diadaptasi dr arsitektur bab 2 dengan spesifik kebutuhan untuk event?\n*/~ Perbaiki penulisan \"Dalam proses ekstraksi informasi event, digunakan acuan tahapan proses ekstraksi informasi  umum  yang dijelaskan oleh Jurafsky (Jurafsky & Manning, 2008). \" menjadi \"Dalam proses ekstraksi informasi event, digunakan acuan tahapan proses ekstraksi informasi  umum  Jurafsky & Manning (2008). \" Perbaiki untuk kalimat lain yang sejenis\n\n- Tambahkan \"dan untuk pengumpulan informasi transaksi online (Khodra & Purwarianti, 2013)\" pada \"Sejauh ini ekstraksi informasi dari tweet berbahasa  Indonesia masih  dimanfaatkan untuk pencarian kemacetan lalu lintas (Hasby & Khodra, 2013; Endarnato dkk., 2011)\". Referensinya http://cybermatika.stei.itb.ac.id/ojs/index.php/cybermatika/article/view/27\n\n\n\n\n\n\n\n\n\nEASY\n=====\n- Perbaiki cara menyatakan pendapat \"Dari hasil pengamatan, ternyata kerangka ekstraksi informasi yang dilakukan oleh ritter untuk kasus  penelitian tugas akhir ini terlalu berlebihan. \" menjadi \"Tugas akhir ini tidak membutuhkan tahapan ...\"\n- Pada hal 13, tambahkan contoh model  HMM dan CRF untuk ekstraksi informasi dari referensi. //manfaat kali ?\n\n\n\n\n\n\n\nMEDIUM\n====\n- Penjelasan lingkup pada hal 30-31 lebih baik diletakkan di awal bab 3, lalu baru lanjutkan penjelasan detilnya.\n- Tambahkan citation pada akhir kalimat \"Metode ekstraksi informasi di Twitter  menggunakan aturan (rule-based) cenderung tidak efektif\"\n- Kalimat \"Ekstraksi informasi  event  dari Twitter dapat berguna karena memenuhi syarat-syarat kriteria ekstraksi informasi  event  (Herbich & Graepel, 2010)\" perlu diperjelas dengan memberikan fakta-fakta pendukung untuk setiap syarat (tidak hanya syarat 1).\n- Lengkapi \"karakteristik yang perlu diperhatikan dalam merancang solusi ekstraksi informasi event dari Twitter\": noise tweet yang tidak relevan; distribusi  tweet  terhadap waktu; ketidaklengkapan informasi event; urutan penyebutan entitas yang tidak konsisten. Lakukan pembahasan dari yang umum (tidak hanya berlaku untuk event) dan spesifik (hanya berlaku untuk event). Penjelasannya sudah ok, tapi flownya yang harus diperbaiki.\n<~> Perlu penjelasan keterkaitan proses ekstraksi informasi dari jurafsky dengan arsitektur ie pada gbr II.4\n- Beberapa informasi diulang-ulang, contohnya penentuan frame informasi yang akan diekstraksi (hal 27, 31, 32). Cek untuk informasi lain yang diulang.\n- Tambahkan citation di akhir kalimat \"Karena kategori CRF adalah model diskriminatif, tidak perlu digunakan notasi BIO. Notasi BIO hanya dibutuhkan oleh algoritma generatif. \"\n???- Hal 37:pembahasannya overlap dgn isi subbab III.1.1\n\n\n\n\nHARD\n====\n- Rumusan masalah masih fokus pada ekstraksi informasi, apakah kita sampai dengan agregasi informasi ? Jika ya, judul, rumusan masalah, tujuan mesti diperbaiki menjadi agregasi informasi (tidak hanya ekstraksi informasi)\n- Hal 32, sebelum menentukan set fitur, perlu direfer dulu semua fitur yang mungkin dan telah dibahas pada bab 2, lalu berikan penjelasan pemilihan fitur yang dilakukan.\n?? Pada subbab pendekatan statistik, dijelaskan sequence labeling menggunakan BIO dan memasukkan CRF dan HMM sebagai contoh. Apakah penjelasan ini sudah sesuai ? Menurut saya, pendekatannya berbeda kan. Semuanya sebagai pendekatan statistik sudah benar, tetapi tidak semua menggunakan BIO. Penjelasannya harus dibuat lebih jelas.\n- Perlu perbaiki flow penjelasan bab 3.\n\n\n\n\n\n\n\n\n\n\n- Apa maksud kalimat:\n  - \"Label kelas harus mampu mengindikasikan tipe dan batas Named Entity dalam suatu kalimat.\" (hal 11)\n  - \"Ada tak hingga kemungkinan penamaan entitas-entitas yang mewakili komponen pembentuk  event. \" (hal 34)\n\n\n  Pertanyaan buat bu masayu:\n  Ini mesti gimana ? Kumpulin draft aja pas ke TU ? berapa biji ? harus udah ditandatangin ?\n\n\nBimbingan 25 mei\n- antar pargraf 2 spasi biasanya di set\n-CRF dan hmm gak butuh bio dan berlaku untuk semua di bab  2.1 referensi yang menyatakan bisa bukan bio\n-kurang proses learning khusus untuk CRF di IExtraction\n-ditemukan mallet sequence taggingc implemntasi mallet CRF\nteks baru bagaimana me\n-kalau gak smaa analogi di tiga\n-kerjain CRF dulu di \n-digabung ajayang noise halaman 30\n-arsitektur dulu\n-detail fiturnya \n-rule based explisit poin by poin\n-pattern jadiin lampiran aja explisit hasil contoh ekstraknya bagaimana :  contoh text hasilnya aja di bab 3\n\n-\n\n\n================== AFTER BIMBINGAN 25 MEI ==================\nPraktek:\n-Tambahkan akurasi overall module, carana bikin tabel baru struktur event hanya saja inputnya bukan fold tapi label\n-Implementasikan demo alat\nLaporan\nBAB0\n- Tulis Kata pengantar, abstrak, kesimpulan, saran dst ..\n- perbaikan event dan maksimalkan penggunaan istilah bahasa indonesia\n- Set spasi antar paragraf \n- set ukuran font dalam tabel 11, dan spacingna 1\n- hilangkan ruang kosong di bawah halaman\n- typo dalam halan\n\nBAB 2\n- Cari referensi yang menjelaskan bawha pendekatan berbasi statistik dapat digunakan notasi non-bio\n= Perbaiki contoh Mallet sequence labelling untuk IE di bagian CRF\n- TAmbahkan karakteristik umum teks pada twitter di bab 2\n= Perhatikan lagi akurasi pada sistem terkait , apakah overall instance atau token based accuracy\n\nBAB 3\n- tulis explisit rule based yang digunakan dalam modul filter\n- ubah nama modul ner menjadi modul information extraction\n- Pindahkan karakteristik umum dalam twitter ke bab 2, cukup diacu.\n- Perbaiki flow tulisan di bab 3 :\n	>> Selain karakteristik umum yang sudah dijelaskan pada bab 2, terdapat karakteristik khusus tweet yang berkaitan dengan event \n		>> tulis karakteristik khusus tweet-tweet yang terkait event\n	>> Untuk menyelesaikan karakteristik itu, kutip sakaki,herbirch graepel,jurafsky\n	>> oleh karena itu dipilih arsitektur berupa <Gambar> Acu keterhubungan antar gambar dengan arsitektur umum pada bab 2\n	>> Tulis fitur dan metode yang dipilih untuk setiap komponen.\n\nBAB 4\n- tujuan pengujian dibuat per point\n- pindahkan distribusi tweet relevan / tidak relevan dari NER ke modul filter \n- Skenario pengujian modul IE dibuat per poin biar mudah dibaca\n- Tabel dibuat merge cell yang menjelaskan mana label tweet / \n- eksplisit belum ada penanganan imbalace dataset.\n\n\n========REVISI TANGGGAL 27 Mei 2015\n\n- distribusi waktu (karakteristik 1) akan mempengaruhi apa?\n- apa pengaruh ke desain sistem utk setiap karakteristik ? Apakah karakteristik 1-2 mempengaruhi proses deteksi event; sedangkan 3-5 mempengaruhi proses ekstraksi informasinya. Hal ini perlu dieksplisitkan dgn mengacu ke karakteristik saat merancang arsitektur sistem\n- ekstraksi relasi tidak dilakukan karena kebutuhan informasinya memang tidak ada relasi. Deteksi dan klasifikasi tidak dilakukan karena fokus TA belum melakukan agregasi informasi event. Resolusi temporal ok; dan template filling tidak dilakukan sebagai batasan karena riset ini perlu dilanjutkan ?\n- tolong dilihat kembali penjelasan hal 31 dan 32 sesuai komentar di atas\n\n\n\n- temporal solver tetap dilengkapi dgn nama template filling.\n- utk subbab iii.3,dikaitkan secara eksplisit dgn nama modul pada arsitektur.\n- ternyata beberapa komentar saya sudah dijelaskan pada bagian implementasi ya. Ok gpp.\n- subbab iii.4 bisa dihapus dan isinya digabung dgn penjelasan awal di subbab iii.2.\n- implementasi temporal resolver perlu penjelasan lebih teknis bgm dilakukannga\n- Di rename namanya bukan temporal resolver, tapi jadi template filling yang mealkukan temporal resolver\n\n\n=======================================\n- TODO : Pastikan tweet distinct untuk modul filter dan nilai angka akurasinya benar\n- Beri contoh tweet yang relevan tapi diklasifikasikan tidak relevan begitu juga sebaliknya\n- \n\n-tebakan :\n-Overall instance accuracy\n-\n\n\n\n",
+			"file": "/C/Users/Asus/Dropbox/Tugas Akhir/todo.txt",
+			"file_size": 10941,
+			"file_write_time": 130772730260039167,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 11017,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/cc/mallet/fst/SimpleTagger.java",
+			"settings":
+			{
+				"buffer_size": 38761,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "laporantugasakhir",
+			"settings":
+			{
+				"buffer_size": 726414,
 				"line_ending": "Windows"
 			}
 		}
@@ -531,9 +550,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 196.0,
 		"selected_items":
 		[
+			[
+				"sstext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
 			[
 				"installpac",
 				"Package Control: Install Package"
@@ -653,10 +680,6 @@
 			[
 				"ssj",
 				"Set Syntax: Java"
-			],
-			[
-				"sspy",
-				"Set Syntax: Python"
 			],
 			[
 				"sspytho",
@@ -784,6 +807,34 @@
 	},
 	"file_history":
 	[
+		"/E/TA/mallet-2.0.7/laporantugasakhir",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
+		"/E/eclipse3/MyTokenizer/gazeteer.json",
+		"/E/eclipse3/MyTokenizer/event_name",
+		"/C/Users/Asus/Dropbox/Tugas Akhir/todo.txt",
+		"/E/TA/mallet-2.0.7/Anotator.bat",
+		"/E/TA/mallet-2.0.7/laporantaevaluate",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/semi_supervised/CRFTrainerByEntropyRegularization.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/semi_supervised/CRFOptimizableByEntropyRegularization.java",
+		"/E/eclipse3/MyTokenizer/gazetteer",
+		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java",
+		"/E/eclipse3/MyTokenizer/gazeteer2",
+		"/E/OPENSHIFT/tutorial/tutorial/spiders/dmoz_spider.py",
+		"/E/OPENSHIFT/tutorial/tutorial/myscript.py",
+		"/E/Download/run_results(1).json",
+		"/E/Download/run_results.json",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java",
+		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenText.java",
+		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
+		"/E/OPENSHIFT/tutorial/tutorial/items.py",
+		"/E/eclipse3/MyTokenizer/src/Twokenize.java",
+		"/E/OPENSHIFT/ruangsimpul/client/views/about.html",
+		"/E/eclipse3/.metadata/.log",
 		"/C/eclipse2/configuration/.settings/org.eclipse.core.net.prefs",
 		"/C/eclipse2/configuration/.settings/org.jboss.tools.usage.prefs",
 		"/C/eclipse2/configuration/.settings/org.jboss.tools.runtime.core.prefs",
@@ -791,26 +842,18 @@
 		"/E/eclipse3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs",
 		"/C/eclipse2/eclipse.ini",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRF.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java",
-		"/E/TA/mallet-2.0.7/Anotator.bat",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/TokenAccuracyEvaluator.java",
 		"/E/TA/mallet-2.0.7/runnerTAEvaluate.bat",
-		"/E/TA/mallet-2.0.7/laporantugasakhir",
-		"/E/TA/mallet-2.0.7/runnerTATrainer.bat",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java",
-		"/E/TA/mallet-2.0.7/laporantaevaluate",
 		"/E/TA/hello.c",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/TransducerEvaluator.java",
 		"/E/TA/mallet-2.0.7/runnerTATest.bat",
 		"/E/TA/mallet-2.0.7/runnerTATrainerlain.bat",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/CrossValidationIterator.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/PrintInput.java",
 		"/E/TA/mallet-2.0.7/project.sublime-workspace",
 		"/E/TA/mallet-2.0.7/select repairing query.sql",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/Instance.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/InstanceList.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/Pipe.java",
@@ -828,9 +871,7 @@
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/TokenSequence2FeatureSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVector.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/FeatureSequence2FeatureVector.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/tsf/RegexMatches.java",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/pipe/LineGroupString2TokenSequence.java",
 		"/E/TA/mallet-2.0.7/src/cc/mallet/types/FeatureVectorSequence.java",
@@ -866,7 +907,6 @@
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/README-preparation.txt",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/alifa/nama alifa.txt",
 		"/E/TA/mallet-2.0.7/pom.xml",
-		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/Trainer.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/template/README-preparation.txt",
@@ -878,7 +918,6 @@
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/codetrain.scp",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/testmfc.scp",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/templateFawwaz/trainmfc.scp",
-		"/E/TA/mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/FC.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/InBracket.java",
 		"/E/eclipse3/seq-label/src/edu/jhu/nlp/sequence/classify/features/CompositeFeatureFactory.java",
@@ -895,23 +934,7 @@
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/parsed",
 		"/C/Users/Asus/Dropbox/Pemrosesan Suara S2/grammar",
 		"/E/eclipse3/mycron/src/cronjava/MyCron.java",
-		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-offcanvas.html",
-		"/E/OPENSHIFT/ruangsimpul/client/css/style.css",
-		"/E/OPENSHIFT/ruangsimpul/client/js/app.js",
-		"/E/eclipse3/MyTokenizer/src/MyFilter.java",
-		"/E/TA/mallet-2.0.7/sandboxTA",
-		"/E/TA/mallet-2.0.7/raw_tweet_final.sql",
-		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-home.html",
-		"/E/OPENSHIFT/ruangsimpul/client/css/tumblr-card.css",
-		"/E/eclipse3/MyTokenizer/database lokal 26-04-15.sql",
-		"/E/eclipse3/MyTokenizer/raw_tweet_final.sql",
-		"/E/OPENSHIFT/satubahasa.github.io/_layouts/default.html",
-		"/E/OPENSHIFT/satubahasa.github.io/index.html",
-		"/C/xampp/htdocs/kibar/resources/views/events/create.blade.php",
-		"/C/xampp/htdocs/kibar/resources/views/events/show.blade.php",
-		"/C/xampp/htdocs/kibar/config/app.php",
-		"/E/OPENSHIFT/kibar-frontend/index.html",
-		"/E/OPENSHIFT/front-end-kibar/bower.json"
+		"/E/OPENSHIFT/ruangsimpul/client/partials/partial-offcanvas.html"
 	],
 	"find":
 	{
@@ -974,6 +997,75 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2015",
+			"perbaiki",
+			"karakteristik",
+			"  ",
+			"//",
+			"setelah",
+			"run",
+			"[\\s]",
+			"event_name",
+			"i-place",
+			"Connecting to DB",
+			"updater",
+			"lingkar",
+			"unpas",
+			"Cempaka",
+			"Car",
+			"California",
+			"Cafe",
+			"Butcher’s",
+			"Bukit",
+			"Budaya",
+			"Buana",
+			"Buah",
+			"Braga",
+			"Bober",
+			"Bhakti",
+			"Belitung",
+			"Batu",
+			"Baros",
+			"Barat",
+			"Bar",
+			"Bank",
+			"Bandung",
+			"Banda",
+			"Ballroom",
+			"Bali",
+			"Bale",
+			"Balai",
+			"Bakti",
+			"Aula",
+			"Auditorium",
+			"Atrium",
+			"\\-",
+			"\\n\\n",
+			"\\|",
+			"|",
+			"\\n\\n",
+			"www.",
+			"www.[\\w]+.com",
+			":",
+			"-",
+			"(Jl\\.)([\\w])",
+			"(Jl\\.)[\\w]",
+			"April",
+			"des",
+			"Des",
+			"Jl.[\\w]",
+			"\\n\\n",
+			",",
+			"[\\d]+",
+			"[\\s]",
+			"Connecting to DB",
+			"kampus",
+			"dago tea house",
+			"landmark",
+			"bandung convention center",
+			"\"tempat\":",
+			"[SimpleTaggerPipe]",
+			"seg=",
 			"project",
 			"train(",
 			"print",
@@ -1032,83 +1124,23 @@
 			"testoption",
 			"lab",
 			"savesource",
-			"features",
-			"setcharsequence",
-			"testoption",
-			"@infobdgevent",
-			"nbestoption",
-			"e",
-			"p",
-			"i",
-			"u",
-			"a",
-			"tree.hed",
-			"wintri",
-			"E:\\kuliah\\NLP\\tugas\\asr\\tuts\\suara",
-			"source is ",
-			"Anotasi silahkan di",
-			"pipe",
-			"crf.getinputpipe",
-			"`raw_tweet`",
-			"raw_tweet",
-			"setsource",
-			"source",
-			"carrier",
-			"source",
-			"pipe",
-			"testoption",
-			"test",
-			"train",
-			"source",
-			"'\\n\\n",
-			";",
-			"(?<=;)(\\w+)",
-			"(<?=;)(\\w+)",
-			"sarkasme",
-			"negatif",
-			"netral",
-			"negatif",
-			"(?<=;)(\\w+)",
-			"(?<=;)(positif|negatif|sarkasme|netral)",
-			"(?<=;)(?>positif|negatif|sarkasme|netral)",
-			";",
-			"root",
-			"crfoptimizablebybatchlabellikelihood",
-			"iterationsoption",
-			"math.exp",
-			"math",
-			"Math.exp",
-			"ex[",
-			"WEIGHTS NAME",
-			"Weights NAME",
-			"dictionary",
-			"defaultlabel",
-			"factors",
-			"print",
-			"labels:",
-			"viterbioutputoption",
-			"labels",
-			"logger",
-			"logger.",
-			" logger",
-			"logger",
-			"System.out.println",
-			"System.out.println(",
-			"i-name",
-			"i-date",
-			" O",
-			"i-info",
-			"info",
-			"i-place",
-			"O",
-			"System.out.print"
+			"features"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"$1\\n$2",
+			"$1\\n",
+			"\\n",
+			"",
+			"\\n",
 			"C:\\Users\\Asus\\Dropbox\\Pemrosesan Suara S2\\templateFawwaz Baru",
 			"`raw_tweet_final`",
 			"'raw_tweet_final`",
@@ -1190,27 +1222,79 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/E/eclipse3/.metadata/.log",
+					"file": "/C/Users/Asus/Dropbox/Tugas Akhir/todo.txt",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 11017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								11013,
+								11013
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2187.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/cc/mallet/fst/SimpleTagger.java",
+					"settings":
+					{
+						"buffer_size": 38761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38402,
+								38402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 12887.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "laporantugasakhir",
+					"settings":
+					{
+						"buffer_size": 726414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65461,
+								65461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 25518.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1268,24 +1352,164 @@
 		"selected_items":
 		[
 			[
-				"crf.jav",
-				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
+				"laporant",
+				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
-				"dbitera",
-				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+				"laporantugas",
+				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
-				"laporantaeval",
-				"mallet-2.0.7/laporantaevaluate"
+				"laporantuga",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"simpletagger",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
 			],
 			[
 				"anotator",
 				"mallet-2.0.7/Anotator.bat"
 			],
 			[
+				"optimizer",
+				"mallet-2.0.7/src/cc/mallet/fst/semi_supervised/CRFOptimizableByEntropyRegularization.java"
+			],
+			[
+				"crftrainerby",
+				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
+			],
+			[
+				"gazetee",
+				"MyTokenizer/gazeteer.json"
+			],
+			[
+				"mydbitera",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"llaporan",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporantu",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"laporantaeva",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"laporantaev",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"laporantaeval",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"laporantugasa",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"updatelabelanotasi",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java"
+			],
+			[
+				"mydbite",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"simple",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"gazet",
+				"MyTokenizer/gazetteer"
+			],
+			[
+				"mydbiter",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"simpletag",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"mydbiterat",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
+				"updatelabel",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java"
+			],
+			[
+				"update",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java"
+			],
+			[
+				"mydbiterato",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
+			],
+			[
 				"runnertatrain",
 				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"basicnerfeature",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
+			],
+			[
+				"laporan",
+				"mallet-2.0.7/laporantugasakhir"
+			],
+			[
+				"stringtokenization",
+				"mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java"
+			],
+			[
+				"featurefactory",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
+			],
+			[
+				"tokentext",
+				"mallet-2.0.7/src/cc/mallet/pipe/tsf/TokenText.java"
+			],
+			[
+				"tokenize",
+				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
+			],
+			[
+				"twokenize",
+				"MyTokenizer/src/Twokenize.java"
+			],
+			[
+				"simpletagge",
+				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
+			],
+			[
+				"runnertatra",
+				"mallet-2.0.7/runnerTATrainer.bat"
+			],
+			[
+				"anotato",
+				"mallet-2.0.7/Anotator.bat"
+			],
+			[
+				"updatelabelanotasifinal",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java"
+			],
+			[
+				"laporanta",
+				"mallet-2.0.7/laporantaevaluate"
+			],
+			[
+				"crf.jav",
+				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
+			],
+			[
+				"dbitera",
+				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
 			],
 			[
 				"runnertaeval",
@@ -1312,28 +1536,12 @@
 				"mallet-2.0.7/laporantaevaluate"
 			],
 			[
-				"laporantaeva",
-				"mallet-2.0.7/laporantaevaluate"
-			],
-			[
-				"laporan",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
 				"runnertat",
 				"mallet-2.0.7/runnerTATest.bat"
 			],
 			[
 				"lapor",
 				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
-				"laporantugas",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
-				"simpletagger",
-				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
 			],
 			[
 				"runnertatrainer",
@@ -1348,10 +1556,6 @@
 				"mallet-2.0.7/src/cc/mallet/fst/CRF.java"
 			],
 			[
-				"laporant",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
 				"viterbiwriter",
 				"mallet-2.0.7/src/cc/mallet/fst/ViterbiWriter.java"
 			],
@@ -1362,14 +1566,6 @@
 			[
 				"crftrainerbythreadlabel",
 				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
-			],
-			[
-				"runnertatra",
-				"mallet-2.0.7/runnerTATrainer.bat"
-			],
-			[
-				"mydbitera",
-				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
 			],
 			[
 				"tokenaccura",
@@ -1404,24 +1600,8 @@
 				"mallet-2.0.7/src/cc/mallet/share/fawwaz/MyDBIterator.java"
 			],
 			[
-				"updatelabel",
-				"mallet-2.0.7/src/cc/mallet/share/fawwaz/UpdateLabelAnotasiFinal.java"
-			],
-			[
 				"instance",
 				"mallet-2.0.7/src/cc/mallet/types/Instance.java"
-			],
-			[
-				"simpletag",
-				"mallet-2.0.7/src/cc/mallet/fst/SimpleTagger.java"
-			],
-			[
-				"laporanta",
-				"mallet-2.0.7/laporantaevaluate"
-			],
-			[
-				"laporantu",
-				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
 				"simpleta",
@@ -1429,10 +1609,6 @@
 			],
 			[
 				"laporantugasakhir",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
-				"laporantuga",
 				"mallet-2.0.7/laporantugasakhir"
 			],
 			[
@@ -1480,10 +1656,6 @@
 				"MyTokenizer/src/MyTokenizer.java"
 			],
 			[
-				"laporantugasa",
-				"mallet-2.0.7/laporantugasakhir"
-			],
-			[
 				"multisegmente",
 				"mallet-2.0.7/src/cc/mallet/fst/MultiSegmentationEvaluator.java"
 			],
@@ -1494,10 +1666,6 @@
 			[
 				"tokenizerpipe",
 				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
-			],
-			[
-				"basicnerfeature",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
 			],
 			[
 				"featurevector",
@@ -1554,14 +1722,6 @@
 			[
 				"linegroupiterat",
 				"mallet-2.0.7/src/cc/mallet/pipe/iterator/LineGroupIterator.java"
-			],
-			[
-				"stringtokenization",
-				"mallet-2.0.7/src/cc/mallet/extract/StringTokenization.java"
-			],
-			[
-				"featurefactory",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/FeatureFactory.java"
 			],
 			[
 				"featurefactor",
@@ -1692,10 +1852,6 @@
 				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByThreadedLabelLikelihood.java"
 			],
 			[
-				"crftrainerby",
-				"mallet-2.0.7/src/cc/mallet/fst/CRFTrainerByLabelLikelihood.java"
-			],
-			[
 				"runnertrainer",
 				"mallet-2.0.7/runnerTATrainer.bat"
 			],
@@ -1706,78 +1862,6 @@
 			[
 				"runnereva",
 				"mallet-2.0.7/runnerTAEvaluate.bat"
-			],
-			[
-				"sparsevector",
-				"mallet-2.0.7/src/cc/mallet/types/SparseVector.java"
-			],
-			[
-				"featuresequence",
-				"mallet-2.0.7/src/cc/mallet/types/FeatureSequence.java"
-			],
-			[
-				"sequencelearneroption",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/SequenceLearnerOptions.java"
-			],
-			[
-				"crfoptions",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearnerOptions.java"
-			],
-			[
-				"crfse",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
-			],
-			[
-				"sequence",
-				"mallet-2.0.7/src/cc/mallet/types/Sequence.java"
-			],
-			[
-				"maxlatticedefault",
-				"mallet-2.0.7/src/cc/mallet/fst/MaxLatticeDefault.java"
-			],
-			[
-				"maxlatticefactory",
-				"mallet-2.0.7/src/cc/mallet/fst/MaxLatticeFactory.java"
-			],
-			[
-				"crfsquencelearner",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/CRFSequenceLearner.java"
-			],
-			[
-				"named",
-				"seq-label/src/edu/jhu/nlp/tools/NamedEntityTagger.java"
-			],
-			[
-				"tester",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/Tester.java"
-			],
-			[
-				"crfwriter",
-				"mallet-2.0.7/src/cc/mallet/fst/CRFWriter.java"
-			],
-			[
-				"tokenizerpip",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/TokenizerPipe.java"
-			],
-			[
-				"basicner",
-				"seq-label/src/edu/jhu/nlp/sequence/classify/features/BasicNERFeatureFactory.java"
-			],
-			[
-				"labelsequence",
-				"mallet-2.0.7/src/cc/mallet/types/LabelSequence.java"
-			],
-			[
-				"target",
-				"mallet-2.0.7/src/cc/mallet/pipe/Target2LabelSequence.java"
-			],
-			[
-				"labelalphab",
-				"mallet-2.0.7/src/cc/mallet/types/LabelAlphabet.java"
-			],
-			[
-				"label",
-				"mallet-2.0.7/src/cc/mallet/types/Label.java"
 			]
 		],
 		"width": 0.0
@@ -1794,6 +1878,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 161.0,
+	"side_bar_width": 254.0,
 	"status_bar_visible": true
 }

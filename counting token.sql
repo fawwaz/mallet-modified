@@ -1,0 +1,1 @@
+select distinct token,count(token) from anotasi_tweet_final group by token having count(token) > 3 order by count(token)

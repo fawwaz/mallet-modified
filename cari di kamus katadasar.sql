@@ -1,0 +1,1 @@
+select distinct token,tipe_katadasar from anotasi_tweet_final inner join tb_katadasar on anotasi_tweet_final.token = tb_katadasar.katadasar

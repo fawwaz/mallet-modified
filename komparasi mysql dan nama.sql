@@ -1,0 +1,1 @@
+select `event`.twitter_tweet_id,`i-name`,tweet from `event` inner join `filtered_tweet_final` on `event`.twitter_tweet_id = `filtered_tweet_final`.twitter_tweet_id where `i-name`<> "" order by `i-name`;

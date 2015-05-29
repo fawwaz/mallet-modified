@@ -1,0 +1,1 @@
+select * from ((select * from filtered_tweet_final where modified_length <83) union (select * from filtered_tweet_final where modified_length > 83 and tweet  regexp "follow.+@infobdgevent|youtube|order|menyewakan|terima|menerima"  order by label desc)) as t where label = 2 group by twitter_tweet_id
